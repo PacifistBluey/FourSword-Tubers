@@ -14,6 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   modTypeName: FourSwordTubers
   __modAssemblyName: Assembly-CSharp
-  features: []
-  featureTypeNames: []
-  featureAssemblyNames: []
+  features:
+  - {fileID: 11400000, guid: 57c0a232ac324c045a05b237cfd0dd54, type: 2}
+  featureTypeNames:
+  - WeaverCore.Settings.GlobalSettings
+  featureAssemblyNames:
+  - WeaverCore

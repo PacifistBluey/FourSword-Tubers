@@ -1,10 +1,10 @@
 Using pre-set license
-Built from '2020.3/staging' branch; Version is '2020.3.37f1 (8c66806a0c04) revision 9201280'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 8077 MB
+Built from '2020.2/release' branch; Version is '2020.2.2f1 (068178b99f32) revision 426360'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 22621.2715; Version 2009; 64bit' Language: 'en' Physical Memory: 8077 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
-COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2020.3.37f1\Editor\Unity.exe
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
@@ -15,14 +15,14 @@ C:/Users/JLDeC/OneDrive/Documents/GitHub/Mods/FourSword-Tubers
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58012
+50926
 Successfully changed project path to: C:/Users/JLDeC/OneDrive/Documents/GitHub/Mods/FourSword-Tubers
 C:/Users/JLDeC/OneDrive/Documents/GitHub/Mods/FourSword-Tubers
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 166.40 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 106.49 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2020.3.37f1 (8c66806a0c04)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.37f1/Editor/Data/Resources/UnitySubsystems
+Initialize engine version: 2020.2.2f1 (068178b99f32)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/JLDeC/OneDrive/Documents/GitHub/Mods/FourSword-Tubers/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
@@ -32,533 +32,202 @@ Direct3D:
     VRAM:     4038 MB
     Driver:   27.20.100.9664
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.37f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.37f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.37f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56952
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56264
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.37f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004957 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002061 seconds.
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 146.18 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 204.94 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.531 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1531ms)
-		BeginReloadAssembly (137ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (0ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (1212ms)
-			LoadAssemblies (132ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (364ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (69ms)
-			SetupLoadedEditorAssemblies (557ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (146ms)
-				BeforeProcessingInitializeOnLoad (39ms)
-				ProcessInitializeOnLoadAttributes (278ms)
-				ProcessInitializeOnLoadMethodAttributes (79ms)
-				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (0ms)
+- Completed reload, in  2.500 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.015702 seconds.
+Registered in 0.009762 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 157.61 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 94.67 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Updating Project API Level from .Net Standard 2.0 to .Net 4.6
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WeaverCore.Editor.VerifyAPILevel:StartCheck (System.Action`1<WeaverCore.Editor.DependencyCheck/DependencyCheckResult>) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/Checks/VerifyAPILevel.cs:18)
+WeaverCore.Editor.DependencyChecker/<>c__DisplayClass13_0:<CheckDependencies>b__0 (WeaverCore.Editor.DependencyCheck/DependencyCheckResult) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs:199)
+WeaverCore.Editor.DependencyChecker:CheckDependencies (bool,System.Collections.Generic.List`1<WeaverCore.Editor.DependencyCheck>,int) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs:213)
+WeaverCore.Editor.DependencyChecker:CheckDependencies () (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs:126)
+WeaverCore.Editor.Compilation.BuildTools:Init () (at Assets/WeaverCore/WeaverCore.Editor/Compilation/BuildTools.cs:483)
+System.Reflection.MonoMethod:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+WeaverCore.Utilities.ReflectionUtilities:ExecuteMethodsWithAttribute<WeaverCore.Attributes.OnInitAttribute> (System.Func`3<System.Reflection.MethodInfo, WeaverCore.Attributes.OnInitAttribute, bool>,System.Reflection.BindingFlags,bool) (at Assets/WeaverCore/WeaverCore/Utilities/ReflectionUtilities.cs:530)
+WeaverCore.Initialization:Initialize () (at Assets/WeaverCore/WeaverCore/Initialization.cs:75)
+WeaverCore.Initialization:OnEditorInitialize () (at Assets/WeaverCore/WeaverCore/Initialization.cs:44)
+
+(Filename: Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/Checks/VerifyAPILevel.cs Line: 18)
+
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: API Compatibility level changed
 Mono: successfully reloaded assembly
-- Completed reload, in 23.078 seconds
-Domain Reload Profiling:
-	ReloadAssembly (23081ms)
-		BeginReloadAssembly (394ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (57ms)
-		EndReloadAssembly (22519ms)
-			LoadAssemblies (251ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (947ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (199ms)
-			SetupLoadedEditorAssemblies (20797ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (158ms)
-				BeforeProcessingInitializeOnLoad (208ms)
-				ProcessInitializeOnLoadAttributes (514ms)
-				ProcessInitializeOnLoadMethodAttributes (19894ms)
-				AfterProcessingInitializeOnLoad (13ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
+- Completed reload, in  6.426 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
-Refreshing native plugins compatible for Editor in 1.68 ms, found 5 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.28 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2981 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 137.4 MB.
-System memory in use after: 137.4 MB.
+Unloading 2567 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.7 MB.
+System memory in use after: 120.8 MB.
 
-Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 3403.
-Total: 16.368600 ms (FindLiveObjects: 0.528000 ms CreateObjectMapping: 0.328700 ms MarkObjects: 15.193100 ms  DeleteObjects: 0.316800 ms)
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 2999.
+Total: 9.069000 ms (FindLiveObjects: 0.475500 ms CreateObjectMapping: 0.211800 ms MarkObjects: 8.135200 ms  DeleteObjects: 0.240200 ms)
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.017126 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 22.32 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in 44.943 seconds
-Domain Reload Profiling:
-	ReloadAssembly (44944ms)
-		BeginReloadAssembly (791ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (15ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (539ms)
-		EndReloadAssembly (43996ms)
-			LoadAssemblies (306ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1319ms)
-			ReleaseScriptCaches (4ms)
-			RebuildScriptCaches (179ms)
-			SetupLoadedEditorAssemblies (40665ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (22ms)
-				BeforeProcessingInitializeOnLoad (326ms)
-				ProcessInitializeOnLoadAttributes (620ms)
-				ProcessInitializeOnLoadMethodAttributes (39649ms)
-				AfterProcessingInitializeOnLoad (30ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (25ms)
-Platform modules already initialized, skipping
-Script is not up to date after domain reload: guid(254069fb351a0914c94c4751c2ee9851) path("Packages/com.unity.scriptablebuildpipeline/Tests/Editor/PrefabPackedStressTest.cs") state(2)
-Script is not up to date after domain reload: guid(e2d5a57757fc0cc4eb4f2fade47b59dd) path("Packages/com.unity.scriptablebuildpipeline/Editor/Tasks/CalculateSceneDependencyData.cs") state(2)
-Script is not up to date after domain reload: guid(4e3c19776468fc14296d45fbc07b24a6) path("Packages/com.unity.scriptablebuildpipeline/Editor/Utilities/USerialize/USerialize.cs") state(2)
-Script is not up to date after domain reload: guid(3b86965c40eee0449a9c0a7db2f0e759) path("Packages/com.unity.scriptablebuildpipeline/Editor/Utilities/HashStream.cs") state(2)
-Script is not up to date after domain reload: guid(5ec22ea32817fe444823d42d0c4e0024) path("Packages/com.unity.scriptablebuildpipeline/Editor/WriteTypes/AssetBundleWriteOperation.cs") state(2)
-Script is not up to date after domain reload: guid(bef0b83030006f0409c3a3cfa181ee64) path("Packages/com.unity.scriptablebuildpipeline/Editor/ReturnCode.cs") state(2)
-Script is not up to date after domain reload: guid(bbb71bee805aca34a84943ae76051c5d) path("Packages/com.unity.scriptablebuildpipeline/Runtime/Shared/BundleDetails.cs") state(2)
-Script is not up to date after domain reload: guid(3e8cc8b5af2f62e418573550ab569877) path("Packages/com.unity.scriptablebuildpipeline/Tests/Editor/TestInterfaceImplementations.cs") state(2)
-Script is not up to date after domain reload: guid(8195792273a50ed4982b1717d1203dbf) path("Packages/com.unity.scriptablebuildpipeline/Editor/Tasks/SwitchToBuildPlatform.cs") state(2)
-Script is not up to date after domain reload: guid(46ff9bb9c11e4daa9d9424fa410fcc30) path("Packages/com.unity.scriptablebuildpipeline/Editor/Tasks/PreviewSceneDependencyData.cs") state(2)
-Script is not up to date after domain reload: guid(ce016609bb1904e4e8ff7bc8d88c0278) path("Packages/com.unity.scriptablebuildpipeline/Editor/Utilities/VersionedCallbackAttribute.cs") state(2)
-Script is not up to date after domain reload: guid(8680029523237e1458574f6c8f1a3aa3) path("Packages/com.unity.scriptablebuildpipeline/Tests/Editor/USerializeTests.cs") state(2)
-Script is not up to date after domain reload: guid(f004933c56f4b2f4792fdcc1aca8f9b7) path("Packages/com.unity.scriptablebuildpipeline/Editor/Shared/LinearPackedIdentifiers.cs") state(2)
-Script is not up to date after domain reload: guid(c8609290d91434541b2f561c09dc7b3b) path("Packages/com.unity.scriptablebuildpipeline/Editor/Utilities/USerialize/DeSerializer.cs") state(2)
-Script is not up to date after domain reload: guid(0b92edd448d83cc4d8558e4e11ffc3bd) path("Packages/com.unity.scriptablebuildpipeline/Tests/Editor/WriteTypesTests.cs") state(2)
-Script is not up to date after domain reload: guid(e766efa9ccaf441728f810262e5ca359) path("Packages/com.unity.scriptablebuildpipeline/Editor/CacheServer/CacheServerUploader.cs") state(2)
-Script is not up to date after domain reload: guid(cff0546d9c35a3248bd820d7dd136af6) path("Packages/com.unity.scriptablebuildpipeline/Editor/Utilities/BuildInterfacesWrapper.cs") state(2)
-Script is not up to date after domain reload: guid(f2a640ae477de17469deed96101db8c5) path("Packages/com.unity.scriptablebuildpipeline/Editor/Utilities/ValidationMethods.cs") state(2)
-Script is not up to date after domain reload: guid(717b55fbf36106b449169defda0705c7) path("Packages/com.unity.scriptablebuildpipeline/Editor/Interfaces/IBuildCache.cs") state(2)
-Script is not up to date after domain reload: guid(c18f0df0496b5418bbb5a34c4c30d6e8) path("Packages/com.unity.scriptablebuildpipeline/Editor/CacheServer/CacheServerUploaderWindow.cs") state(2)
-Script is not up to date after domain reload: guid(5f0270e64b3580847a1adbb01f58852b) path("Packages/com.unity.scriptablebuildpipeline/Editor/Tasks/CalculateCustomDependencyData.cs") state(2)
-Script is not up to date after domain reload: guid(dad58be2203967e4f927f5193b96266a) path("Packages/com.unity.scriptablebuildpipeline/Editor/Utilities/QualitySettingsApi.cs") state(2)
-Script is not up to date after domain reload: guid(f72b7476a69b89147a08603d7391218a) path("Packages/com.unity.scriptablebuildpipeline/Editor/Utilities/HashingMethods.cs") state(2)
-Script is not up to date after domain reload: guid(6ab8ec987142fec4f84a3daa06a8b4c8) path("Packages/com.unity.scriptablebuildpipeline/Tests/Editor/ArchiveAndCompressTestFixture.cs") state(2)
-Script is not up to date after domain reload: guid(7b9ded651292a474fad227fce94f4c79) path("Packages/com.unity.scriptablebuildpipeline/Editor/Tasks/CreateBuiltInShadersBundle.cs") state(2)
-Script is not up to date after domain reload: guid(9b0e503817aafa447ac3b7d7db84ccc8) path("Packages/com.unity.scriptablebuildpipeline/Editor/Shared/BuildExtendedAssetData.cs") state(2)
-Script is not up to date after domain reload: guid(e2bbbc81002ad3642a2b1e7857a3f11a) path("Packages/com.unity.scriptablebuildpipeline/Editor/Utilities/BuildCache.cs") state(2)
-Script is not up to date after domain reload: guid(2b783d170d8ed6b468a9500bbe040087) path("Packages/com.unity.scriptablebuildpipeline/Editor/Shared/BuildWriteData.cs") state(2)
-Script is not up to date after domain reload: guid(2b07dd9eefca94afa80d5b479a12f8cf) path("Packages/com.unity.scriptablebuildpipeline/Editor/Utilities/ContentFileIdentifiers.cs") state(2)
-Script is not up to date after domain reload: guid(f4af5ab96cd890342912b92e54ac2c3e) path("Packages/com.unity.scriptablebuildpipeline/Editor/Tasks/AppendBundleHash.cs") state(2)
-Script is not up to date after domain reload: guid(c2c7d61e655a9134eb902da0ddc663ce) path("Packages/com.unity.scriptablebuildpipeline/Tests/Editor/ArchiveAndCompressTests.cs") state(2)
-Script is not up to date after domain reload: guid(c41ecdd192a66174db9ae6b457c3a68c) path("Packages/com.unity.scriptablebuildpipeline/Editor/Utilities/LinkXMLGenerator.cs") state(2)
-Script is not up to date after domain reload: guid(fb4c2e00689dfb34985500f260df63cb) path("Packages/com.unity.scriptablebuildpipeline/Editor/Interfaces/IBuildSpriteData.cs") state(2)
-Script is not up to date after domain reload: guid(a896103a5441cc040ab6d184ad038c6a) path("Packages/com.unity.scriptablebuildpipeline/Tests/Editor/GenerateBundlePackingTests.cs") state(2)
-Script is not up to date after domain reload: guid(96b169e370585d7489d37bc46ef5e3bf) path("Packages/com.unity.scriptablebuildpipeline/Editor/Tasks/CreateMonoScriptBundle.cs") state(2)
-Script is not up to date after domain reload: guid(3d01c0faeb539534689fe05bc369751e) path("Packages/com.unity.scriptablebuildpipeline/Editor/Utilities/MD4.cs") state(2)
-Script is not up to date after domain reload: guid(d723a770823401649b007044d9a978ba) path("Packages/com.unity.scriptablebuildpipeline/Editor/Shared/BundleExplictObjectLayout.cs") state(2)
-Script is not up to date after domain reload: guid(f13538c0e661bcc4c979c0f336830337) path("Packages/com.unity.scriptablebuildpipeline/Editor/AssemblyInfo.cs") state(2)
-Script is not up to date after domain reload: guid(3ed24626228f71246a5f32ebe0fb61e2) path("Packages/com.unity.scriptablebuildpipeline/Editor/Tasks/PostScriptsCallback.cs") state(2)
-Script is not up to date after domain reload: guid(e4a7ddc0ee0cb5e47b5c53fb53a97808) path("Packages/com.unity.scriptablebuildpipeline/Editor/CompatibilityBuildPipeline.cs") state(2)
-Script is not up to date after domain reload: guid(2fb47cf44ffdf4da8a7725b796217e67) path("Packages/com.unity.scriptablebuildpipeline/Editor/Tasks/ClusterBuildLayout.cs") state(2)
-Script is not up to date after domain reload: guid(8cce051c0b60040d68cd27a80e58f787) path("Packages/com.unity.scriptablebuildpipeline/Tests/Editor/CacheServer/ByteArrayStream.cs") state(2)
-Script is not up to date after domain reload: guid(1f0e09841d3888f46a1a3f84af21a639) path("Packages/com.unity.scriptablebuildpipeline/Editor/Tasks/PostPackingCallback.cs") state(2)
-Script is not up to date after domain reload: guid(a8294b087f18cdb49a6dc0c48dccb3a8) path("Packages/com.unity.scriptablebuildpipeline/Tests/Editor/AssetLoadInfoSortingTests.cs") state(2)
-Script is not up to date after domain reload: guid(feaf7c3171943034785f9cfaa726f10d) path("Packages/com.unity.scriptablebuildpipeline/Editor/Utilities/BuildLog.cs") state(2)
-Script is not up to date after domain reload: guid(6a7a6cf901dabe64586a9bd99395189a) path("Packages/com.unity.scriptablebuildpipeline/Tests/Editor/WriteSerializedFileTests.cs") state(2)
-Script is not up to date after domain reload: guid(3bf61af2f16576547894347350205854) path("Packages/com.unity.scriptablebuildpipeline/Tests/Editor/LocalBuildCacheTests.cs") state(2)
-Script is not up to date after domain reload: guid(155a61777399d7f48800d1791751daab) path("Packages/com.unity.scriptablebuildpipeline/Tests/Editor/CalculateAssetDependencyTests.cs") state(2)
-Script is not up to date after domain reload: guid(7df65588254d9194cb3fb45879168954) path("Packages/com.unity.scriptablebuildpipeline/Editor/Interfaces/IWriteOperation.cs") state(2)
-Script is not up to date after domain reload: guid(3ba8763d94231c9459f5a2d2aae30cfa) path("Packages/com.unity.scriptablebuildpipeline/Editor/ContentPipeline.cs") state(2)
-Script is not up to date after domain reload: guid(05b619d8a4e3fce47acecb2fcf4122b7) path("Packages/com.unity.scriptablebuildpipeline/Editor/Utilities/FileCompressor.cs") state(2)
-Script is not up to date after domain reload: guid(cd104a158e673469cab9e0947990aef2) path("Packages/com.unity.scriptablebuildpipeline/Tests/Catalog.cs") state(2)
-Script is not up to date after domain reload: guid(49d4a1540f2adfc418fd2e5dd536420b) path("Packages/com.unity.scriptablebuildpipeline/Editor/Tasks/RebuildSpriteAtlasCache.cs") state(2)
-Script is not up to date after domain reload: guid(cc721af777e8101459b9a2ea31544b01) path("Packages/com.unity.scriptablebuildpipeline/Editor/Utilities/TrackerExtensions.cs") state(2)
-Script is not up to date after domain reload: guid(9d24a7995f0e1ed4c81c185bcc48a695) path("Packages/com.unity.scriptablebuildpipeline/Editor/Tasks/GenerateBundleMaps.cs") state(2)
-Script is not up to date after domain reload: guid(e14d3e528f112e445aa46b7870f93944) path("Packages/com.unity.scriptablebuildpipeline/Editor/Utilities/Preferences.cs") state(2)
-Script is not up to date after domain reload: guid(db8e822ddcadee542b625284a3d0aa16) path("Packages/com.unity.scriptablebuildpipeline/Editor/Tasks/StripUnusedSpriteSources.cs") state(2)
-Script is not up to date after domain reload: guid(a99d07c2f0fab1e4f8623f5913408df5) path("Packages/com.unity.scriptablebuildpipeline/Editor/Interfaces/IDependencyData.cs") state(2)
-Script is not up to date after domain reload: guid(a8092de151d449b0962952fe68a54dd9) path("Packages/com.unity.scriptablebuildpipeline/Editor/Interfaces/IWriteData.cs") state(2)
-Script is not up to date after domain reload: guid(fa12bf74f16f5e84f93111cdd55bf70b) path("Packages/com.unity.scriptablebuildpipeline/Tests/Editor/ContextObjectSerializationTests.cs") state(2)
-Script is not up to date after domain reload: guid(fdaf4f8f6845474a8b19554240f1e8ed) path("Packages/com.unity.scriptablebuildpipeline/Editor/Utilities/ProgressLoggingTracker.cs") state(2)
-Script is not up to date after domain reload: guid(c2dcb086cc041f2459f8cb57dee4d25f) path("Packages/com.unity.scriptablebuildpipeline/Tests/Editor/TaskCachingUtilityTests.cs") state(2)
-Script is not up to date after domain reload: guid(b84b1a09f476ad84db74f048d23fb8e1) path("Packages/com.unity.scriptablebuildpipeline/Editor/Utilities/SpookyHash.cs") state(2)
-Script is not up to date after domain reload: guid(48594b0afbd3e84448546c74bf35a6b3) path("Packages/com.unity.scriptablebuildpipeline/Editor/Shared/BuildDependencyData.cs") state(2)
-Script is not up to date after domain reload: guid(7e08d97accaeb0f47909f2371a26ca32) path("Packages/com.unity.scriptablebuildpipeline/Editor/Utilities/CommonStrings.cs") state(2)
-Script is not up to date after domain reload: guid(e18580a7226c3b34c9fa7fdb324edfe6) path("Packages/com.unity.scriptablebuildpipeline/Editor/Interfaces/IBuildParameters.cs") state(2)
-Script is not up to date after domain reload: guid(288dd00735888d6419c1d6312c8a1d51) path("Packages/com.unity.scriptablebuildpipeline/Tests/Editor/ContextInjectionTests.cs") state(2)
-Script is not up to date after domain reload: guid(cba3bf5fbe905c841b9ace7d603fb1d8) path("Packages/com.unity.scriptablebuildpipeline/Editor/Shared/BuildTasksRunner.cs") state(2)
-Script is not up to date after domain reload: guid(26d46fb4de7c9fd40b94f75aaf6bff0f) path("Packages/com.unity.scriptablebuildpipeline/Editor/Utilities/PlayerSettingsApi.cs") state(2)
-Script is not up to date after domain reload: guid(02aa99c7f5d8f4c77810419ebddad96d) path("Packages/com.unity.scriptablebuildpipeline/Editor/CacheServer/Client.cs") state(2)
-Script is not up to date after domain reload: guid(40e93d78541d2664e8424875bca4e041) path("Packages/com.unity.scriptablebuildpipeline/Editor/Tasks/CalculateAssetDependencyData.cs") state(2)
-Script is not up to date after domain reload: guid(54aaf7e8e1f02d34182d881089f11f33) path("Packages/com.unity.scriptablebuildpipeline/Editor/Shared/BuildSpriteData.cs") state(2)
-Script is not up to date after domain reload: guid(b95096aeec814934caf102c7159c6585) path("Packages/com.unity.scriptablebuildpipeline/Editor/WriteTypes/SceneRawWriteOperation.cs") state(2)
-Script is not up to date after domain reload: guid(8de0232a33280c9479a3db23d266ef17) path("Packages/com.unity.scriptablebuildpipeline/Editor/Tasks/GenerateBundlePacking.cs") state(2)
-Script is not up to date after domain reload: guid(ee92aa36338b87445ac230ed769ea068) path("Packages/com.unity.scriptablebuildpipeline/Tests/Editor/ReflectionExtentions.cs") state(2)
-Script is not up to date after domain reload: guid(1a78160a9be3bdf4d9397ca7b0466850) path("Packages/com.unity.scriptablebuildpipeline/Editor/Interfaces/IBundleExplictObjectLayout.cs") state(2)
-Script is not up to date after domain reload: guid(c951970d3a8774823adda08337ad175b) path("Packages/com.unity.scriptablebuildpipeline/Tests/ContentLoadTests.cs") state(2)
-Script is not up to date after domain reload: guid(b827df2c3769047c0a5c00f7654e75a3) path("Packages/com.unity.scriptablebuildpipeline/Tests/ContentLoadFixture.cs") state(2)
-Script is not up to date after domain reload: guid(8eba8fcb4416d1943b33efb3d9bd01c8) path("Packages/com.unity.scriptablebuildpipeline/Editor/Utilities/ThreadingManager.cs") state(2)
-Script is not up to date after domain reload: guid(5046b687c98667141a9a4f0add3345be) path("Packages/com.unity.scriptablebuildpipeline/Editor/Shared/PrefabPackedIdentifiers.cs") state(2)
-Script is not up to date after domain reload: guid(9ba75fbd280d0c849b9b6a53db5056ac) path("Packages/com.unity.scriptablebuildpipeline/Editor/Utilities/SceneStateCleanup.cs") state(2)
-Script is not up to date after domain reload: guid(a79b2afb1cd133b47b8cf25ace7ad051) path("Packages/com.unity.scriptablebuildpipeline/Editor/Utilities/ReflectionExtensions.cs") state(2)
-Script is not up to date after domain reload: guid(e00f1ff88f9783243aca917c14f4a913) path("Packages/com.unity.scriptablebuildpipeline/Editor/Utilities/USerializeTools/DumpToText.cs") state(2)
-Script is not up to date after domain reload: guid(242d63556dd92c346a8d3a24fa55d25b) path("Packages/com.unity.scriptablebuildpipeline/Editor/WriteTypes/SceneBundleWriteOperation.cs") state(2)
-Script is not up to date after domain reload: guid(b7bdc0bcfab4e714b88a12d6b22bac9b) path("Packages/com.unity.scriptablebuildpipeline/Editor/Tasks/ArchiveAndCompressBundles.cs") state(2)
-Script is not up to date after domain reload: guid(cb09304cefcaac544889b26c496a2cac) path("Packages/com.unity.scriptablebuildpipeline/Tests/Editor/ThreadingManagerTasks.cs") state(2)
-Script is not up to date after domain reload: guid(4f04442bb071fe8438a7e40408a9bada) path("Packages/com.unity.scriptablebuildpipeline/Editor/Interfaces/IBuildLog.cs") state(2)
-Script is not up to date after domain reload: guid(3c6caf6db0f23fb459226c679978683d) path("Packages/com.unity.scriptablebuildpipeline/Editor/Utilities/CacheServerDownloader.cs") state(2)
-Script is not up to date after domain reload: guid(33d6ef15c1984642bd83826064bee25d) path("Packages/com.unity.scriptablebuildpipeline/Editor/Shared/BuildParameters.cs") state(2)
-Script is not up to date after domain reload: guid(429f5bce8a9b4ba4295f2d48eebd9639) path("Packages/com.unity.scriptablebuildpipeline/Editor/Utilities/CacheServerUploader.cs") state(2)
-Script is not up to date after domain reload: guid(d6c85b3ea86fd7d45a0284311e03aa02) path("Packages/com.unity.scriptablebuildpipeline/Tests/Editor/CalculateSceneDependencyTests.cs") state(2)
-Script is not up to date after domain reload: guid(0437b76f03e61424abbe630113ecd0f2) path("Packages/com.unity.scriptablebuildpipeline/Tests/Editor/AssemblyInfo.cs") state(2)
-Script is not up to date after domain reload: guid(431079301da72b74cba77e88c2af37ba) path("Packages/com.unity.scriptablebuildpipeline/Editor/Interfaces/IBuildContent.cs") state(2)
-Script is not up to date after domain reload: guid(6616141fe64e4fc2b16c015f32d0a64d) path("Packages/com.unity.scriptablebuildpipeline/Editor/Shared/BuildContent.cs") state(2)
-Script is not up to date after domain reload: guid(170ac2c906650624cbab749adb2cc2ed) path("Packages/com.unity.scriptablebuildpipeline/Tests/Editor/ScriptableBuildPipelineTests.cs") state(2)
-Script is not up to date after domain reload: guid(9311edf98412ecc45a1f6ce3bb6a9fea) path("Packages/com.unity.scriptablebuildpipeline/Tests/Editor/ObjectExtractionTaskTests.cs") state(2)
-Script is not up to date after domain reload: guid(b8ee6f8e7df445bfb88fb0372dcf691a) path("Packages/com.unity.scriptablebuildpipeline/Editor/Shared/Unity5PackedIdentifiers.cs") state(2)
-Script is not up to date after domain reload: guid(493e67a6e86284a8681aab6f10d05c34) path("Packages/com.unity.scriptablebuildpipeline/Tests/Editor/CacheServer/Utils.cs") state(2)
-Script is not up to date after domain reload: guid(98f1571a4d4b4a3f8a65343e6ca1966d) path("Packages/com.unity.scriptablebuildpipeline/Editor/Shared/BuildCallbacks.cs") state(2)
-Script is not up to date after domain reload: guid(f5a22dad5548343f7b41b6f993d78696) path("Packages/com.unity.scriptablebuildpipeline/Tests/ContentLoadScenesTest.cs") state(2)
-Script is not up to date after domain reload: guid(10534ee7753023c4dbd1556e9efb590c) path("Packages/com.unity.scriptablebuildpipeline/Editor/Utilities/ExtensionMethods.cs") state(2)
-Script is not up to date after domain reload: guid(f8f85552081e62e47abaaba497a138d7) path("Packages/com.unity.scriptablebuildpipeline/Editor/Tasks/GenerateBundleCommands.cs") state(2)
-Script is not up to date after domain reload: guid(f2f62872d2484231aa95c2eb9feb8326) path("Packages/com.unity.scriptablebuildpipeline/Editor/Interfaces/IDeterministicIdentifiers.cs") state(2)
-Script is not up to date after domain reload: guid(29402082393e3a1439cfaa6cc77aa31b) path("Packages/com.unity.scriptablebuildpipeline/Editor/Injector/ContextInjector.cs") state(2)
-Script is not up to date after domain reload: guid(93cc378d60f13644e9669c22e5cb4618) path("Packages/com.unity.scriptablebuildpipeline/Tests/Editor/HashingHelpersTests.cs") state(2)
-Script is not up to date after domain reload: guid(8597e625afbd18f4fa730ad9b5507d61) path("Packages/com.unity.scriptablebuildpipeline/Editor/Utilities/HashingHelpers.cs") state(2)
-Script is not up to date after domain reload: guid(892bac4397edc914d9ffa4cde040eb0b) path("Packages/com.unity.scriptablebuildpipeline/Editor/Interfaces/IAssetRepresentationData.cs") state(2)
-Script is not up to date after domain reload: guid(0f2109e178c64897a911d0c8471401d7) path("Packages/com.unity.scriptablebuildpipeline/Editor/Tasks/PostWritingCallback.cs") state(2)
-Script is not up to date after domain reload: guid(2406ad24700d76e4da5005529a6bafce) path("Packages/com.unity.scriptablebuildpipeline/Tests/Editor/BuildContextTests.cs") state(2)
-Script is not up to date after domain reload: guid(5b2102a42c1d8884989d74c98d4442b4) path("Packages/com.unity.scriptablebuildpipeline/Tests/Editor/LocalCacheServer.cs") state(2)
-Script is not up to date after domain reload: guid(e253c6be7d9134114a9b533965c2b45f) path("Packages/com.unity.scriptablebuildpipeline/Editor/CacheServer/FileDownloadItem.cs") state(2)
-Script is not up to date after domain reload: guid(b734b613791eb4b0381013f84745a995) path("Packages/com.unity.scriptablebuildpipeline/Tests/Editor/CacheServer/TestDownloadItem.cs") state(2)
-Script is not up to date after domain reload: guid(225da2e71801378408ef9f717020c323) path("Packages/com.unity.scriptablebuildpipeline/Editor/Tasks/PostDependencyCallback.cs") state(2)
-Script is not up to date after domain reload: guid(947200859c948604e8bbf513d0b1eaf1) path("Packages/com.unity.scriptablebuildpipeline/Editor/Utilities/USerialize/Serializer.cs") state(2)
-Script is not up to date after domain reload: guid(87c4ff2c85dcb524685caba3bb22110c) path("Packages/com.unity.scriptablebuildpipeline/Editor/Interfaces/IBuildResults.cs") state(2)
-Script is not up to date after domain reload: guid(02d56b860c3f05a47a85e63f62578654) path("Packages/com.unity.scriptablebuildpipeline/Editor/Utilities/ProgressTracker.cs") state(2)
-Script is not up to date after domain reload: guid(fdd470c95bb040bdb705dc362b132291) path("Packages/com.unity.scriptablebuildpipeline/Editor/Shared/BuildContext.cs") state(2)
-Script is not up to date after domain reload: guid(c9b3cd90055a04b48b05f0e458e05c07) path("Packages/com.unity.scriptablebuildpipeline/Tests/Editor/BuildLogTests.cs") state(2)
-Script is not up to date after domain reload: guid(e25b76d1a8a87c641894e4694a750cd8) path("Packages/com.unity.scriptablebuildpipeline/Editor/Interfaces/IProgressTracker.cs") state(2)
-Script is not up to date after domain reload: guid(ef728e637accb8d46ad52f863653cf75) path("Packages/com.unity.scriptablebuildpipeline/Editor/Interfaces/IBuildContext.cs") state(2)
-Script is not up to date after domain reload: guid(012e8bc53e96d4c638db9f5b04ef84de) path("Packages/com.unity.scriptablebuildpipeline/Tests/Editor/CacheServer/Tests.cs") state(2)
-Script is not up to date after domain reload: guid(f39ee2ccb61c17549b2f6551af68ab88) path("Packages/com.unity.scriptablebuildpipeline/Editor/Tasks/GenerateLinkXml.cs") state(2)
-Script is not up to date after domain reload: guid(d628170b66f4d154eb5dda6859439c32) path("Packages/com.unity.scriptablebuildpipeline/Tests/Editor/HashingMethodsTests.cs") state(2)
-Script is not up to date after domain reload: guid(1b623084ee8eb4b9199e34858add3cac) path("Packages/com.unity.scriptablebuildpipeline/Tests/Editor/CacheServer/LocalCacheServer.cs") state(2)
-Script is not up to date after domain reload: guid(2030ed9ba38c2be4bbbc6a3499d8a4d7) path("Packages/com.unity.scriptablebuildpipeline/Tests/Editor/LinkXMLGeneratorTests.cs") state(2)
-Script is not up to date after domain reload: guid(63ad63bf47749b944a87fce982b8b54b) path("Packages/com.unity.scriptablebuildpipeline/Editor/Shared/BuildResults.cs") state(2)
-Script is not up to date after domain reload: guid(aee1195813efc3b45b3173443338b2c3) path("Packages/com.unity.scriptablebuildpipeline/Editor/WriteTypes/RawWriteOperation.cs") state(2)
-Script is not up to date after domain reload: guid(31aaa31a24f444640bde087a4bd59d51) path("Packages/com.unity.scriptablebuildpipeline/Runtime/CompatibilityAssetBundleManifest.cs") state(2)
-Script is not up to date after domain reload: guid(4d29a4991c6c8884aa7a81dc6d2e1cc5) path("Packages/com.unity.scriptablebuildpipeline/Editor/Tasks/WriteSerializedFiles.cs") state(2)
-Script is not up to date after domain reload: guid(b4b0a7d96d7360c4abef5bae019289c7) path("Packages/com.unity.scriptablebuildpipeline/Editor/Utilities/BuildCacheUtility.cs") state(2)
-Script is not up to date after domain reload: guid(69a3d9bdf64896044a9fdb61df07a1f8) path("Packages/com.unity.scriptablebuildpipeline/Editor/Tasks/UpdateBundleObjectLayout.cs") state(2)
-Script is not up to date after domain reload: guid(6d2f1f46c2a196649b1eb9cd319cc991) path("Packages/com.unity.scriptablebuildpipeline/Tests/Editor/FileCompressorTests.cs") state(2)
-Script is not up to date after domain reload: guid(a0c7d049419ae46f19ead59b45d622fb) path("Packages/com.unity.scriptablebuildpipeline/Editor/CacheServer/Util.cs") state(2)
-Script is not up to date after domain reload: guid(ba1f63c8c87d5ab4cad407b7245879e4) path("Packages/com.unity.scriptablebuildpipeline/Editor/Profiler/BuildProfiler.cs") state(2)
-Script is not up to date after domain reload: guid(cd396e02e0371554e9bfc4ebb8035318) path("Packages/com.unity.scriptablebuildpipeline/Tests/Editor/BuildCacheTestBase.cs") state(2)
-Script is not up to date after domain reload: guid(4664ae20418c56944a2f6c5ab30f82bf) path("Packages/com.unity.scriptablebuildpipeline/Editor/Utilities/CacheEntry.cs") state(2)
-Script is not up to date after domain reload: guid(fa9edcd7497f45242bddd18f8e0582d4) path("Packages/com.unity.scriptablebuildpipeline/Editor/Tasks/GenerateSubAssetPathMaps.cs") state(2)
-Script is not up to date after domain reload: guid(2c42a8e1e1d1b874e95761dab5bdfbc8) path("Packages/com.unity.scriptablebuildpipeline/Editor/Tasks/BuildPlayerScripts.cs") state(2)
-Script is not up to date after domain reload: guid(552d6f72e940a1c4a809b635a8f40d8b) path("Packages/com.unity.scriptablebuildpipeline/Editor/Shared/DefaultBuildTasks.cs") state(2)
-Script is not up to date after domain reload: guid(31314932afa7e4ce3ab642bfbc2dd8ff) path("Packages/com.unity.scriptablebuildpipeline/Editor/CacheServer/IDownloadItem.cs") state(2)
-Script is not up to date after domain reload: guid(d2fe9d7a258944946a57628f3e9de498) path("Packages/com.unity.scriptablebuildpipeline/Editor/WriteTypes/SceneDataWriteOperation.cs") state(2)
-Script is not up to date after domain reload: guid(07feb49ed5894cd459f42e594a2fbb94) path("Packages/com.unity.scriptablebuildpipeline/Editor/Utilities/GraphicsSettingsApi.cs") state(2)
-Script is not up to date after domain reload: guid(91081fbba8a37084c8b7e9d7d5995080) path("Packages/com.unity.scriptablebuildpipeline/Editor/Utilities/BuildLogger.cs") state(2)
-Script is not up to date after domain reload: guid(44dfdb5bbfab6614a8481d1d899d884b) path("Packages/com.unity.scriptablebuildpipeline/Editor/Utilities/TaskCachingUtility.cs") state(2)
-Script is not up to date after domain reload: guid(ba3cb7b4776e6c24ba53e7f8f7e751b5) path("Packages/com.unity.scriptablebuildpipeline/Tests/Editor/CalculateCustomDependencyTests.cs") state(2)
-Script is not up to date after domain reload: guid(8f2c2ad6904ea9147a43a79fccd94ca1) path("Packages/com.unity.scriptablebuildpipeline/Editor/Interfaces/IBuildTasks.cs") state(2)
-Script is not up to date after domain reload: guid(cde708facb1abd24cb7b42fedf436309) path("Packages/com.unity.scriptablebuildpipeline/Tests/Editor/CacheServerBuildCacheTests.cs") state(2)
-Refreshing native plugins compatible for Editor in 3.49 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2871 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 126.9 MB.
-System memory in use after: 127.0 MB.
-
-Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 3406.
-Total: 29.837700 ms (FindLiveObjects: 0.896000 ms CreateObjectMapping: 0.605400 ms MarkObjects: 26.940100 ms  DeleteObjects: 1.392000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.028115 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.03 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Updating Project API Level from .Net Standard 2.0 to .Net 4.6
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-WeaverCore.Editor.VerifyAPILevel:StartCheck (System.Action`1<WeaverCore.Editor.DependencyCheck/DependencyCheckResult>) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/Checks/VerifyAPILevel.cs:18)
-WeaverCore.Editor.DependencyChecker/<>c__DisplayClass13_0:<CheckDependencies>b__0 (WeaverCore.Editor.DependencyCheck/DependencyCheckResult) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs:199)
-WeaverCore.Editor.DependencyChecker:CheckDependencies (bool,System.Collections.Generic.List`1<WeaverCore.Editor.DependencyCheck>,int) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs:213)
-WeaverCore.Editor.DependencyChecker:CheckDependencies () (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs:126)
-WeaverCore.Editor.Compilation.BuildTools:Init () (at Assets/WeaverCore/WeaverCore.Editor/Compilation/BuildTools.cs:483)
-System.Reflection.MonoMethod:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-WeaverCore.Utilities.ReflectionUtilities:ExecuteMethodsWithAttribute<WeaverCore.Attributes.OnInitAttribute> (System.Func`3<System.Reflection.MethodInfo, WeaverCore.Attributes.OnInitAttribute, bool>,System.Reflection.BindingFlags,bool) (at Assets/WeaverCore/WeaverCore/Utilities/ReflectionUtilities.cs:530)
-WeaverCore.Initialization:Initialize () (at Assets/WeaverCore/WeaverCore/Initialization.cs:75)
-WeaverCore.Initialization:OnEditorInitialize () (at Assets/WeaverCore/WeaverCore/Initialization.cs:44)
-System.Reflection.MonoMethod:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-(Filename: Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/Checks/VerifyAPILevel.cs Line: 18)
-
-[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: API Compatibility level changed
-Mono: successfully reloaded assembly
-- Completed reload, in  7.711 seconds
-Domain Reload Profiling:
-	ReloadAssembly (7712ms)
-		BeginReloadAssembly (623ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (14ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (322ms)
-		EndReloadAssembly (6953ms)
-			LoadAssemblies (356ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1473ms)
-			ReleaseScriptCaches (4ms)
-			RebuildScriptCaches (95ms)
-			SetupLoadedEditorAssemblies (4267ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (199ms)
-				ProcessInitializeOnLoadAttributes (328ms)
-				ProcessInitializeOnLoadMethodAttributes (3717ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.99 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3026 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 132.2 MB.
-System memory in use after: 132.3 MB.
-
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3560.
-Total: 9.434700 ms (FindLiveObjects: 0.466700 ms CreateObjectMapping: 0.256900 ms MarkObjects: 8.538100 ms  DeleteObjects: 0.171200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
   path: Assets/FourSwordTubers.cs
-  artifactKey: Guid(b0ebef1ee8784134480b1dc0fe1c14a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourSwordTubers.cs using Guid(b0ebef1ee8784134480b1dc0fe1c14a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad6614eeecd90d41a559adbffd2d3823') in 0.126241 seconds 
+  artifactKey: Guid(7a39a5d487f22a243a594e92f3fd9f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourSwordTubers.cs using Guid(7a39a5d487f22a243a594e92f3fd9f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68ac4583a2c662f74453cc9cd22fe0e0') in 1.205280 seconds
+  Import took 1.352365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.685245 seconds.
+  path: Assets/NewRegistry.asset
+  artifactKey: Guid(64fbe3ec9ac175f4a9b71908cea96f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewRegistry.asset using Guid(64fbe3ec9ac175f4a9b71908cea96f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e52eae9132164690805b441757abf88') in 1.603227 seconds
+  Import took 2.148938 seconds .
+
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.013046 seconds.
+Registered in 0.020716 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.06 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 1.75 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Updating Project API Level from .Net Standard 2.0 to .Net 4.6
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-WeaverCore.Editor.VerifyAPILevel:StartCheck (System.Action`1<WeaverCore.Editor.DependencyCheck/DependencyCheckResult>) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/Checks/VerifyAPILevel.cs:18)
-WeaverCore.Editor.DependencyChecker/<>c__DisplayClass13_0:<CheckDependencies>b__0 (WeaverCore.Editor.DependencyCheck/DependencyCheckResult) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs:199)
-WeaverCore.Editor.DependencyChecker:CheckDependencies (bool,System.Collections.Generic.List`1<WeaverCore.Editor.DependencyCheck>,int) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs:213)
-WeaverCore.Editor.DependencyChecker:CheckDependencies () (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs:126)
-WeaverCore.Editor.Compilation.BuildTools:Init () (at Assets/WeaverCore/WeaverCore.Editor/Compilation/BuildTools.cs:483)
-System.Reflection.MonoMethod:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-WeaverCore.Utilities.ReflectionUtilities:ExecuteMethodsWithAttribute<WeaverCore.Attributes.OnInitAttribute> (System.Func`3<System.Reflection.MethodInfo, WeaverCore.Attributes.OnInitAttribute, bool>,System.Reflection.BindingFlags,bool) (at Assets/WeaverCore/WeaverCore/Utilities/ReflectionUtilities.cs:530)
-WeaverCore.Initialization:Initialize () (at Assets/WeaverCore/WeaverCore/Initialization.cs:75)
-WeaverCore.Initialization:OnEditorInitialize () (at Assets/WeaverCore/WeaverCore/Initialization.cs:44)
-System.Reflection.MonoMethod:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-(Filename: Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/Checks/VerifyAPILevel.cs Line: 18)
-
-[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: API Compatibility level changed
-Stacktrace:
-
-  at <unknown> <0xffffffff>
-  at (wrapper managed-to-native) System.Reflection.FieldInfo.internal_from_handle_type (intptr,intptr) [0x00015] in <695d1cc93cca45069c528c15c9fdd749>:0
-  at System.Reflection.FieldInfo.GetFieldFromHandle (System.RuntimeFieldHandle,System.RuntimeTypeHandle) [0x0002c] in <695d1cc93cca45069c528c15c9fdd749>:0
-  at System.RuntimeType.GetFields_internal (string,System.Reflection.BindingFlags,System.RuntimeType) [0x00051] in <695d1cc93cca45069c528c15c9fdd749>:0
-  at System.RuntimeType.GetFieldCandidates (string,System.Reflection.BindingFlags,bool) [0x00013] in <695d1cc93cca45069c528c15c9fdd749>:0
-  at System.RuntimeType.GetFields (System.Reflection.BindingFlags) [0x00004] in <695d1cc93cca45069c528c15c9fdd749>:0
-  at MonoMod.Utils.ReflectionHelper._ResolveReflection (Mono.Cecil.MemberReference,System.Reflection.Module[]) [0x007c1] in <73e96f55347b4d14b2e4cb8f28a489d7>:0
-  at MonoMod.Utils.ReflectionHelper.ResolveReflection (Mono.Cecil.MemberReference) [0x00002] in <73e96f55347b4d14b2e4cb8f28a489d7>:0
-  at MonoMod.Utils._DMDEmit.Generate (MonoMod.Utils.DynamicMethodDefinition,System.Reflection.MethodBase,System.Reflection.Emit.ILGenerator) [0x005e1] in <73e96f55347b4d14b2e4cb8f28a489d7>:0
-  at MonoMod.Utils.DMDEmitDynamicMethodGenerator._Generate (MonoMod.Utils.DynamicMethodDefinition,object) [0x00343] in <73e96f55347b4d14b2e4cb8f28a489d7>:0
-  at MonoMod.Utils.DMDGenerator`1<TSelf_REF>.Generate (MonoMod.Utils.DynamicMethodDefinition,object) [0x00020] in <73e96f55347b4d14b2e4cb8f28a489d7>:0
-  at MonoMod.Utils.DynamicMethodDefinition.Generate (object) [0x0013d] in <73e96f55347b4d14b2e4cb8f28a489d7>:0
-  at MonoMod.Utils.DynamicMethodDefinition.Generate () [0x00002] in <73e96f55347b4d14b2e4cb8f28a489d7>:0
-  at (wrapper dynamic-method) MonoMod.RuntimeDetour.ILHook/Context.DMD<MonoMod.RuntimeDetour.ILHook+Context..Refresh> (MonoMod.RuntimeDetour.ILHook/Context) [0x0015a] in <19d39faa51f94cd38bcdd8a1c5ae2a8f>:0
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.Trampoline<MonoMod.RuntimeDetour.ILHook+Context..Refresh>?287224832 (object) [0x00026] in <73e96f55347b4d14b2e4cb8f28a489d7>:0
-  at HarmonyLib.Internal.RuntimeFixes.StackTraceFixes.OnILChainRefresh (object) [0x00006] in <7d21740729834b33bdac8555902431ce>:0
-  at MonoMod.RuntimeDetour.ILHook.Apply () [0x00059] in <19d39faa51f94cd38bcdd8a1c5ae2a8f>:0
-  at HarmonyLib.Public.Patching.ManagedMethodPatcher.DetourTo (System.Reflection.MethodBase) [0x0004d] in <7d21740729834b33bdac8555902431ce>:0
-  at HarmonyLib.PatchFunctions.UpdateWrapper (System.Reflection.MethodBase,HarmonyLib.PatchInfo) [0x00033] in <7d21740729834b33bdac8555902431ce>:0
-  at HarmonyLib.PatchProcessor.Patch () [0x000e5] in <7d21740729834b33bdac8555902431ce>:0
-  at HarmonyLib.Harmony.Patch (System.Reflection.MethodBase,HarmonyLib.HarmonyMethod,HarmonyLib.HarmonyMethod,HarmonyLib.HarmonyMethod,HarmonyLib.HarmonyMethod) [0x00029] in <7d21740729834b33bdac8555902431ce>:0
-  at (wrapper runtime-invoke) <Module>.runtime_invoke_object__this___object_object_object_object_object (object,intptr,intptr,intptr) [0x0007c] in <7d21740729834b33bdac8555902431ce>:0
-  at <unknown> <0xffffffff>
-  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&) [0x00016] in <695d1cc93cca45069c528c15c9fdd749>:0
-  at System.Reflection.MonoMethod.Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo) [0x00038] in <695d1cc93cca45069c528c15c9fdd749>:0
-  at System.Reflection.MethodBase.Invoke (object,object[]) [0x00006] in <695d1cc93cca45069c528c15c9fdd749>:0
-  at WeaverCore.HarmonyPatcher.Patch (System.Reflection.MethodBase,System.Reflection.MethodInfo,System.Reflection.MethodInfo) [0x0007f] in C:\Users\JLDeC\OneDrive\Documents\GitHub\Mods\FourSword-Tubers\Assets\WeaverCore\WeaverCore\HarmonyPatcher.cs:112
-  at HeroBox_Patches.Patch (WeaverCore.HarmonyPatcher) [0x0002e] in C:\Users\JLDeC\OneDrive\Documents\GitHub\Mods\FourSword-Tubers\Assets\WeaverCore\WeaMono: successfully reloaded assembly
-- Completed reload, in  7.617 seconds
-Domain Reload Profiling:
-	ReloadAssembly (7618ms)
-		BeginReloadAssembly (423ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (17ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (279ms)
-		EndReloadAssembly (7057ms)
-			LoadAssemblies (773ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1623ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (115ms)
-			SetupLoadedEditorAssemblies (4293ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (165ms)
-				ProcessInitializeOnLoadAttributes (313ms)
-				ProcessInitializeOnLoadMethodAttributes (3796ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in 18.002 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.00 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 2.73 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3026 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 132.2 MB.
-System memory in use after: 132.3 MB.
+Unloading 2619 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 118.9 MB.
+System memory in use after: 119.0 MB.
 
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3564.
-Total: 12.605900 ms (FindLiveObjects: 0.696100 ms CreateObjectMapping: 0.347400 ms MarkObjects: 11.332800 ms  DeleteObjects: 0.227700 ms)
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 3151.
+Total: 20.406400 ms (FindLiveObjects: 0.837500 ms CreateObjectMapping: 0.596000 ms MarkObjects: 18.632600 ms  DeleteObjects: 0.336000 ms)
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 68.751233 seconds.
+  Time since last request: 176.608052 seconds.
   path: Assets
   artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.036075 seconds 
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a6e520b92ccfc61bcfa21a7bcab8468') in 0.046263 seconds
+  Import took 0.066357 seconds .
+
 ========================================================================
 Received Import Request.
-  Time since last request: 6.546733 seconds.
+  Time since last request: 0.000670 seconds.
   path: Assets/NewRegistry.asset
-  artifactKey: Guid(1381d038a9b8db64d9ce57f1ebd81a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NewRegistry.asset using Guid(1381d038a9b8db64d9ce57f1ebd81a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '474ffb8ea817358e2678f569a7419613') in 0.042031 seconds 
+  artifactKey: Guid(64fbe3ec9ac175f4a9b71908cea96f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewRegistry.asset using Guid(64fbe3ec9ac175f4a9b71908cea96f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c5fbec50282dcf0fdef8a70258a77ca') in 0.161380 seconds
+  Import took 0.180018 seconds .
+
 ========================================================================
 Received Import Request.
-  Time since last request: 79.158326 seconds.
-  path: Assets/NewRegistry.asset
-  artifactKey: Guid(1381d038a9b8db64d9ce57f1ebd81a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NewRegistry.asset using Guid(1381d038a9b8db64d9ce57f1ebd81a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '395a1ea3d34be948ec8a712eda7c92ce') in 0.044468 seconds 
+  Time since last request: 10.395592 seconds.
+  path: Assets/ModSettings.cs
+  artifactKey: Guid(7a88424008a990e488b617027fc679a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModSettings.cs using Guid(7a88424008a990e488b617027fc679a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8740516dba2407cc79a94887d96cac7b') in 0.058757 seconds
+  Import took 0.075822 seconds .
+
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.028092 seconds.
+Registered in 0.022024 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.66 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 1.57 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  7.881 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2619 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.9 MB.
+System memory in use after: 120.0 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 3155.
+Total: 9.480400 ms (FindLiveObjects: 0.548900 ms CreateObjectMapping: 0.262700 ms MarkObjects: 8.454100 ms  DeleteObjects: 0.212500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 205.189435 seconds.
+  path: Assets/ModSettings.cs
+  artifactKey: Guid(7a88424008a990e488b617027fc679a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModSettings.cs using Guid(7a88424008a990e488b617027fc679a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48fa146c2f017b0bc2b3f91259e51c47') in 0.010165 seconds
+  Import took 0.018198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 89.483920 seconds.
+  path: Assets/NewModSettings.asset
+  artifactKey: Guid(57c0a232ac324c045a05b237cfd0dd54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewModSettings.asset using Guid(57c0a232ac324c045a05b237cfd0dd54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3b9c0f27840234774c807e5185fe941') in 0.067973 seconds
+  Import took 0.078149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/NewRegistry.asset
+  artifactKey: Guid(64fbe3ec9ac175f4a9b71908cea96f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewRegistry.asset using Guid(64fbe3ec9ac175f4a9b71908cea96f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee5b37a48e11834c0620e6367aa00ec5') in 0.055137 seconds
+  Import took 0.063147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.184711 seconds.
+  path: Assets/NewModSettings.asset
+  artifactKey: Guid(57c0a232ac324c045a05b237cfd0dd54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewModSettings.asset using Guid(57c0a232ac324c045a05b237cfd0dd54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bebd61498e3e042ffdf5716bf3d367bd') in 0.021598 seconds
+  Import took 0.041194 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.188641 seconds.
+  path: Assets/NewRegistry.asset
+  artifactKey: Guid(64fbe3ec9ac175f4a9b71908cea96f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewRegistry.asset using Guid(64fbe3ec9ac175f4a9b71908cea96f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53663cb175a044ab8753d9e76869a63c') in 0.018467 seconds
+  Import took 0.033010 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015316 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
 Refresh completed but there are assets queued up for importing. Check for code that modifies assets which gets called after OnPostProcessAllAssets. Additional details in Log file
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 WeaverCore.Editor.VerifyWeaverCoreEditorState:StartCheck (System.Action`1<WeaverCore.Editor.DependencyCheck/DependencyCheckResult>) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/Checks/VerifyWeaverCoreEditorState.cs:38)
@@ -575,9 +244,6 @@ System.Reflection.MethodBase:Invoke (object,object[])
 WeaverCore.Utilities.ReflectionUtilities:ExecuteMethodsWithAttribute<WeaverCore.Attributes.OnInitAttribute> (System.Func`3<System.Reflection.MethodInfo, WeaverCore.Attributes.OnInitAttribute, bool>,System.Reflection.BindingFlags,bool) (at Assets/WeaverCore/WeaverCore/Utilities/ReflectionUtilities.cs:530)
 WeaverCore.Initialization:Initialize () (at Assets/WeaverCore/WeaverCore/Initialization.cs:75)
 WeaverCore.Initialization:OnEditorInitialize () (at Assets/WeaverCore/WeaverCore/Initialization.cs:44)
-System.Reflection.MonoMethod:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 [Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/Checks/VerifyWeaverCoreEditorState.cs line 38]
 
@@ -601,136 +267,32 @@ System.Reflection.MethodBase:Invoke (object,object[])
 WeaverCore.Utilities.ReflectionUtilities:ExecuteMethodsWithAttribute<WeaverCore.Attributes.OnInitAttribute> (System.Func`3<System.Reflection.MethodInfo, WeaverCore.Attributes.OnInitAttribute, bool>,System.Reflection.BindingFlags,bool) (at Assets/WeaverCore/WeaverCore/Utilities/ReflectionUtilities.cs:530)
 WeaverCore.Initialization:Initialize () (at Assets/WeaverCore/WeaverCore/Initialization.cs:75)
 WeaverCore.Initialization:OnEditorInitialize () (at Assets/WeaverCore/WeaverCore/Initialization.cs:44)
-System.Reflection.MonoMethod:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 [Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/Checks/VerifyWeaverCoreEditorState.cs line 38]
 
 Mono: successfully reloaded assembly
-- Completed reload, in 17.796 seconds
-Domain Reload Profiling:
-	ReloadAssembly (17798ms)
-		BeginReloadAssembly (734ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (33ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (1ms)
-			CreateAndSetChildDomain (382ms)
-		EndReloadAssembly (16799ms)
-			LoadAssemblies (429ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1399ms)
-			ReleaseScriptCaches (4ms)
-			RebuildScriptCaches (173ms)
-			SetupLoadedEditorAssemblies (14431ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (402ms)
-				ProcessInitializeOnLoadAttributes (740ms)
-				ProcessInitializeOnLoadMethodAttributes (13228ms)
-				AfterProcessingInitializeOnLoad (37ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (24ms)
+- Completed reload, in  8.559 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.33 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 1.45 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3037 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 134.1 MB.
-System memory in use after: 134.2 MB.
+Unloading 2619 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.1 MB.
+System memory in use after: 120.2 MB.
 
-Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 3569.
-Total: 25.166500 ms (FindLiveObjects: 0.767300 ms CreateObjectMapping: 0.630000 ms MarkObjects: 23.188000 ms  DeleteObjects: 0.576900 ms)
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 3158.
+Total: 8.843800 ms (FindLiveObjects: 0.592400 ms CreateObjectMapping: 0.216900 ms MarkObjects: 7.868200 ms  DeleteObjects: 0.163900 ms)
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 476.23 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.2 MB.
-System memory in use after: 73.3 MB.
-
-Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3569.
-Total: 293.176200 ms (FindLiveObjects: 12.871100 ms CreateObjectMapping: 1.300500 ms MarkObjects: 251.460000 ms  DeleteObjects: 27.535200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 133.12 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.2 MB.
-System memory in use after: 73.3 MB.
-
-Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3569.
-Total: 110.837300 ms (FindLiveObjects: 1.691200 ms CreateObjectMapping: 1.182300 ms MarkObjects: 94.861000 ms  DeleteObjects: 13.096200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 36.53 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.2 MB.
-System memory in use after: 73.3 MB.
-
-Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3569.
-Total: 40.030900 ms (FindLiveObjects: 1.083400 ms CreateObjectMapping: 0.770000 ms MarkObjects: 37.592100 ms  DeleteObjects: 0.581000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.014360 seconds.
+Registered in 0.010820 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.07 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 1.46 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
 InvalidOperationException: Sequence contains no matching element
   at System.Linq.Enumerable.First[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate) [0x00011] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
   at WeaverCore.Editor.Compilation.ScriptFinder.GetProjectScriptInfo () [0x0016a] in C:\Users\JLDeC\OneDrive\Documents\GitHub\Mods\FourSword-Tubers\Assets\WeaverCore\WeaverCore.Editor\Compilation\ScriptFinder.cs:111 
@@ -754,12 +316,6 @@ System.Reflection.MethodBase:Invoke(Object, Object[])
 WeaverCore.Utilities.ReflectionUtilities:ExecuteMethodsWithAttribute(Func`3, BindingFlags, Boolean) (at Assets\WeaverCore\WeaverCore\Utilities\ReflectionUtilities.cs:530)
 WeaverCore.Initialization:Initialize() (at Assets\WeaverCore\WeaverCore\Initialization.cs:75)
 WeaverCore.Initialization:OnEditorInitialize() (at Assets\WeaverCore\WeaverCore\Initialization.cs:44)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
-System.Reflection.MethodBase:Invoke(Object, Object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes()
-
-(Filename: Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs Line: 203)
 
 An Error occured when doing a dependency check for : Verify Weaver Core Editor State. See console for more info
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -780,70 +336,32 @@ System.Reflection.MethodBase:Invoke (object,object[])
 WeaverCore.Utilities.ReflectionUtilities:ExecuteMethodsWithAttribute<WeaverCore.Attributes.OnInitAttribute> (System.Func`3<System.Reflection.MethodInfo, WeaverCore.Attributes.OnInitAttribute, bool>,System.Reflection.BindingFlags,bool) (at Assets/WeaverCore/WeaverCore/Utilities/ReflectionUtilities.cs:530)
 WeaverCore.Initialization:Initialize () (at Assets/WeaverCore/WeaverCore/Initialization.cs:75)
 WeaverCore.Initialization:OnEditorInitialize () (at Assets/WeaverCore/WeaverCore/Initialization.cs:44)
-System.Reflection.MonoMethod:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 (Filename: Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs Line: 156)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  9.295 seconds
-Domain Reload Profiling:
-	ReloadAssembly (9296ms)
-		BeginReloadAssembly (304ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (179ms)
-		EndReloadAssembly (8791ms)
-			LoadAssemblies (239ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1097ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (142ms)
-			SetupLoadedEditorAssemblies (6441ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
-				SetLoadedEditorAssemblies (5ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (333ms)
-				ProcessInitializeOnLoadAttributes (1209ms)
-				ProcessInitializeOnLoadMethodAttributes (4860ms)
-				AfterProcessingInitializeOnLoad (12ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+- Completed reload, in  7.036 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.05 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3035 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 134.0 MB.
-System memory in use after: 134.1 MB.
+Unloading 2618 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.1 MB.
+System memory in use after: 120.3 MB.
 
-Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 3572.
-Total: 10.532000 ms (FindLiveObjects: 0.476900 ms CreateObjectMapping: 0.255500 ms MarkObjects: 9.584700 ms  DeleteObjects: 0.212700 ms)
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 3161.
+Total: 11.465100 ms (FindLiveObjects: 0.670800 ms CreateObjectMapping: 0.269800 ms MarkObjects: 10.212600 ms  DeleteObjects: 0.308700 ms)
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.032341 seconds.
+Registered in 1.123346 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.70 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 1.66 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
 InvalidOperationException: Sequence contains no matching element
   at System.Linq.Enumerable.First[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate) [0x00011] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
   at WeaverCore.Editor.Compilation.ScriptFinder.GetProjectScriptInfo () [0x0016a] in C:\Users\JLDeC\OneDrive\Documents\GitHub\Mods\FourSword-Tubers\Assets\WeaverCore\WeaverCore.Editor\Compilation\ScriptFinder.cs:111 
@@ -867,12 +385,6 @@ System.Reflection.MethodBase:Invoke(Object, Object[])
 WeaverCore.Utilities.ReflectionUtilities:ExecuteMethodsWithAttribute(Func`3, BindingFlags, Boolean) (at Assets\WeaverCore\WeaverCore\Utilities\ReflectionUtilities.cs:530)
 WeaverCore.Initialization:Initialize() (at Assets\WeaverCore\WeaverCore\Initialization.cs:75)
 WeaverCore.Initialization:OnEditorInitialize() (at Assets\WeaverCore\WeaverCore\Initialization.cs:44)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
-System.Reflection.MethodBase:Invoke(Object, Object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes()
-
-(Filename: Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs Line: 203)
 
 An Error occured when doing a dependency check for : Verify Weaver Core Editor State. See console for more info
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -893,70 +405,32 @@ System.Reflection.MethodBase:Invoke (object,object[])
 WeaverCore.Utilities.ReflectionUtilities:ExecuteMethodsWithAttribute<WeaverCore.Attributes.OnInitAttribute> (System.Func`3<System.Reflection.MethodInfo, WeaverCore.Attributes.OnInitAttribute, bool>,System.Reflection.BindingFlags,bool) (at Assets/WeaverCore/WeaverCore/Utilities/ReflectionUtilities.cs:530)
 WeaverCore.Initialization:Initialize () (at Assets/WeaverCore/WeaverCore/Initialization.cs:75)
 WeaverCore.Initialization:OnEditorInitialize () (at Assets/WeaverCore/WeaverCore/Initialization.cs:44)
-System.Reflection.MonoMethod:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 (Filename: Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs Line: 156)
 
 Mono: successfully reloaded assembly
-- Completed reload, in 14.360 seconds
-Domain Reload Profiling:
-	ReloadAssembly (14361ms)
-		BeginReloadAssembly (687ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (25ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (373ms)
-		EndReloadAssembly (13462ms)
-			LoadAssemblies (400ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1195ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (162ms)
-			SetupLoadedEditorAssemblies (11406ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (21ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (277ms)
-				ProcessInitializeOnLoadAttributes (741ms)
-				ProcessInitializeOnLoadMethodAttributes (10341ms)
-				AfterProcessingInitializeOnLoad (21ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (17ms)
+- Completed reload, in 46.482 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.89 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 1.72 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3035 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 134.0 MB.
-System memory in use after: 134.1 MB.
+Unloading 2618 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.0 MB.
+System memory in use after: 120.1 MB.
 
-Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 3575.
-Total: 18.101800 ms (FindLiveObjects: 0.782500 ms CreateObjectMapping: 0.595500 ms MarkObjects: 16.367200 ms  DeleteObjects: 0.353400 ms)
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 3164.
+Total: 15.097100 ms (FindLiveObjects: 1.389100 ms CreateObjectMapping: 0.753700 ms MarkObjects: 12.553100 ms  DeleteObjects: 0.397300 ms)
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.048415 seconds.
+Registered in 0.052940 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 3.62 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 2.37 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
 InvalidOperationException: Sequence contains no matching element
   at System.Linq.Enumerable.First[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate) [0x00011] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
   at WeaverCore.Editor.Compilation.ScriptFinder.GetProjectScriptInfo () [0x0016a] in C:\Users\JLDeC\OneDrive\Documents\GitHub\Mods\FourSword-Tubers\Assets\WeaverCore\WeaverCore.Editor\Compilation\ScriptFinder.cs:111 
@@ -980,12 +454,6 @@ System.Reflection.MethodBase:Invoke(Object, Object[])
 WeaverCore.Utilities.ReflectionUtilities:ExecuteMethodsWithAttribute(Func`3, BindingFlags, Boolean) (at Assets\WeaverCore\WeaverCore\Utilities\ReflectionUtilities.cs:530)
 WeaverCore.Initialization:Initialize() (at Assets\WeaverCore\WeaverCore\Initialization.cs:75)
 WeaverCore.Initialization:OnEditorInitialize() (at Assets\WeaverCore\WeaverCore\Initialization.cs:44)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
-System.Reflection.MethodBase:Invoke(Object, Object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes()
-
-(Filename: Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs Line: 203)
 
 An Error occured when doing a dependency check for : Verify Weaver Core Editor State. See console for more info
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -1006,59 +474,379 @@ System.Reflection.MethodBase:Invoke (object,object[])
 WeaverCore.Utilities.ReflectionUtilities:ExecuteMethodsWithAttribute<WeaverCore.Attributes.OnInitAttribute> (System.Func`3<System.Reflection.MethodInfo, WeaverCore.Attributes.OnInitAttribute, bool>,System.Reflection.BindingFlags,bool) (at Assets/WeaverCore/WeaverCore/Utilities/ReflectionUtilities.cs:530)
 WeaverCore.Initialization:Initialize () (at Assets/WeaverCore/WeaverCore/Initialization.cs:75)
 WeaverCore.Initialization:OnEditorInitialize () (at Assets/WeaverCore/WeaverCore/Initialization.cs:44)
-System.Reflection.MonoMethod:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 (Filename: Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs Line: 156)
 
 Mono: successfully reloaded assembly
-- Completed reload, in 129.031 seconds
-Domain Reload Profiling:
-	ReloadAssembly (129035ms)
-		BeginReloadAssembly (10102ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (97ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (1ms)
-			CreateAndSetChildDomain (9028ms)
-		EndReloadAssembly (118355ms)
-			LoadAssemblies (1169ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (103537ms)
-			ReleaseScriptCaches (6ms)
-			RebuildScriptCaches (473ms)
-			SetupLoadedEditorAssemblies (13219ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (4ms)
-				BeforeProcessingInitializeOnLoad (510ms)
-				ProcessInitializeOnLoadAttributes (545ms)
-				ProcessInitializeOnLoadMethodAttributes (12123ms)
-				AfterProcessingInitializeOnLoad (18ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
+- Completed reload, in  6.900 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 10.65 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3035 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 134.0 MB.
-System memory in use after: 134.1 MB.
+Unloading 2618 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.2 MB.
+System memory in use after: 120.3 MB.
 
-Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 3578.
-Total: 59.047100 ms (FindLiveObjects: 3.896800 ms CreateObjectMapping: 0.901500 ms MarkObjects: 52.971200 ms  DeleteObjects: 1.272500 ms)
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 3167.
+Total: 15.886800 ms (FindLiveObjects: 0.844700 ms CreateObjectMapping: 0.430200 ms MarkObjects: 14.442000 ms  DeleteObjects: 0.167300 ms)
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+========================================================================
+Received Import Request.
+  Time since last request: 3400.946209 seconds.
+  path: Assets/ModSettings.cs
+  artifactKey: Guid(7a88424008a990e488b617027fc679a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModSettings.cs using Guid(7a88424008a990e488b617027fc679a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a34ba977de8c7db1aaf15266d42361f7') in 0.048016 seconds
+  Import took 0.060318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 63.103592 seconds.
+  path: Assets/NewModSettings.asset
+  artifactKey: Guid(57c0a232ac324c045a05b237cfd0dd54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewModSettings.asset using Guid(57c0a232ac324c045a05b237cfd0dd54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '409ea658c8bf753ed5a453a108fe9993') in 0.078915 seconds
+  Import took 0.092762 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012725 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+InvalidOperationException: Sequence contains no matching element
+  at System.Linq.Enumerable.First[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate) [0x00011] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at WeaverCore.Editor.Compilation.ScriptFinder.GetProjectScriptInfo () [0x0016a] in C:\Users\JLDeC\OneDrive\Documents\GitHub\Mods\FourSword-Tubers\Assets\WeaverCore\WeaverCore.Editor\Compilation\ScriptFinder.cs:111 
+  at WeaverCore.Editor.VerifyWeaverCoreEditorState.StartCheck (System.Action`1[T] finishCheck) [0x00000] in C:\Users\JLDeC\OneDrive\Documents\GitHub\Mods\FourSword-Tubers\Assets\WeaverCore\WeaverCore.Editor\Dependency Checks\Checks\VerifyWeaverCoreEditorState.cs:18 
+  at WeaverCore.Editor.DependencyChecker+<>c__DisplayClass13_0.<CheckDependencies>b__0 (WeaverCore.Editor.DependencyCheck+DependencyCheckResult result) [0x0011c] in C:\Users\JLDeC\OneDrive\Documents\GitHub\Mods\FourSword-Tubers\Assets\WeaverCore\WeaverCore.Editor\Dependency Checks\DependencyChecker.cs:199 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+WeaverCore.Editor.<>c__DisplayClass13_0:<CheckDependencies>b__0(DependencyCheckResult) (at Assets\WeaverCore\WeaverCore.Editor\Dependency Checks\DependencyChecker.cs:203)
+WeaverCore.Editor.VerifyPhysics:StartCheck(Action`1) (at Assets\WeaverCore\WeaverCore.Editor\Dependency Checks\Checks\VerifyPhysics.cs:15)
+WeaverCore.Editor.<>c__DisplayClass13_0:<CheckDependencies>b__0(DependencyCheckResult) (at Assets\WeaverCore\WeaverCore.Editor\Dependency Checks\DependencyChecker.cs:199)
+WeaverCore.Editor.VerifyAPILevel:StartCheck(Action`1) (at Assets\WeaverCore\WeaverCore.Editor\Dependency Checks\Checks\VerifyAPILevel.cs:26)
+WeaverCore.Editor.<>c__DisplayClass13_0:<CheckDependencies>b__0(DependencyCheckResult) (at Assets\WeaverCore\WeaverCore.Editor\Dependency Checks\DependencyChecker.cs:199)
+WeaverCore.Editor.DependencyChecker:CheckDependencies(Boolean, List`1, Int32) (at Assets\WeaverCore\WeaverCore.Editor\Dependency Checks\DependencyChecker.cs:213)
+WeaverCore.Editor.DependencyChecker:CheckDependencies() (at Assets\WeaverCore\WeaverCore.Editor\Dependency Checks\DependencyChecker.cs:126)
+WeaverCore.Editor.Compilation.BuildTools:Init() (at Assets\WeaverCore\WeaverCore.Editor\Compilation\BuildTools.cs:483)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.MethodBase:Invoke(Object, Object[])
+WeaverCore.Utilities.ReflectionUtilities:ExecuteMethodsWithAttribute(Func`3, BindingFlags, Boolean) (at Assets\WeaverCore\WeaverCore\Utilities\ReflectionUtilities.cs:530)
+WeaverCore.Initialization:Initialize() (at Assets\WeaverCore\WeaverCore\Initialization.cs:75)
+WeaverCore.Initialization:OnEditorInitialize() (at Assets\WeaverCore\WeaverCore\Initialization.cs:44)
+
+An Error occured when doing a dependency check for : Verify Weaver Core Editor State. See console for more info
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WeaverCore.Editor.DependencyChecker/<>c__DisplayClass13_0:<CheckDependencies>b__0 (WeaverCore.Editor.DependencyCheck/DependencyCheckResult) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs:156)
+WeaverCore.Editor.DependencyChecker/<>c__DisplayClass13_0:<CheckDependencies>b__0 (WeaverCore.Editor.DependencyCheck/DependencyCheckResult) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs:204)
+WeaverCore.Editor.VerifyPhysics:StartCheck (System.Action`1<WeaverCore.Editor.DependencyCheck/DependencyCheckResult>) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/Checks/VerifyPhysics.cs:15)
+WeaverCore.Editor.DependencyChecker/<>c__DisplayClass13_0:<CheckDependencies>b__0 (WeaverCore.Editor.DependencyCheck/DependencyCheckResult) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs:199)
+WeaverCore.Editor.VerifyAPILevel:StartCheck (System.Action`1<WeaverCore.Editor.DependencyCheck/DependencyCheckResult>) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/Checks/VerifyAPILevel.cs:26)
+WeaverCore.Editor.DependencyChecker/<>c__DisplayClass13_0:<CheckDependencies>b__0 (WeaverCore.Editor.DependencyCheck/DependencyCheckResult) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs:199)
+WeaverCore.Editor.DependencyChecker:CheckDependencies (bool,System.Collections.Generic.List`1<WeaverCore.Editor.DependencyCheck>,int) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs:213)
+WeaverCore.Editor.DependencyChecker:CheckDependencies () (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs:126)
+WeaverCore.Editor.Compilation.BuildTools:Init () (at Assets/WeaverCore/WeaverCore.Editor/Compilation/BuildTools.cs:483)
+System.Reflection.MonoMethod:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+WeaverCore.Utilities.ReflectionUtilities:ExecuteMethodsWithAttribute<WeaverCore.Attributes.OnInitAttribute> (System.Func`3<System.Reflection.MethodInfo, WeaverCore.Attributes.OnInitAttribute, bool>,System.Reflection.BindingFlags,bool) (at Assets/WeaverCore/WeaverCore/Utilities/ReflectionUtilities.cs:530)
+WeaverCore.Initialization:Initialize () (at Assets/WeaverCore/WeaverCore/Initialization.cs:75)
+WeaverCore.Initialization:OnEditorInitialize () (at Assets/WeaverCore/WeaverCore/Initialization.cs:44)
+
+(Filename: Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs Line: 156)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  6.496 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2618 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.2 MB.
+System memory in use after: 120.3 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 3170.
+Total: 9.259600 ms (FindLiveObjects: 0.694200 ms CreateObjectMapping: 0.286300 ms MarkObjects: 8.031900 ms  DeleteObjects: 0.244600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010914 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+InvalidOperationException: Sequence contains no matching element
+  at System.Linq.Enumerable.First[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate) [0x00011] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at WeaverCore.Editor.Compilation.ScriptFinder.GetProjectScriptInfo () [0x0016a] in C:\Users\JLDeC\OneDrive\Documents\GitHub\Mods\FourSword-Tubers\Assets\WeaverCore\WeaverCore.Editor\Compilation\ScriptFinder.cs:111 
+  at WeaverCore.Editor.VerifyWeaverCoreEditorState.StartCheck (System.Action`1[T] finishCheck) [0x00000] in C:\Users\JLDeC\OneDrive\Documents\GitHub\Mods\FourSword-Tubers\Assets\WeaverCore\WeaverCore.Editor\Dependency Checks\Checks\VerifyWeaverCoreEditorState.cs:18 
+  at WeaverCore.Editor.DependencyChecker+<>c__DisplayClass13_0.<CheckDependencies>b__0 (WeaverCore.Editor.DependencyCheck+DependencyCheckResult result) [0x0011c] in C:\Users\JLDeC\OneDrive\Documents\GitHub\Mods\FourSword-Tubers\Assets\WeaverCore\WeaverCore.Editor\Dependency Checks\DependencyChecker.cs:199 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+WeaverCore.Editor.<>c__DisplayClass13_0:<CheckDependencies>b__0(DependencyCheckResult) (at Assets\WeaverCore\WeaverCore.Editor\Dependency Checks\DependencyChecker.cs:203)
+WeaverCore.Editor.VerifyPhysics:StartCheck(Action`1) (at Assets\WeaverCore\WeaverCore.Editor\Dependency Checks\Checks\VerifyPhysics.cs:15)
+WeaverCore.Editor.<>c__DisplayClass13_0:<CheckDependencies>b__0(DependencyCheckResult) (at Assets\WeaverCore\WeaverCore.Editor\Dependency Checks\DependencyChecker.cs:199)
+WeaverCore.Editor.VerifyAPILevel:StartCheck(Action`1) (at Assets\WeaverCore\WeaverCore.Editor\Dependency Checks\Checks\VerifyAPILevel.cs:26)
+WeaverCore.Editor.<>c__DisplayClass13_0:<CheckDependencies>b__0(DependencyCheckResult) (at Assets\WeaverCore\WeaverCore.Editor\Dependency Checks\DependencyChecker.cs:199)
+WeaverCore.Editor.DependencyChecker:CheckDependencies(Boolean, List`1, Int32) (at Assets\WeaverCore\WeaverCore.Editor\Dependency Checks\DependencyChecker.cs:213)
+WeaverCore.Editor.DependencyChecker:CheckDependencies() (at Assets\WeaverCore\WeaverCore.Editor\Dependency Checks\DependencyChecker.cs:126)
+WeaverCore.Editor.Compilation.BuildTools:Init() (at Assets\WeaverCore\WeaverCore.Editor\Compilation\BuildTools.cs:483)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.MethodBase:Invoke(Object, Object[])
+WeaverCore.Utilities.ReflectionUtilities:ExecuteMethodsWithAttribute(Func`3, BindingFlags, Boolean) (at Assets\WeaverCore\WeaverCore\Utilities\ReflectionUtilities.cs:530)
+WeaverCore.Initialization:Initialize() (at Assets\WeaverCore\WeaverCore\Initialization.cs:75)
+WeaverCore.Initialization:OnEditorInitialize() (at Assets\WeaverCore\WeaverCore\Initialization.cs:44)
+
+An Error occured when doing a dependency check for : Verify Weaver Core Editor State. See console for more info
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WeaverCore.Editor.DependencyChecker/<>c__DisplayClass13_0:<CheckDependencies>b__0 (WeaverCore.Editor.DependencyCheck/DependencyCheckResult) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs:156)
+WeaverCore.Editor.DependencyChecker/<>c__DisplayClass13_0:<CheckDependencies>b__0 (WeaverCore.Editor.DependencyCheck/DependencyCheckResult) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs:204)
+WeaverCore.Editor.VerifyPhysics:StartCheck (System.Action`1<WeaverCore.Editor.DependencyCheck/DependencyCheckResult>) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/Checks/VerifyPhysics.cs:15)
+WeaverCore.Editor.DependencyChecker/<>c__DisplayClass13_0:<CheckDependencies>b__0 (WeaverCore.Editor.DependencyCheck/DependencyCheckResult) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs:199)
+WeaverCore.Editor.VerifyAPILevel:StartCheck (System.Action`1<WeaverCore.Editor.DependencyCheck/DependencyCheckResult>) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/Checks/VerifyAPILevel.cs:26)
+WeaverCore.Editor.DependencyChecker/<>c__DisplayClass13_0:<CheckDependencies>b__0 (WeaverCore.Editor.DependencyCheck/DependencyCheckResult) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs:199)
+WeaverCore.Editor.DependencyChecker:CheckDependencies (bool,System.Collections.Generic.List`1<WeaverCore.Editor.DependencyCheck>,int) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs:213)
+WeaverCore.Editor.DependencyChecker:CheckDependencies () (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs:126)
+WeaverCore.Editor.Compilation.BuildTools:Init () (at Assets/WeaverCore/WeaverCore.Editor/Compilation/BuildTools.cs:483)
+System.Reflection.MonoMethod:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+WeaverCore.Utilities.ReflectionUtilities:ExecuteMethodsWithAttribute<WeaverCore.Attributes.OnInitAttribute> (System.Func`3<System.Reflection.MethodInfo, WeaverCore.Attributes.OnInitAttribute, bool>,System.Reflection.BindingFlags,bool) (at Assets/WeaverCore/WeaverCore/Utilities/ReflectionUtilities.cs:530)
+WeaverCore.Initialization:Initialize () (at Assets/WeaverCore/WeaverCore/Initialization.cs:75)
+WeaverCore.Initialization:OnEditorInitialize () (at Assets/WeaverCore/WeaverCore/Initialization.cs:44)
+
+(Filename: Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs Line: 156)
+
+Mono: successfully reloaded assembly
+- Completed reload, in 51.758 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2618 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.1 MB.
+System memory in use after: 120.2 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 3173.
+Total: 20.335800 ms (FindLiveObjects: 0.709800 ms CreateObjectMapping: 0.433500 ms MarkObjects: 18.857600 ms  DeleteObjects: 0.331500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010998 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+InvalidOperationException: Sequence contains no matching element
+  at System.Linq.Enumerable.First[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate) [0x00011] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at WeaverCore.Editor.Compilation.ScriptFinder.GetProjectScriptInfo () [0x0016a] in C:\Users\JLDeC\OneDrive\Documents\GitHub\Mods\FourSword-Tubers\Assets\WeaverCore\WeaverCore.Editor\Compilation\ScriptFinder.cs:111 
+  at WeaverCore.Editor.VerifyWeaverCoreEditorState.StartCheck (System.Action`1[T] finishCheck) [0x00000] in C:\Users\JLDeC\OneDrive\Documents\GitHub\Mods\FourSword-Tubers\Assets\WeaverCore\WeaverCore.Editor\Dependency Checks\Checks\VerifyWeaverCoreEditorState.cs:18 
+  at WeaverCore.Editor.DependencyChecker+<>c__DisplayClass13_0.<CheckDependencies>b__0 (WeaverCore.Editor.DependencyCheck+DependencyCheckResult result) [0x0011c] in C:\Users\JLDeC\OneDrive\Documents\GitHub\Mods\FourSword-Tubers\Assets\WeaverCore\WeaverCore.Editor\Dependency Checks\DependencyChecker.cs:199 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+WeaverCore.Editor.<>c__DisplayClass13_0:<CheckDependencies>b__0(DependencyCheckResult) (at Assets\WeaverCore\WeaverCore.Editor\Dependency Checks\DependencyChecker.cs:203)
+WeaverCore.Editor.VerifyPhysics:StartCheck(Action`1) (at Assets\WeaverCore\WeaverCore.Editor\Dependency Checks\Checks\VerifyPhysics.cs:15)
+WeaverCore.Editor.<>c__DisplayClass13_0:<CheckDependencies>b__0(DependencyCheckResult) (at Assets\WeaverCore\WeaverCore.Editor\Dependency Checks\DependencyChecker.cs:199)
+WeaverCore.Editor.VerifyAPILevel:StartCheck(Action`1) (at Assets\WeaverCore\WeaverCore.Editor\Dependency Checks\Checks\VerifyAPILevel.cs:26)
+WeaverCore.Editor.<>c__DisplayClass13_0:<CheckDependencies>b__0(DependencyCheckResult) (at Assets\WeaverCore\WeaverCore.Editor\Dependency Checks\DependencyChecker.cs:199)
+WeaverCore.Editor.DependencyChecker:CheckDependencies(Boolean, List`1, Int32) (at Assets\WeaverCore\WeaverCore.Editor\Dependency Checks\DependencyChecker.cs:213)
+WeaverCore.Editor.DependencyChecker:CheckDependencies() (at Assets\WeaverCore\WeaverCore.Editor\Dependency Checks\DependencyChecker.cs:126)
+WeaverCore.Editor.Compilation.BuildTools:Init() (at Assets\WeaverCore\WeaverCore.Editor\Compilation\BuildTools.cs:483)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.MethodBase:Invoke(Object, Object[])
+WeaverCore.Utilities.ReflectionUtilities:ExecuteMethodsWithAttribute(Func`3, BindingFlags, Boolean) (at Assets\WeaverCore\WeaverCore\Utilities\ReflectionUtilities.cs:530)
+WeaverCore.Initialization:Initialize() (at Assets\WeaverCore\WeaverCore\Initialization.cs:75)
+WeaverCore.Initialization:OnEditorInitialize() (at Assets\WeaverCore\WeaverCore\Initialization.cs:44)
+
+An Error occured when doing a dependency check for : Verify Weaver Core Editor State. See console for more info
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WeaverCore.Editor.DependencyChecker/<>c__DisplayClass13_0:<CheckDependencies>b__0 (WeaverCore.Editor.DependencyCheck/DependencyCheckResult) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs:156)
+WeaverCore.Editor.DependencyChecker/<>c__DisplayClass13_0:<CheckDependencies>b__0 (WeaverCore.Editor.DependencyCheck/DependencyCheckResult) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs:204)
+WeaverCore.Editor.VerifyPhysics:StartCheck (System.Action`1<WeaverCore.Editor.DependencyCheck/DependencyCheckResult>) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/Checks/VerifyPhysics.cs:15)
+WeaverCore.Editor.DependencyChecker/<>c__DisplayClass13_0:<CheckDependencies>b__0 (WeaverCore.Editor.DependencyCheck/DependencyCheckResult) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs:199)
+WeaverCore.Editor.VerifyAPILevel:StartCheck (System.Action`1<WeaverCore.Editor.DependencyCheck/DependencyCheckResult>) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/Checks/VerifyAPILevel.cs:26)
+WeaverCore.Editor.DependencyChecker/<>c__DisplayClass13_0:<CheckDependencies>b__0 (WeaverCore.Editor.DependencyCheck/DependencyCheckResult) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs:199)
+WeaverCore.Editor.DependencyChecker:CheckDependencies (bool,System.Collections.Generic.List`1<WeaverCore.Editor.DependencyCheck>,int) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs:213)
+WeaverCore.Editor.DependencyChecker:CheckDependencies () (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs:126)
+WeaverCore.Editor.Compilation.BuildTools:Init () (at Assets/WeaverCore/WeaverCore.Editor/Compilation/BuildTools.cs:483)
+System.Reflection.MonoMethod:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+WeaverCore.Utilities.ReflectionUtilities:ExecuteMethodsWithAttribute<WeaverCore.Attributes.OnInitAttribute> (System.Func`3<System.Reflection.MethodInfo, WeaverCore.Attributes.OnInitAttribute, bool>,System.Reflection.BindingFlags,bool) (at Assets/WeaverCore/WeaverCore/Utilities/ReflectionUtilities.cs:530)
+WeaverCore.Initialization:Initialize () (at Assets/WeaverCore/WeaverCore/Initialization.cs:75)
+WeaverCore.Initialization:OnEditorInitialize () (at Assets/WeaverCore/WeaverCore/Initialization.cs:44)
+
+(Filename: Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs Line: 156)
+
+Mono: successfully reloaded assembly
+- Completed reload, in 10.572 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2618 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.2 MB.
+System memory in use after: 120.4 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 3176.
+Total: 12.481000 ms (FindLiveObjects: 0.617400 ms CreateObjectMapping: 0.309200 ms MarkObjects: 11.323300 ms  DeleteObjects: 0.227700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008749 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+InvalidOperationException: Sequence contains no matching element
+  at System.Linq.Enumerable.First[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate) [0x00011] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at WeaverCore.Editor.Compilation.ScriptFinder.GetProjectScriptInfo () [0x0016a] in C:\Users\JLDeC\OneDrive\Documents\GitHub\Mods\FourSword-Tubers\Assets\WeaverCore\WeaverCore.Editor\Compilation\ScriptFinder.cs:111 
+  at WeaverCore.Editor.VerifyWeaverCoreEditorState.StartCheck (System.Action`1[T] finishCheck) [0x00000] in C:\Users\JLDeC\OneDrive\Documents\GitHub\Mods\FourSword-Tubers\Assets\WeaverCore\WeaverCore.Editor\Dependency Checks\Checks\VerifyWeaverCoreEditorState.cs:18 
+  at WeaverCore.Editor.DependencyChecker+<>c__DisplayClass13_0.<CheckDependencies>b__0 (WeaverCore.Editor.DependencyCheck+DependencyCheckResult result) [0x0011c] in C:\Users\JLDeC\OneDrive\Documents\GitHub\Mods\FourSword-Tubers\Assets\WeaverCore\WeaverCore.Editor\Dependency Checks\DependencyChecker.cs:199 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+WeaverCore.Editor.<>c__DisplayClass13_0:<CheckDependencies>b__0(DependencyCheckResult) (at Assets\WeaverCore\WeaverCore.Editor\Dependency Checks\DependencyChecker.cs:203)
+WeaverCore.Editor.VerifyPhysics:StartCheck(Action`1) (at Assets\WeaverCore\WeaverCore.Editor\Dependency Checks\Checks\VerifyPhysics.cs:15)
+WeaverCore.Editor.<>c__DisplayClass13_0:<CheckDependencies>b__0(DependencyCheckResult) (at Assets\WeaverCore\WeaverCore.Editor\Dependency Checks\DependencyChecker.cs:199)
+WeaverCore.Editor.VerifyAPILevel:StartCheck(Action`1) (at Assets\WeaverCore\WeaverCore.Editor\Dependency Checks\Checks\VerifyAPILevel.cs:26)
+WeaverCore.Editor.<>c__DisplayClass13_0:<CheckDependencies>b__0(DependencyCheckResult) (at Assets\WeaverCore\WeaverCore.Editor\Dependency Checks\DependencyChecker.cs:199)
+WeaverCore.Editor.DependencyChecker:CheckDependencies(Boolean, List`1, Int32) (at Assets\WeaverCore\WeaverCore.Editor\Dependency Checks\DependencyChecker.cs:213)
+WeaverCore.Editor.DependencyChecker:CheckDependencies() (at Assets\WeaverCore\WeaverCore.Editor\Dependency Checks\DependencyChecker.cs:126)
+WeaverCore.Editor.Compilation.BuildTools:Init() (at Assets\WeaverCore\WeaverCore.Editor\Compilation\BuildTools.cs:483)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.MethodBase:Invoke(Object, Object[])
+WeaverCore.Utilities.ReflectionUtilities:ExecuteMethodsWithAttribute(Func`3, BindingFlags, Boolean) (at Assets\WeaverCore\WeaverCore\Utilities\ReflectionUtilities.cs:530)
+WeaverCore.Initialization:Initialize() (at Assets\WeaverCore\WeaverCore\Initialization.cs:75)
+WeaverCore.Initialization:OnEditorInitialize() (at Assets\WeaverCore\WeaverCore\Initialization.cs:44)
+
+An Error occured when doing a dependency check for : Verify Weaver Core Editor State. See console for more info
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WeaverCore.Editor.DependencyChecker/<>c__DisplayClass13_0:<CheckDependencies>b__0 (WeaverCore.Editor.DependencyCheck/DependencyCheckResult) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs:156)
+WeaverCore.Editor.DependencyChecker/<>c__DisplayClass13_0:<CheckDependencies>b__0 (WeaverCore.Editor.DependencyCheck/DependencyCheckResult) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs:204)
+WeaverCore.Editor.VerifyPhysics:StartCheck (System.Action`1<WeaverCore.Editor.DependencyCheck/DependencyCheckResult>) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/Checks/VerifyPhysics.cs:15)
+WeaverCore.Editor.DependencyChecker/<>c__DisplayClass13_0:<CheckDependencies>b__0 (WeaverCore.Editor.DependencyCheck/DependencyCheckResult) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs:199)
+WeaverCore.Editor.VerifyAPILevel:StartCheck (System.Action`1<WeaverCore.Editor.DependencyCheck/DependencyCheckResult>) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/Checks/VerifyAPILevel.cs:26)
+WeaverCore.Editor.DependencyChecker/<>c__DisplayClass13_0:<CheckDependencies>b__0 (WeaverCore.Editor.DependencyCheck/DependencyCheckResult) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs:199)
+WeaverCore.Editor.DependencyChecker:CheckDependencies (bool,System.Collections.Generic.List`1<WeaverCore.Editor.DependencyCheck>,int) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs:213)
+WeaverCore.Editor.DependencyChecker:CheckDependencies () (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs:126)
+WeaverCore.Editor.Compilation.BuildTools:Init () (at Assets/WeaverCore/WeaverCore.Editor/Compilation/BuildTools.cs:483)
+System.Reflection.MonoMethod:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+WeaverCore.Utilities.ReflectionUtilities:ExecuteMethodsWithAttribute<WeaverCore.Attributes.OnInitAttribute> (System.Func`3<System.Reflection.MethodInfo, WeaverCore.Attributes.OnInitAttribute, bool>,System.Reflection.BindingFlags,bool) (at Assets/WeaverCore/WeaverCore/Utilities/ReflectionUtilities.cs:530)
+WeaverCore.Initialization:Initialize () (at Assets/WeaverCore/WeaverCore/Initialization.cs:75)
+WeaverCore.Initialization:OnEditorInitialize () (at Assets/WeaverCore/WeaverCore/Initialization.cs:44)
+
+(Filename: Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs Line: 156)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  6.738 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2618 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.2 MB.
+System memory in use after: 120.3 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 3179.
+Total: 12.267600 ms (FindLiveObjects: 0.698900 ms CreateObjectMapping: 0.317100 ms MarkObjects: 11.050100 ms  DeleteObjects: 0.198800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.043302 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+InvalidOperationException: Sequence contains no matching element
+  at System.Linq.Enumerable.First[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate) [0x00011] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at WeaverCore.Editor.Compilation.ScriptFinder.GetProjectScriptInfo () [0x0016a] in C:\Users\JLDeC\OneDrive\Documents\GitHub\Mods\FourSword-Tubers\Assets\WeaverCore\WeaverCore.Editor\Compilation\ScriptFinder.cs:111 
+  at WeaverCore.Editor.VerifyWeaverCoreEditorState.StartCheck (System.Action`1[T] finishCheck) [0x00000] in C:\Users\JLDeC\OneDrive\Documents\GitHub\Mods\FourSword-Tubers\Assets\WeaverCore\WeaverCore.Editor\Dependency Checks\Checks\VerifyWeaverCoreEditorState.cs:18 
+  at WeaverCore.Editor.DependencyChecker+<>c__DisplayClass13_0.<CheckDependencies>b__0 (WeaverCore.Editor.DependencyCheck+DependencyCheckResult result) [0x0011c] in C:\Users\JLDeC\OneDrive\Documents\GitHub\Mods\FourSword-Tubers\Assets\WeaverCore\WeaverCore.Editor\Dependency Checks\DependencyChecker.cs:199 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+WeaverCore.Editor.<>c__DisplayClass13_0:<CheckDependencies>b__0(DependencyCheckResult) (at Assets\WeaverCore\WeaverCore.Editor\Dependency Checks\DependencyChecker.cs:203)
+WeaverCore.Editor.VerifyPhysics:StartCheck(Action`1) (at Assets\WeaverCore\WeaverCore.Editor\Dependency Checks\Checks\VerifyPhysics.cs:15)
+WeaverCore.Editor.<>c__DisplayClass13_0:<CheckDependencies>b__0(DependencyCheckResult) (at Assets\WeaverCore\WeaverCore.Editor\Dependency Checks\DependencyChecker.cs:199)
+WeaverCore.Editor.VerifyAPILevel:StartCheck(Action`1) (at Assets\WeaverCore\WeaverCore.Editor\Dependency Checks\Checks\VerifyAPILevel.cs:26)
+WeaverCore.Editor.<>c__DisplayClass13_0:<CheckDependencies>b__0(DependencyCheckResult) (at Assets\WeaverCore\WeaverCore.Editor\Dependency Checks\DependencyChecker.cs:199)
+WeaverCore.Editor.DependencyChecker:CheckDependencies(Boolean, List`1, Int32) (at Assets\WeaverCore\WeaverCore.Editor\Dependency Checks\DependencyChecker.cs:213)
+WeaverCore.Editor.DependencyChecker:CheckDependencies() (at Assets\WeaverCore\WeaverCore.Editor\Dependency Checks\DependencyChecker.cs:126)
+WeaverCore.Editor.Compilation.BuildTools:Init() (at Assets\WeaverCore\WeaverCore.Editor\Compilation\BuildTools.cs:483)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.MethodBase:Invoke(Object, Object[])
+WeaverCore.Utilities.ReflectionUtilities:ExecuteMethodsWithAttribute(Func`3, BindingFlags, Boolean) (at Assets\WeaverCore\WeaverCore\Utilities\ReflectionUtilities.cs:530)
+WeaverCore.Initialization:Initialize() (at Assets\WeaverCore\WeaverCore\Initialization.cs:75)
+WeaverCore.Initialization:OnEditorInitialize() (at Assets\WeaverCore\WeaverCore\Initialization.cs:44)
+
+An Error occured when doing a dependency check for : Verify Weaver Core Editor State. See console for more info
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WeaverCore.Editor.DependencyChecker/<>c__DisplayClass13_0:<CheckDependencies>b__0 (WeaverCore.Editor.DependencyCheck/DependencyCheckResult) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs:156)
+WeaverCore.Editor.DependencyChecker/<>c__DisplayClass13_0:<CheckDependencies>b__0 (WeaverCore.Editor.DependencyCheck/DependencyCheckResult) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs:204)
+WeaverCore.Editor.VerifyPhysics:StartCheck (System.Action`1<WeaverCore.Editor.DependencyCheck/DependencyCheckResult>) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/Checks/VerifyPhysics.cs:15)
+WeaverCore.Editor.DependencyChecker/<>c__DisplayClass13_0:<CheckDependencies>b__0 (WeaverCore.Editor.DependencyCheck/DependencyCheckResult) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs:199)
+WeaverCore.Editor.VerifyAPILevel:StartCheck (System.Action`1<WeaverCore.Editor.DependencyCheck/DependencyCheckResult>) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/Checks/VerifyAPILevel.cs:26)
+WeaverCore.Editor.DependencyChecker/<>c__DisplayClass13_0:<CheckDependencies>b__0 (WeaverCore.Editor.DependencyCheck/DependencyCheckResult) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs:199)
+WeaverCore.Editor.DependencyChecker:CheckDependencies (bool,System.Collections.Generic.List`1<WeaverCore.Editor.DependencyCheck>,int) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs:213)
+WeaverCore.Editor.DependencyChecker:CheckDependencies () (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs:126)
+WeaverCore.Editor.Compilation.BuildTools:Init () (at Assets/WeaverCore/WeaverCore.Editor/Compilation/BuildTools.cs:483)
+System.Reflection.MonoMethod:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+WeaverCore.Utilities.ReflectionUtilities:ExecuteMethodsWithAttribute<WeaverCore.Attributes.OnInitAttribute> (System.Func`3<System.Reflection.MethodInfo, WeaverCore.Attributes.OnInitAttribute, bool>,System.Reflection.BindingFlags,bool) (at Assets/WeaverCore/WeaverCore/Utilities/ReflectionUtilities.cs:530)
+WeaverCore.Initialization:Initialize () (at Assets/WeaverCore/WeaverCore/Initialization.cs:75)
+WeaverCore.Initialization:OnEditorInitialize () (at Assets/WeaverCore/WeaverCore/Initialization.cs:44)
+
+(Filename: Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs Line: 156)
+
+Mono: successfully reloaded assembly
+- Completed reload, in 27.454 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2618 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.1 MB.
+System memory in use after: 120.2 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 3182.
+Total: 13.710300 ms (FindLiveObjects: 0.586600 ms CreateObjectMapping: 0.348900 ms MarkObjects: 12.530300 ms  DeleteObjects: 0.241100 ms)
+
