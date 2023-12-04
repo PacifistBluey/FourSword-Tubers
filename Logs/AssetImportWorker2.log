@@ -15,11 +15,11 @@ C:/Users/JLDeC/OneDrive/Documents/GitHub/Mods/FourSword-Tubers
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-51870
+52043
 Successfully changed project path to: C:/Users/JLDeC/OneDrive/Documents/GitHub/Mods/FourSword-Tubers
 C:/Users/JLDeC/OneDrive/Documents/GitHub/Mods/FourSword-Tubers
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 397.73 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 133.68 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.2f1 (068178b99f32)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Resources/UnitySubsystems
@@ -35,74 +35,987 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56496
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56972
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007361 seconds.
+Registered in 0.002513 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 164.53 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 93.30 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  6.322 seconds
+- Completed reload, in  1.996 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.010691 seconds.
+Registered in 0.006670 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 112.60 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 89.79 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  6.488 seconds
+- Completed reload, in  9.627 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2726 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 125.8 MB.
-System memory in use after: 125.9 MB.
+System memory in use before: 125.6 MB.
+System memory in use after: 125.7 MB.
 
 Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 3150.
-Total: 6.601000 ms (FindLiveObjects: 0.446200 ms CreateObjectMapping: 0.281800 ms MarkObjects: 5.629700 ms  DeleteObjects: 0.241000 ms)
+Total: 7.688200 ms (FindLiveObjects: 0.425100 ms CreateObjectMapping: 0.217200 ms MarkObjects: 6.784000 ms  DeleteObjects: 0.259800 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/NewSaveData.asset
-  artifactKey: Guid(ce5a7a334fde9ec4f96c7f7d956fc31d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NewSaveData.asset using Guid(ce5a7a334fde9ec4f96c7f7d956fc31d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '924df0f5cc7c63c67607ba0710400fec') in 0.136369 seconds
-  Import took 0.145518 seconds .
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.079630 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.084946 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 143.855148 seconds.
-  path: Assets/NewSaveData.asset
-  artifactKey: Guid(ce5a7a334fde9ec4f96c7f7d956fc31d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NewSaveData.asset using Guid(ce5a7a334fde9ec4f96c7f7d956fc31d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd453fb1643ac40f8e79f640e8a57d526') in 0.315454 seconds
-  Import took 0.347379 seconds .
+  Time since last request: 0.084999 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001853 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.011095 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 27.162242 seconds.
+  Time since last request: 0.025627 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001393 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.012117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.122810 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001535 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.012499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.122828 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001435 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.009105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029313 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000999 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.012407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.121955 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001304 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.008963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034657 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008867 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.019283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.121943 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001232 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.009749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039263 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001022 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.012261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.120550 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000995 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.008884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023876 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001462 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.013571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.121158 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001326 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.009083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023499 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001273 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.012639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.122887 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001644 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.010290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033036 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001304 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.013274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.115113 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001429 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.015447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.119209 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001363 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.011092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023164 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001494 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.016237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.117791 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001227 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.009532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024059 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001514 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.009944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038738 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000988 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.008918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021990 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001321 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.011811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.120169 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001173 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.011430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.131344 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001339 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.014231 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024481 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001914 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.018153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.135307 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001305 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.011147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025264 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001971 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.013721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.138724 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001551 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.008315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029937 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001792 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.012700 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.137353 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001143 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.008854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034003 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003750 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.017567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.127700 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001443 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.009609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033367 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001602 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.008206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042265 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001045 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.012931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.128394 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001273 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.017896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.121352 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000992 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.008967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030307 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001357 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.011603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.138531 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001336 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.012268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026132 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001587 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.010002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028314 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001529 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.009221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021267 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008445 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.016195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.127155 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001152 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.014305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022353 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001130 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.011002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.123745 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001497 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.030964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.153934 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001076 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.019169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.142830 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001332 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.013862 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.124841 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001326 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.013418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.128786 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001331 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.011482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.125338 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001102 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.014079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.129021 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001469 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.015376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.128159 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001157 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.008659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030449 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001315 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.011616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.124019 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001681 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.011875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027977 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001716 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.015559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.139752 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001367 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.010204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028976 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001469 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.011958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.134485 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001203 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.009149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034886 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001253 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.009732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039567 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001861 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.015262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.127352 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001452 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.015173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.120309 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000985 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.009567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023000 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003109 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.016694 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.132082 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001361 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.019128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.134022 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001547 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.010712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021780 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001877 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.013481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.126459 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001228 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.012605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.129451 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001349 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.009226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028497 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001581 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.010228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029785 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001252 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.008772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022474 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.005217 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.013901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.129145 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001367 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.010465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035779 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002147 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.013661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.123449 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001308 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.009010 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024653 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001354 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.012428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.126653 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001646 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.011748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022043 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001352 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.012642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.133142 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001206 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.009725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028851 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001251 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.012162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.136026 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001147 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.008815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027800 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001381 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.011969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.123481 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001450 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.011854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022528 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001459 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.010838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026568 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001313 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.008993 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032360 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001578 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.008976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026655 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001400 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.011255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022006 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001432 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.009168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023926 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000968 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.008277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022456 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000966 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.013128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.136237 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001729 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.013796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.121492 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001346 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.009423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024156 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001966 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.014815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.126709 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001404 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.013812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.127508 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001394 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.012280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024131 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001375 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.013524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.137249 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007784 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.018889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.133021 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.005679 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.023766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.190144 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001834 seconds
+  ERROR: Build asset version error: assets/newscenerecord.asset.meta in SourceAssetDB has modification time of '2023-12-04T02:37:31.4385258Z' while content on disk has modification time of '2023-12-04T02:37:42.6485087Z'
+  Import took 0.013876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.224997 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fa42d562f454ce36f0ce83faef84974') in 0.165137 seconds
+  Import took 0.264485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 62.644192 seconds.
   path: Assets/NewRegistry.asset
   artifactKey: Guid(64fbe3ec9ac175f4a9b71908cea96f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NewRegistry.asset using Guid(64fbe3ec9ac175f4a9b71908cea96f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fb04569e4a59289c1cc46f5ba66a2c3') in 0.287950 seconds
-  Import took 0.299085 seconds .
+Start importing Assets/NewRegistry.asset using Guid(64fbe3ec9ac175f4a9b71908cea96f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97363babaff1c1538da026eeb25536fa') in 0.058427 seconds
+  Import took 0.066945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000571 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ac9af0fa7f9bcf7b0ac158d3dba753c') in 0.019451 seconds
+  Import took 0.037198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 126.822190 seconds.
+  path: Assets/NewSceneRecord.asset
+  artifactKey: Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSceneRecord.asset using Guid(b10e6778bd7eca54dac2e964b6e19365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73de2cbc43affd02dbd7f676f13c2360') in 0.006977 seconds
+  Import took 0.021172 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.011137 seconds.
+Registered in 0.009790 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.58 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in 14.292 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2603 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.5 MB.
+System memory in use after: 117.6 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 3153.
+Total: 11.581000 ms (FindLiveObjects: 0.641600 ms CreateObjectMapping: 0.294500 ms MarkObjects: 10.416800 ms  DeleteObjects: 0.224300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008308 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.33 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
@@ -150,24 +1063,24 @@ WeaverCore.Initialization:OnEditorInitialize () (at Assets/WeaverCore/WeaverCore
 [Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/Checks/VerifyWeaverCoreEditorState.cs line 38]
 
 Mono: successfully reloaded assembly
-- Completed reload, in  8.200 seconds
+- Completed reload, in  5.663 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.51 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2620 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 119.2 MB.
-System memory in use after: 119.3 MB.
+System memory in use before: 120.1 MB.
+System memory in use after: 120.2 MB.
 
-Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 3153.
-Total: 10.972300 ms (FindLiveObjects: 0.833300 ms CreateObjectMapping: 0.281400 ms MarkObjects: 9.609400 ms  DeleteObjects: 0.244900 ms)
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 3156.
+Total: 9.038200 ms (FindLiveObjects: 0.481900 ms CreateObjectMapping: 0.248400 ms MarkObjects: 8.124200 ms  DeleteObjects: 0.180700 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.042354 seconds.
+Registered in 0.009825 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.71 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.72 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
@@ -219,15 +1132,153 @@ WeaverCore.Initialization:OnEditorInitialize () (at Assets/WeaverCore/WeaverCore
 (Filename: Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs Line: 156)
 
 Mono: successfully reloaded assembly
-- Completed reload, in 36.162 seconds
+- Completed reload, in 16.742 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.75 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.11 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2619 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 120.2 MB.
 System memory in use after: 120.3 MB.
 
-Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 3156.
-Total: 19.930600 ms (FindLiveObjects: 0.703400 ms CreateObjectMapping: 0.429400 ms MarkObjects: 18.443200 ms  DeleteObjects: 0.351000 ms)
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 3159.
+Total: 12.435200 ms (FindLiveObjects: 0.791500 ms CreateObjectMapping: 0.496800 ms MarkObjects: 10.890800 ms  DeleteObjects: 0.253100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012554 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+InvalidOperationException: Sequence contains no matching element
+  at System.Linq.Enumerable.First[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate) [0x00011] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at WeaverCore.Editor.Compilation.ScriptFinder.GetProjectScriptInfo () [0x0016a] in C:\Users\JLDeC\OneDrive\Documents\GitHub\Mods\FourSword-Tubers\Assets\WeaverCore\WeaverCore.Editor\Compilation\ScriptFinder.cs:111 
+  at WeaverCore.Editor.VerifyWeaverCoreEditorState.StartCheck (System.Action`1[T] finishCheck) [0x00000] in C:\Users\JLDeC\OneDrive\Documents\GitHub\Mods\FourSword-Tubers\Assets\WeaverCore\WeaverCore.Editor\Dependency Checks\Checks\VerifyWeaverCoreEditorState.cs:18 
+  at WeaverCore.Editor.DependencyChecker+<>c__DisplayClass13_0.<CheckDependencies>b__0 (WeaverCore.Editor.DependencyCheck+DependencyCheckResult result) [0x0011c] in C:\Users\JLDeC\OneDrive\Documents\GitHub\Mods\FourSword-Tubers\Assets\WeaverCore\WeaverCore.Editor\Dependency Checks\DependencyChecker.cs:199 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+WeaverCore.Editor.<>c__DisplayClass13_0:<CheckDependencies>b__0(DependencyCheckResult) (at Assets\WeaverCore\WeaverCore.Editor\Dependency Checks\DependencyChecker.cs:203)
+WeaverCore.Editor.VerifyPhysics:StartCheck(Action`1) (at Assets\WeaverCore\WeaverCore.Editor\Dependency Checks\Checks\VerifyPhysics.cs:15)
+WeaverCore.Editor.<>c__DisplayClass13_0:<CheckDependencies>b__0(DependencyCheckResult) (at Assets\WeaverCore\WeaverCore.Editor\Dependency Checks\DependencyChecker.cs:199)
+WeaverCore.Editor.VerifyAPILevel:StartCheck(Action`1) (at Assets\WeaverCore\WeaverCore.Editor\Dependency Checks\Checks\VerifyAPILevel.cs:26)
+WeaverCore.Editor.<>c__DisplayClass13_0:<CheckDependencies>b__0(DependencyCheckResult) (at Assets\WeaverCore\WeaverCore.Editor\Dependency Checks\DependencyChecker.cs:199)
+WeaverCore.Editor.DependencyChecker:CheckDependencies(Boolean, List`1, Int32) (at Assets\WeaverCore\WeaverCore.Editor\Dependency Checks\DependencyChecker.cs:213)
+WeaverCore.Editor.DependencyChecker:CheckDependencies() (at Assets\WeaverCore\WeaverCore.Editor\Dependency Checks\DependencyChecker.cs:126)
+WeaverCore.Editor.Compilation.BuildTools:Init() (at Assets\WeaverCore\WeaverCore.Editor\Compilation\BuildTools.cs:483)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.MethodBase:Invoke(Object, Object[])
+WeaverCore.Utilities.ReflectionUtilities:ExecuteMethodsWithAttribute(Func`3, BindingFlags, Boolean) (at Assets\WeaverCore\WeaverCore\Utilities\ReflectionUtilities.cs:530)
+WeaverCore.Initialization:Initialize() (at Assets\WeaverCore\WeaverCore\Initialization.cs:75)
+WeaverCore.Initialization:OnEditorInitialize() (at Assets\WeaverCore\WeaverCore\Initialization.cs:44)
+
+An Error occured when doing a dependency check for : Verify Weaver Core Editor State. See console for more info
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WeaverCore.Editor.DependencyChecker/<>c__DisplayClass13_0:<CheckDependencies>b__0 (WeaverCore.Editor.DependencyCheck/DependencyCheckResult) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs:156)
+WeaverCore.Editor.DependencyChecker/<>c__DisplayClass13_0:<CheckDependencies>b__0 (WeaverCore.Editor.DependencyCheck/DependencyCheckResult) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs:204)
+WeaverCore.Editor.VerifyPhysics:StartCheck (System.Action`1<WeaverCore.Editor.DependencyCheck/DependencyCheckResult>) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/Checks/VerifyPhysics.cs:15)
+WeaverCore.Editor.DependencyChecker/<>c__DisplayClass13_0:<CheckDependencies>b__0 (WeaverCore.Editor.DependencyCheck/DependencyCheckResult) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs:199)
+WeaverCore.Editor.VerifyAPILevel:StartCheck (System.Action`1<WeaverCore.Editor.DependencyCheck/DependencyCheckResult>) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/Checks/VerifyAPILevel.cs:26)
+WeaverCore.Editor.DependencyChecker/<>c__DisplayClass13_0:<CheckDependencies>b__0 (WeaverCore.Editor.DependencyCheck/DependencyCheckResult) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs:199)
+WeaverCore.Editor.DependencyChecker:CheckDependencies (bool,System.Collections.Generic.List`1<WeaverCore.Editor.DependencyCheck>,int) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs:213)
+WeaverCore.Editor.DependencyChecker:CheckDependencies () (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs:126)
+WeaverCore.Editor.Compilation.BuildTools:Init () (at Assets/WeaverCore/WeaverCore.Editor/Compilation/BuildTools.cs:483)
+System.Reflection.MonoMethod:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+WeaverCore.Utilities.ReflectionUtilities:ExecuteMethodsWithAttribute<WeaverCore.Attributes.OnInitAttribute> (System.Func`3<System.Reflection.MethodInfo, WeaverCore.Attributes.OnInitAttribute, bool>,System.Reflection.BindingFlags,bool) (at Assets/WeaverCore/WeaverCore/Utilities/ReflectionUtilities.cs:530)
+WeaverCore.Initialization:Initialize () (at Assets/WeaverCore/WeaverCore/Initialization.cs:75)
+WeaverCore.Initialization:OnEditorInitialize () (at Assets/WeaverCore/WeaverCore/Initialization.cs:44)
+
+(Filename: Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs Line: 156)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  5.440 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2619 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.2 MB.
+System memory in use after: 120.3 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 3162.
+Total: 9.171200 ms (FindLiveObjects: 0.587100 ms CreateObjectMapping: 0.279700 ms MarkObjects: 8.087600 ms  DeleteObjects: 0.214100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008679 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+InvalidOperationException: Sequence contains no matching element
+  at System.Linq.Enumerable.First[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate) [0x00011] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at WeaverCore.Editor.Compilation.ScriptFinder.GetProjectScriptInfo () [0x0016a] in C:\Users\JLDeC\OneDrive\Documents\GitHub\Mods\FourSword-Tubers\Assets\WeaverCore\WeaverCore.Editor\Compilation\ScriptFinder.cs:111 
+  at WeaverCore.Editor.VerifyWeaverCoreEditorState.StartCheck (System.Action`1[T] finishCheck) [0x00000] in C:\Users\JLDeC\OneDrive\Documents\GitHub\Mods\FourSword-Tubers\Assets\WeaverCore\WeaverCore.Editor\Dependency Checks\Checks\VerifyWeaverCoreEditorState.cs:18 
+  at WeaverCore.Editor.DependencyChecker+<>c__DisplayClass13_0.<CheckDependencies>b__0 (WeaverCore.Editor.DependencyCheck+DependencyCheckResult result) [0x0011c] in C:\Users\JLDeC\OneDrive\Documents\GitHub\Mods\FourSword-Tubers\Assets\WeaverCore\WeaverCore.Editor\Dependency Checks\DependencyChecker.cs:199 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+WeaverCore.Editor.<>c__DisplayClass13_0:<CheckDependencies>b__0(DependencyCheckResult) (at Assets\WeaverCore\WeaverCore.Editor\Dependency Checks\DependencyChecker.cs:203)
+WeaverCore.Editor.VerifyPhysics:StartCheck(Action`1) (at Assets\WeaverCore\WeaverCore.Editor\Dependency Checks\Checks\VerifyPhysics.cs:15)
+WeaverCore.Editor.<>c__DisplayClass13_0:<CheckDependencies>b__0(DependencyCheckResult) (at Assets\WeaverCore\WeaverCore.Editor\Dependency Checks\DependencyChecker.cs:199)
+WeaverCore.Editor.VerifyAPILevel:StartCheck(Action`1) (at Assets\WeaverCore\WeaverCore.Editor\Dependency Checks\Checks\VerifyAPILevel.cs:26)
+WeaverCore.Editor.<>c__DisplayClass13_0:<CheckDependencies>b__0(DependencyCheckResult) (at Assets\WeaverCore\WeaverCore.Editor\Dependency Checks\DependencyChecker.cs:199)
+WeaverCore.Editor.DependencyChecker:CheckDependencies(Boolean, List`1, Int32) (at Assets\WeaverCore\WeaverCore.Editor\Dependency Checks\DependencyChecker.cs:213)
+WeaverCore.Editor.DependencyChecker:CheckDependencies() (at Assets\WeaverCore\WeaverCore.Editor\Dependency Checks\DependencyChecker.cs:126)
+WeaverCore.Editor.Compilation.BuildTools:Init() (at Assets\WeaverCore\WeaverCore.Editor\Compilation\BuildTools.cs:483)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.MethodBase:Invoke(Object, Object[])
+WeaverCore.Utilities.ReflectionUtilities:ExecuteMethodsWithAttribute(Func`3, BindingFlags, Boolean) (at Assets\WeaverCore\WeaverCore\Utilities\ReflectionUtilities.cs:530)
+WeaverCore.Initialization:Initialize() (at Assets\WeaverCore\WeaverCore\Initialization.cs:75)
+WeaverCore.Initialization:OnEditorInitialize() (at Assets\WeaverCore\WeaverCore\Initialization.cs:44)
+
+An Error occured when doing a dependency check for : Verify Weaver Core Editor State. See console for more info
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WeaverCore.Editor.DependencyChecker/<>c__DisplayClass13_0:<CheckDependencies>b__0 (WeaverCore.Editor.DependencyCheck/DependencyCheckResult) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs:156)
+WeaverCore.Editor.DependencyChecker/<>c__DisplayClass13_0:<CheckDependencies>b__0 (WeaverCore.Editor.DependencyCheck/DependencyCheckResult) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs:204)
+WeaverCore.Editor.VerifyPhysics:StartCheck (System.Action`1<WeaverCore.Editor.DependencyCheck/DependencyCheckResult>) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/Checks/VerifyPhysics.cs:15)
+WeaverCore.Editor.DependencyChecker/<>c__DisplayClass13_0:<CheckDependencies>b__0 (WeaverCore.Editor.DependencyCheck/DependencyCheckResult) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs:199)
+WeaverCore.Editor.VerifyAPILevel:StartCheck (System.Action`1<WeaverCore.Editor.DependencyCheck/DependencyCheckResult>) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/Checks/VerifyAPILevel.cs:26)
+WeaverCore.Editor.DependencyChecker/<>c__DisplayClass13_0:<CheckDependencies>b__0 (WeaverCore.Editor.DependencyCheck/DependencyCheckResult) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs:199)
+WeaverCore.Editor.DependencyChecker:CheckDependencies (bool,System.Collections.Generic.List`1<WeaverCore.Editor.DependencyCheck>,int) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs:213)
+WeaverCore.Editor.DependencyChecker:CheckDependencies () (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs:126)
+WeaverCore.Editor.Compilation.BuildTools:Init () (at Assets/WeaverCore/WeaverCore.Editor/Compilation/BuildTools.cs:483)
+System.Reflection.MonoMethod:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+WeaverCore.Utilities.ReflectionUtilities:ExecuteMethodsWithAttribute<WeaverCore.Attributes.OnInitAttribute> (System.Func`3<System.Reflection.MethodInfo, WeaverCore.Attributes.OnInitAttribute, bool>,System.Reflection.BindingFlags,bool) (at Assets/WeaverCore/WeaverCore/Utilities/ReflectionUtilities.cs:530)
+WeaverCore.Initialization:Initialize () (at Assets/WeaverCore/WeaverCore/Initialization.cs:75)
+WeaverCore.Initialization:OnEditorInitialize () (at Assets/WeaverCore/WeaverCore/Initialization.cs:44)
+
+(Filename: Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs Line: 156)
+
+Mono: successfully reloaded assembly
+- Completed reload, in 24.335 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2619 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.1 MB.
+System memory in use after: 120.2 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 3165.
+Total: 11.189300 ms (FindLiveObjects: 0.629900 ms CreateObjectMapping: 0.359400 ms MarkObjects: 10.020200 ms  DeleteObjects: 0.177900 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

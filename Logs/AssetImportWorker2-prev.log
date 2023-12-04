@@ -1,0 +1,233 @@
+Using pre-set license
+Built from '2020.2/release' branch; Version is '2020.2.2f1 (068178b99f32) revision 426360'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 22621.2715; Version 2009; 64bit' Language: 'en' Physical Memory: 8077 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/JLDeC/OneDrive/Documents/GitHub/Mods/FourSword-Tubers
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+51870
+Successfully changed project path to: C:/Users/JLDeC/OneDrive/Documents/GitHub/Mods/FourSword-Tubers
+C:/Users/JLDeC/OneDrive/Documents/GitHub/Mods/FourSword-Tubers
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 397.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.2f1 (068178b99f32)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/JLDeC/OneDrive/Documents/GitHub/Mods/FourSword-Tubers/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 615 (ID=0x591c)
+    Vendor:   
+    VRAM:     4038 MB
+    Driver:   27.20.100.9664
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56496
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007361 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 164.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.322 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.010691 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 112.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.488 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2726 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.8 MB.
+System memory in use after: 125.9 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 3150.
+Total: 6.601000 ms (FindLiveObjects: 0.446200 ms CreateObjectMapping: 0.281800 ms MarkObjects: 5.629700 ms  DeleteObjects: 0.241000 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/NewSaveData.asset
+  artifactKey: Guid(ce5a7a334fde9ec4f96c7f7d956fc31d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSaveData.asset using Guid(ce5a7a334fde9ec4f96c7f7d956fc31d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '924df0f5cc7c63c67607ba0710400fec') in 0.136369 seconds
+  Import took 0.145518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 143.855148 seconds.
+  path: Assets/NewSaveData.asset
+  artifactKey: Guid(ce5a7a334fde9ec4f96c7f7d956fc31d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSaveData.asset using Guid(ce5a7a334fde9ec4f96c7f7d956fc31d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd453fb1643ac40f8e79f640e8a57d526') in 0.315454 seconds
+  Import took 0.347379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.162242 seconds.
+  path: Assets/NewRegistry.asset
+  artifactKey: Guid(64fbe3ec9ac175f4a9b71908cea96f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewRegistry.asset using Guid(64fbe3ec9ac175f4a9b71908cea96f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fb04569e4a59289c1cc46f5ba66a2c3') in 0.287950 seconds
+  Import took 0.299085 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011137 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Refresh completed but there are assets queued up for importing. Check for code that modifies assets which gets called after OnPostProcessAllAssets. Additional details in Log file
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+WeaverCore.Editor.VerifyWeaverCoreEditorState:StartCheck (System.Action`1<WeaverCore.Editor.DependencyCheck/DependencyCheckResult>) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/Checks/VerifyWeaverCoreEditorState.cs:38)
+WeaverCore.Editor.DependencyChecker/<>c__DisplayClass13_0:<CheckDependencies>b__0 (WeaverCore.Editor.DependencyCheck/DependencyCheckResult) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs:199)
+WeaverCore.Editor.VerifyPhysics:StartCheck (System.Action`1<WeaverCore.Editor.DependencyCheck/DependencyCheckResult>) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/Checks/VerifyPhysics.cs:15)
+WeaverCore.Editor.DependencyChecker/<>c__DisplayClass13_0:<CheckDependencies>b__0 (WeaverCore.Editor.DependencyCheck/DependencyCheckResult) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs:199)
+WeaverCore.Editor.VerifyAPILevel:StartCheck (System.Action`1<WeaverCore.Editor.DependencyCheck/DependencyCheckResult>) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/Checks/VerifyAPILevel.cs:26)
+WeaverCore.Editor.DependencyChecker/<>c__DisplayClass13_0:<CheckDependencies>b__0 (WeaverCore.Editor.DependencyCheck/DependencyCheckResult) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs:199)
+WeaverCore.Editor.DependencyChecker:CheckDependencies (bool,System.Collections.Generic.List`1<WeaverCore.Editor.DependencyCheck>,int) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs:213)
+WeaverCore.Editor.DependencyChecker:CheckDependencies () (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs:126)
+WeaverCore.Editor.Compilation.BuildTools:Init () (at Assets/WeaverCore/WeaverCore.Editor/Compilation/BuildTools.cs:483)
+System.Reflection.MonoMethod:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+WeaverCore.Utilities.ReflectionUtilities:ExecuteMethodsWithAttribute<WeaverCore.Attributes.OnInitAttribute> (System.Func`3<System.Reflection.MethodInfo, WeaverCore.Attributes.OnInitAttribute, bool>,System.Reflection.BindingFlags,bool) (at Assets/WeaverCore/WeaverCore/Utilities/ReflectionUtilities.cs:530)
+WeaverCore.Initialization:Initialize () (at Assets/WeaverCore/WeaverCore/Initialization.cs:75)
+WeaverCore.Initialization:OnEditorInitialize () (at Assets/WeaverCore/WeaverCore/Initialization.cs:44)
+
+[Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/Checks/VerifyWeaverCoreEditorState.cs line 38]
+
+Assets queued for import after Refresh completed:
+	Assets/WeaverCore/WeaverCore.Editor/WeaverCore.Editor.asmdef
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Assertion failed on expression: 'm_Ptr'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+WeaverCore.Editor.VerifyWeaverCoreEditorState:StartCheck (System.Action`1<WeaverCore.Editor.DependencyCheck/DependencyCheckResult>) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/Checks/VerifyWeaverCoreEditorState.cs:38)
+WeaverCore.Editor.DependencyChecker/<>c__DisplayClass13_0:<CheckDependencies>b__0 (WeaverCore.Editor.DependencyCheck/DependencyCheckResult) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs:199)
+WeaverCore.Editor.VerifyPhysics:StartCheck (System.Action`1<WeaverCore.Editor.DependencyCheck/DependencyCheckResult>) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/Checks/VerifyPhysics.cs:15)
+WeaverCore.Editor.DependencyChecker/<>c__DisplayClass13_0:<CheckDependencies>b__0 (WeaverCore.Editor.DependencyCheck/DependencyCheckResult) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs:199)
+WeaverCore.Editor.VerifyAPILevel:StartCheck (System.Action`1<WeaverCore.Editor.DependencyCheck/DependencyCheckResult>) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/Checks/VerifyAPILevel.cs:26)
+WeaverCore.Editor.DependencyChecker/<>c__DisplayClass13_0:<CheckDependencies>b__0 (WeaverCore.Editor.DependencyCheck/DependencyCheckResult) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs:199)
+WeaverCore.Editor.DependencyChecker:CheckDependencies (bool,System.Collections.Generic.List`1<WeaverCore.Editor.DependencyCheck>,int) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs:213)
+WeaverCore.Editor.DependencyChecker:CheckDependencies () (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs:126)
+WeaverCore.Editor.Compilation.BuildTools:Init () (at Assets/WeaverCore/WeaverCore.Editor/Compilation/BuildTools.cs:483)
+System.Reflection.MonoMethod:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+WeaverCore.Utilities.ReflectionUtilities:ExecuteMethodsWithAttribute<WeaverCore.Attributes.OnInitAttribute> (System.Func`3<System.Reflection.MethodInfo, WeaverCore.Attributes.OnInitAttribute, bool>,System.Reflection.BindingFlags,bool) (at Assets/WeaverCore/WeaverCore/Utilities/ReflectionUtilities.cs:530)
+WeaverCore.Initialization:Initialize () (at Assets/WeaverCore/WeaverCore/Initialization.cs:75)
+WeaverCore.Initialization:OnEditorInitialize () (at Assets/WeaverCore/WeaverCore/Initialization.cs:44)
+
+[Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/Checks/VerifyWeaverCoreEditorState.cs line 38]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  8.200 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2620 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.2 MB.
+System memory in use after: 119.3 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 3153.
+Total: 10.972300 ms (FindLiveObjects: 0.833300 ms CreateObjectMapping: 0.281400 ms MarkObjects: 9.609400 ms  DeleteObjects: 0.244900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.042354 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+InvalidOperationException: Sequence contains no matching element
+  at System.Linq.Enumerable.First[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate) [0x00011] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at WeaverCore.Editor.Compilation.ScriptFinder.GetProjectScriptInfo () [0x0016a] in C:\Users\JLDeC\OneDrive\Documents\GitHub\Mods\FourSword-Tubers\Assets\WeaverCore\WeaverCore.Editor\Compilation\ScriptFinder.cs:111 
+  at WeaverCore.Editor.VerifyWeaverCoreEditorState.StartCheck (System.Action`1[T] finishCheck) [0x00000] in C:\Users\JLDeC\OneDrive\Documents\GitHub\Mods\FourSword-Tubers\Assets\WeaverCore\WeaverCore.Editor\Dependency Checks\Checks\VerifyWeaverCoreEditorState.cs:18 
+  at WeaverCore.Editor.DependencyChecker+<>c__DisplayClass13_0.<CheckDependencies>b__0 (WeaverCore.Editor.DependencyCheck+DependencyCheckResult result) [0x0011c] in C:\Users\JLDeC\OneDrive\Documents\GitHub\Mods\FourSword-Tubers\Assets\WeaverCore\WeaverCore.Editor\Dependency Checks\DependencyChecker.cs:199 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+WeaverCore.Editor.<>c__DisplayClass13_0:<CheckDependencies>b__0(DependencyCheckResult) (at Assets\WeaverCore\WeaverCore.Editor\Dependency Checks\DependencyChecker.cs:203)
+WeaverCore.Editor.VerifyPhysics:StartCheck(Action`1) (at Assets\WeaverCore\WeaverCore.Editor\Dependency Checks\Checks\VerifyPhysics.cs:15)
+WeaverCore.Editor.<>c__DisplayClass13_0:<CheckDependencies>b__0(DependencyCheckResult) (at Assets\WeaverCore\WeaverCore.Editor\Dependency Checks\DependencyChecker.cs:199)
+WeaverCore.Editor.VerifyAPILevel:StartCheck(Action`1) (at Assets\WeaverCore\WeaverCore.Editor\Dependency Checks\Checks\VerifyAPILevel.cs:26)
+WeaverCore.Editor.<>c__DisplayClass13_0:<CheckDependencies>b__0(DependencyCheckResult) (at Assets\WeaverCore\WeaverCore.Editor\Dependency Checks\DependencyChecker.cs:199)
+WeaverCore.Editor.DependencyChecker:CheckDependencies(Boolean, List`1, Int32) (at Assets\WeaverCore\WeaverCore.Editor\Dependency Checks\DependencyChecker.cs:213)
+WeaverCore.Editor.DependencyChecker:CheckDependencies() (at Assets\WeaverCore\WeaverCore.Editor\Dependency Checks\DependencyChecker.cs:126)
+WeaverCore.Editor.Compilation.BuildTools:Init() (at Assets\WeaverCore\WeaverCore.Editor\Compilation\BuildTools.cs:483)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.MethodBase:Invoke(Object, Object[])
+WeaverCore.Utilities.ReflectionUtilities:ExecuteMethodsWithAttribute(Func`3, BindingFlags, Boolean) (at Assets\WeaverCore\WeaverCore\Utilities\ReflectionUtilities.cs:530)
+WeaverCore.Initialization:Initialize() (at Assets\WeaverCore\WeaverCore\Initialization.cs:75)
+WeaverCore.Initialization:OnEditorInitialize() (at Assets\WeaverCore\WeaverCore\Initialization.cs:44)
+
+An Error occured when doing a dependency check for : Verify Weaver Core Editor State. See console for more info
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WeaverCore.Editor.DependencyChecker/<>c__DisplayClass13_0:<CheckDependencies>b__0 (WeaverCore.Editor.DependencyCheck/DependencyCheckResult) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs:156)
+WeaverCore.Editor.DependencyChecker/<>c__DisplayClass13_0:<CheckDependencies>b__0 (WeaverCore.Editor.DependencyCheck/DependencyCheckResult) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs:204)
+WeaverCore.Editor.VerifyPhysics:StartCheck (System.Action`1<WeaverCore.Editor.DependencyCheck/DependencyCheckResult>) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/Checks/VerifyPhysics.cs:15)
+WeaverCore.Editor.DependencyChecker/<>c__DisplayClass13_0:<CheckDependencies>b__0 (WeaverCore.Editor.DependencyCheck/DependencyCheckResult) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs:199)
+WeaverCore.Editor.VerifyAPILevel:StartCheck (System.Action`1<WeaverCore.Editor.DependencyCheck/DependencyCheckResult>) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/Checks/VerifyAPILevel.cs:26)
+WeaverCore.Editor.DependencyChecker/<>c__DisplayClass13_0:<CheckDependencies>b__0 (WeaverCore.Editor.DependencyCheck/DependencyCheckResult) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs:199)
+WeaverCore.Editor.DependencyChecker:CheckDependencies (bool,System.Collections.Generic.List`1<WeaverCore.Editor.DependencyCheck>,int) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs:213)
+WeaverCore.Editor.DependencyChecker:CheckDependencies () (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs:126)
+WeaverCore.Editor.Compilation.BuildTools:Init () (at Assets/WeaverCore/WeaverCore.Editor/Compilation/BuildTools.cs:483)
+System.Reflection.MonoMethod:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+WeaverCore.Utilities.ReflectionUtilities:ExecuteMethodsWithAttribute<WeaverCore.Attributes.OnInitAttribute> (System.Func`3<System.Reflection.MethodInfo, WeaverCore.Attributes.OnInitAttribute, bool>,System.Reflection.BindingFlags,bool) (at Assets/WeaverCore/WeaverCore/Utilities/ReflectionUtilities.cs:530)
+WeaverCore.Initialization:Initialize () (at Assets/WeaverCore/WeaverCore/Initialization.cs:75)
+WeaverCore.Initialization:OnEditorInitialize () (at Assets/WeaverCore/WeaverCore/Initialization.cs:44)
+
+(Filename: Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs Line: 156)
+
+Mono: successfully reloaded assembly
+- Completed reload, in 36.162 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2619 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.2 MB.
+System memory in use after: 120.3 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 3156.
+Total: 19.930600 ms (FindLiveObjects: 0.703400 ms CreateObjectMapping: 0.429400 ms MarkObjects: 18.443200 ms  DeleteObjects: 0.351000 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

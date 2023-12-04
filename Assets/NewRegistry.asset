@@ -17,9 +17,12 @@ MonoBehaviour:
   features:
   - {fileID: 11400000, guid: 57c0a232ac324c045a05b237cfd0dd54, type: 2}
   - {fileID: 11400000, guid: ce5a7a334fde9ec4f96c7f7d956fc31d, type: 2}
+  - {fileID: 11400000, guid: b10e6778bd7eca54dac2e964b6e19365, type: 2}
   featureTypeNames:
   - WeaverCore.Settings.GlobalSettings
   - WeaverCore.Settings.SaveSpecificSettings
+  - WeaverCore.SceneRecord
   featureAssemblyNames:
+  - WeaverCore
   - WeaverCore
   - WeaverCore
