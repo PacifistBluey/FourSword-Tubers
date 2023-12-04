@@ -234,9 +234,9 @@
     <Compile Include="Assets\WeaverCore\Hollow Knight\BossSceneCheckSource.cs" />
     <Compile Include="Assets\WeaverCore\Hollow Knight\SteepSlope.cs" />
     <Compile Include="Assets\WeaverCore\Hollow Knight\TextMesh Pro\TextMesh Pro\Plugins\TMPro\TweenRunner.cs" />
-    <Compile Include="Assets\WeaverCore\Hollow Knight\TextMesh Pro\TextMesh Pro\Plugins\TMPro\TMP_TextInfo.cs" />
     <Compile Include="Assets\WeaverCore\Hollow Knight\TextMesh Pro\TextMesh Pro\Plugins\TMPro\TextContainer.cs" />
     <Compile Include="Assets\WeaverCore\Hollow Knight\BossStatueLoadManager.cs" />
+    <Compile Include="Assets\WeaverCore\Hollow Knight\TextMesh Pro\TextMesh Pro\Plugins\TMPro\TMP_TextInfo.cs" />
     <Compile Include="Assets\WeaverCore\Hollow Knight\TextMesh Pro\TextMesh Pro\Plugins\TMPro\TagAttribute.cs" />
     <Compile Include="Assets\WeaverCore\Hollow Knight\_SceneManager.cs" />
     <Compile Include="Assets\WeaverCore\Hollow Knight\TextMesh Pro\TextMesh Pro\Plugins\TMPro\ITweenValue.cs" />

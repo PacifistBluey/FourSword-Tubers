@@ -166,9 +166,9 @@
     <Compile Include="Assets\WeaverCore\WeaverCore\Implementations\WeaverSettings_I.cs" />
     <Compile Include="Assets\WeaverCore\WeaverCore\Components\PlayerDamager.cs" />
     <Compile Include="Assets\WeaverCore\WeaverCore\Components\ForcePlayerDamager.cs" />
-    <Compile Include="Assets\WeaverCore\WeaverCore\Utilities\HashUtilities.cs" />
     <Compile Include="Assets\WeaverCore\WeaverCore\Settings\Accessors\MethodAccessor.cs" />
     <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeHierarchy\HierarchyDataTransform.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Utilities\HashUtilities.cs" />
     <Compile Include="Assets\WeaverCore\WeaverCore\Implementations\UnboundCoroutine_I.cs" />
     <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\Components\Spatter.cs" />
     <Compile Include="Assets\WeaverCore\WeaverCore\Cache.cs" />
