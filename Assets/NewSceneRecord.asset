@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneAdditions:
   - {fileID: 102900000, guid: f104cecde09ac0d4c9675fb6e3c2bd2e, type: 3}
+  - {fileID: 102900000, guid: 8b6e1b3a67fd93844b3c8b17735ac488, type: 3}
   sceneReplacements: []
   sceneUnions: []
   transitionRedirects:
@@ -23,6 +24,7 @@ MonoBehaviour:
     NewGate: door1
   sceneAdditionPaths:
   - Assets/Scenes/FS_1.unity
+  - Assets/Scenes/FS_2.unity
   sceneToReplacePaths: []
   sceneReplacementPaths: []
   sceneToUnionizePaths: []
