@@ -53,10 +53,10 @@
     <UnityVersion>2020.2.2f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\DemoConversation.cs" />
     <Compile Include="Assets\ModSettings.cs" />
     <Compile Include="Assets\FourSwordTubers.cs" />
     <Compile Include="Assets\SaveData.cs" />
+    <Compile Include="Assets\DemoConversation.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
