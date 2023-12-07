@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cadd3b89a5f8f4498288dbb561d8478, type: 3}
+  m_Name: NewSceneRecord
+  m_EditorClassIdentifier: 
+  sceneAdditions:
+  - {fileID: 102900000, guid: 55610e518e52d1e4c959b61d4aaf9a4b, type: 3}
+  - {fileID: 102900000, guid: 79e5d0a5dc8e26240983d9ea957b6dbf, type: 3}
+  sceneReplacements: []
+  sceneUnions: []
+  transitionRedirects:
+  - GateScene: RestingGrounds_05
+    GateToChange: left3
+    NewScene: FS_1
+    NewGate: right1
+  - GateScene: RestingGrounds_17
+    GateToChange: right1
+    NewScene: FS_1
+    NewGate: left1
+  sceneAdditionPaths:
+  - Assets/Scenes/FS_1.unity
+  - Assets/Scenes/FS_2.unity
+  sceneToReplacePaths: []
+  sceneReplacementPaths: []
+  sceneToUnionizePaths: []
+  sceneUnionPaths: []
+  transitionRedirects_containingScenes:
+  - RestingGrounds_05
+  - RestingGrounds_17
+  transitionRedirects_gatesToRedirect:
+  - left3
+  - right1
+  transitionRedirects_newDestinationScenes:
+  - FS_1
+  - FS_1
+  transitionRedirects_newDestinationGateNames:
+  - right1
+  - left1
