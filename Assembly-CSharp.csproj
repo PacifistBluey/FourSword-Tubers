@@ -54,6 +54,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\ModSettings.cs" />
+    <Compile Include="Assets\FS_Text.cs" />
     <Compile Include="Assets\FourSwordTubers.cs" />
     <Compile Include="Assets\SaveData.cs" />
   </ItemGroup>
