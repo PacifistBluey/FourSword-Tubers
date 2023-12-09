@@ -53,10 +53,11 @@
     <UnityVersion>2020.2.2f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\ModSettings.cs" />
-    <Compile Include="Assets\FS_Text.cs" />
-    <Compile Include="Assets\FourSwordTubers.cs" />
-    <Compile Include="Assets\SaveData.cs" />
+    <Compile Include="Assets\Registry\ModSettings.cs" />
+    <Compile Include="Assets\Dialouge\FS_Text.cs" />
+    <Compile Include="Assets\Dialouge\Austin_Text.cs" />
+    <Compile Include="Assets\Registry\FourSwordTubers.cs" />
+    <Compile Include="Assets\Registry\SaveData.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

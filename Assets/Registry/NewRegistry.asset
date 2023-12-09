@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e940547fdce306f4294a2b2dc6c8e311, type: 3}
+  m_Name: NewRegistry
+  m_EditorClassIdentifier: 
+  modTypeName: FourSwordTubers
+  __modAssemblyName: Assembly-CSharp
+  features:
+  - {fileID: 11400000, guid: 57c0a232ac324c045a05b237cfd0dd54, type: 2}
+  - {fileID: 11400000, guid: ce5a7a334fde9ec4f96c7f7d956fc31d, type: 2}
+  - {fileID: 11400000, guid: 1328f3adc804e8f4b8dbf5c1c10159a9, type: 2}
+  - {fileID: 11400000, guid: 74c1924b711513a42b6e925c244dfb70, type: 2}
+  featureTypeNames:
+  - WeaverCore.Settings.GlobalSettings
+  - WeaverCore.Settings.SaveSpecificSettings
+  - WeaverCore.SceneRecord
+  - WeaverCore.Features.WeaverCharm
+  featureAssemblyNames:
+  - WeaverCore
+  - WeaverCore
+  - WeaverCore
+  - WeaverCore
