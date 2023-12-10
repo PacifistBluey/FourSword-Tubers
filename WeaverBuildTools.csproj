@@ -53,8 +53,8 @@
     <UnityVersion>2020.2.2f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\WeaverCore\WeaverBuildTools\Commands\EmbedManyFilesCMD.cs" />
     <Compile Include="Assets\WeaverCore\WeaverBuildTools\Commands\RemoveEmbeddedFilesCMD.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverBuildTools\Commands\EmbedManyFilesCMD.cs" />
     <Compile Include="Assets\WeaverCore\WeaverBuildTools\Program.cs" />
     <Compile Include="Assets\WeaverCore\WeaverBuildTools\Enums\CompressionMethod.cs" />
     <Compile Include="Assets\WeaverCore\WeaverBuildTools\MainResolver.cs" />
