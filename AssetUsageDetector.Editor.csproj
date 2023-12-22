@@ -54,15 +54,15 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\WeaverCore\WeaverCore.Editor\Asset Usage Detector\Editor\ListDrawer.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore.Editor\Asset Usage Detector\Editor\AssetUsageDetector.cs" />
     <Compile Include="Assets\WeaverCore\WeaverCore.Editor\Asset Usage Detector\Editor\AssetUsageDetectorWindow.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore.Editor\Asset Usage Detector\Editor\VariableGetter.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore.Editor\Asset Usage Detector\Editor\Enumerators.cs" />
     <Compile Include="Assets\WeaverCore\WeaverCore.Editor\Asset Usage Detector\Editor\ObjectToSearch.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore.Editor\Asset Usage Detector\Editor\Utilities.cs" />
     <Compile Include="Assets\WeaverCore\WeaverCore.Editor\Asset Usage Detector\Editor\AssetUsageDetectorCache.cs" />
     <Compile Include="Assets\WeaverCore\WeaverCore.Editor\Asset Usage Detector\Editor\SearchResult.cs" />
     <Compile Include="Assets\WeaverCore\WeaverCore.Editor\Asset Usage Detector\Editor\AssetUsageDetectorSearchFunctions.cs" />
-    <Compile Include="Assets\WeaverCore\WeaverCore.Editor\Asset Usage Detector\Editor\AssetUsageDetector.cs" />
-    <Compile Include="Assets\WeaverCore\WeaverCore.Editor\Asset Usage Detector\Editor\VariableGetter.cs" />
-    <Compile Include="Assets\WeaverCore\WeaverCore.Editor\Asset Usage Detector\Editor\Enumerators.cs" />
-    <Compile Include="Assets\WeaverCore\WeaverCore.Editor\Asset Usage Detector\Editor\Utilities.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\WeaverCore\WeaverCore.Editor\Asset Usage Detector\Editor\AssetUsageDetector.Editor.asmdef" />

@@ -53,24 +53,24 @@
     <UnityVersion>2020.2.2f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\WeaverCore\WeaverCore.Editor\Asset Bundle Browser\Editor\AssetBundleBrowserMain.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore.Editor\Asset Bundle Browser\Editor\AssetBundleModel\ABModelAssetInfo.cs" />
     <Compile Include="Assets\WeaverCore\WeaverCore.Editor\Asset Bundle Browser\Editor\BundleDetailList.cs" />
     <Compile Include="Assets\WeaverCore\WeaverCore.Editor\Asset Bundle Browser\Editor\InspectTab\AssetBundleInspectTab.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore.Editor\Asset Bundle Browser\Editor\AssetBundleDataSource\ABDataSource.cs" />
     <Compile Include="Assets\WeaverCore\WeaverCore.Editor\Asset Bundle Browser\Editor\AssetBundleDataSource\ABDataSourceProvider.cs" />
     <Compile Include="Assets\WeaverCore\WeaverCore.Editor\Asset Bundle Browser\Editor\AssetBundleBuildTab.cs" />
     <Compile Include="Assets\WeaverCore\WeaverCore.Editor\Asset Bundle Browser\Editor\InspectTab\InspectTreeView.cs" />
     <Compile Include="Assets\WeaverCore\WeaverCore.Editor\Asset Bundle Browser\Editor\AssetListTree.cs" />
-    <Compile Include="Assets\WeaverCore\WeaverCore.Editor\Asset Bundle Browser\Editor\AssetBundleTree.cs" />
-    <Compile Include="Assets\WeaverCore\WeaverCore.Editor\Asset Bundle Browser\Editor\AssetBundleModel\ABModelBundleInfo.cs" />
-    <Compile Include="Assets\WeaverCore\WeaverCore.Editor\Asset Bundle Browser\Editor\MessageSystem.cs" />
-    <Compile Include="Assets\WeaverCore\WeaverCore.Editor\Asset Bundle Browser\Editor\AssetBundleModel\ABModel.cs" />
-    <Compile Include="Assets\WeaverCore\WeaverCore.Editor\Asset Bundle Browser\Editor\InspectTab\InspectSingleBundle.cs" />
-    <Compile Include="Assets\WeaverCore\WeaverCore.Editor\Asset Bundle Browser\Editor\InspectTab\AssetBundleRecord.cs" />
-    <Compile Include="Assets\WeaverCore\WeaverCore.Editor\Asset Bundle Browser\Editor\AssetBundleBrowserMain.cs" />
-    <Compile Include="Assets\WeaverCore\WeaverCore.Editor\Asset Bundle Browser\Editor\AssetBundleModel\ABModelAssetInfo.cs" />
-    <Compile Include="Assets\WeaverCore\WeaverCore.Editor\Asset Bundle Browser\Editor\AssetBundleDataSource\ABDataSource.cs" />
     <Compile Include="Assets\WeaverCore\WeaverCore.Editor\Asset Bundle Browser\Editor\AssetBundleDataSource\AssetDatabaseABDataSource.cs" />
     <Compile Include="Assets\WeaverCore\WeaverCore.Editor\Asset Bundle Browser\Editor\MessageList.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore.Editor\Asset Bundle Browser\Editor\AssetBundleTree.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore.Editor\Asset Bundle Browser\Editor\AssetBundleModel\ABModelBundleInfo.cs" />
     <Compile Include="Assets\WeaverCore\WeaverCore.Editor\Asset Bundle Browser\Editor\AssetBundleManageTab.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore.Editor\Asset Bundle Browser\Editor\MessageSystem.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore.Editor\Asset Bundle Browser\Editor\AssetBundleModel\ABModel.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore.Editor\Asset Bundle Browser\Editor\InspectTab\AssetBundleRecord.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore.Editor\Asset Bundle Browser\Editor\InspectTab\InspectSingleBundle.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\WeaverCore\WeaverCore.Editor\Asset Bundle Browser\Editor\Unity.AssetBundleBrowser.Editor.asmdef" />
