@@ -1,0 +1,2 @@
+# Starting compiling FourSwordTubers.dll
+C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-22ec8adb109403b4b9c92eefd5d59a4d

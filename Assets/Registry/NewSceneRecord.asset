@@ -20,15 +20,15 @@ MonoBehaviour:
   transitionRedirects:
   - GateScene: RestingGrounds_05
     GateToChange: left3
-    NewScene: FS_1
+    NewScene: FS_bench
     NewGate: right1
   - GateScene: RestingGrounds_17
     GateToChange: right1
-    NewScene: FS_1
+    NewScene: FS_bench
     NewGate: left1
   sceneAdditionPaths:
-  - Assets/Scenes/FS_1.unity
-  - Assets/Scenes/FS_2.unity
+  - Assets/Scenes/FS_bench.unity
+  - Assets/Scenes/FS_main.unity
   sceneToReplacePaths: []
   sceneReplacementPaths: []
   sceneToUnionizePaths: []
@@ -40,8 +40,8 @@ MonoBehaviour:
   - left3
   - right1
   transitionRedirects_newDestinationScenes:
-  - FS_1
-  - FS_1
+  - FS_bench
+  - FS_bench
   transitionRedirects_newDestinationGateNames:
   - right1
   - left1
