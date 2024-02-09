@@ -123,6 +123,37 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &31067323
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 31067324}
+  m_Layer: 0
+  m_Name: Statues
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &31067324
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 31067323}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.9225584, y: 6.014106, z: -7.4165874}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 609075188}
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &321471422
 GameObject:
   m_ObjectHideFlags: 0
@@ -942,9 +973,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b252a7af65c96045b2e6bbfdf79ffff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destinationScene: FS_austin
+  destinationScene: FS_placeboss
   returnScene: FS_main
-  transitionGateName: door1
+  transitionGateName: FS_entry
   warpDelay: 1.75
   canUseCharms: 1
 --- !u!114 &609075187
@@ -975,13 +1006,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 609075183}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -17.78, y: 5.49, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -16.857443, y: -0.524106, z: 8.416588}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 854212628}
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_Father: {fileID: 31067324}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &694287757
 GameObject:
