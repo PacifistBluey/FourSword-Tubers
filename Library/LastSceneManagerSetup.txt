@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/FS_main.unity
+- path: Assets/Scenes/FS_bench.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
