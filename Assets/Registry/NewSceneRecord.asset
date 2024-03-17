@@ -15,6 +15,11 @@ MonoBehaviour:
   sceneAdditions:
   - {fileID: 102900000, guid: 55610e518e52d1e4c959b61d4aaf9a4b, type: 3}
   - {fileID: 102900000, guid: 79e5d0a5dc8e26240983d9ea957b6dbf, type: 3}
+  - {fileID: 102900000, guid: c58563583a90c4e44bc2047d7a4d8d97, type: 3}
+  - {fileID: 102900000, guid: e32a5c14323218b4680cc1de4807a469, type: 3}
+  - {fileID: 102900000, guid: 4a3686e92e7e5e844a6967fe7084cef4, type: 3}
+  - {fileID: 102900000, guid: ad6d99dc8797b6e4c9e2c2ecaeff5e63, type: 3}
+  - {fileID: 102900000, guid: 9b5a2f483b740a84b8ec1e9df817f614, type: 3}
   sceneReplacements: []
   sceneUnions: []
   transitionRedirects:
@@ -26,9 +31,30 @@ MonoBehaviour:
     GateToChange: right1
     NewScene: FS_bench
     NewGate: left1
+  - GateScene: Fungus1_Slug
+    GateToChange: right1
+    NewScene: FS_puzzle_austin
+    NewGate: door1
+  - GateScene: Fungus1_Slug
+    GateToChange: right1
+    NewScene: FS_puzzle_bread
+    NewGate: door1
+  - GateScene: Fungus1_Slug
+    GateToChange: right1
+    NewScene: FS_puzzle_relyea
+    NewGate: door1
+  - GateScene: Fungus1_Slug
+    GateToChange: right1
+    NewScene: FS_puzzle_pbluey
+    NewGate: door1
   sceneAdditionPaths:
   - Assets/Scenes/FS_bench.unity
   - Assets/Scenes/FS_main.unity
+  - Assets/Scenes/FS_placeboss.unity
+  - Assets/Scenes/FS_puzzle_austin.unity
+  - Assets/Scenes/FS_puzzle_bread.unity
+  - Assets/Scenes/FS_puzzle_pbluey.unity
+  - Assets/Scenes/FS_puzzle_relyea.unity
   sceneToReplacePaths: []
   sceneReplacementPaths: []
   sceneToUnionizePaths: []
@@ -36,12 +62,28 @@ MonoBehaviour:
   transitionRedirects_containingScenes:
   - RestingGrounds_05
   - RestingGrounds_17
+  - Fungus1_Slug
+  - Fungus1_Slug
+  - Fungus1_Slug
+  - Fungus1_Slug
   transitionRedirects_gatesToRedirect:
   - left3
+  - right1
+  - right1
+  - right1
+  - right1
   - right1
   transitionRedirects_newDestinationScenes:
   - FS_bench
   - FS_bench
+  - FS_puzzle_austin
+  - FS_puzzle_bread
+  - FS_puzzle_relyea
+  - FS_puzzle_pbluey
   transitionRedirects_newDestinationGateNames:
   - right1
   - left1
+  - door1
+  - door1
+  - door1
+  - door1

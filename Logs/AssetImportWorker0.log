@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.2/release' branch; Version is '2020.2.2f1 (068178b99f32) revision 426360'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 22621.3155; Version 2009; 64bit' Language: 'en' Physical Memory: 8077 MB
+OS: 'Windows 10 Home; OS build 22621.3296; Version 2009; 64bit' Language: 'en' Physical Memory: 8077 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -15,11 +15,11 @@ C:/Users/JLDeC/OneDrive/Documents/GitHub/Mods/FourSword-Tubers
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53350
+52015
 Successfully changed project path to: C:/Users/JLDeC/OneDrive/Documents/GitHub/Mods/FourSword-Tubers
 C:/Users/JLDeC/OneDrive/Documents/GitHub/Mods/FourSword-Tubers
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 195.28 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 241.39 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.2f1 (068178b99f32)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Resources/UnitySubsystems
@@ -35,20 +35,334 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56544
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56428
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.026636 seconds.
+Registered in 0.006417 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 374.22 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 211.39 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in 16.097 seconds
+- Completed reload, in  7.740 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.042384 seconds.
+Registered in 0.021413 seconds.
 Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 236.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in 15.613 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
+Refreshing native plugins compatible for Editor in 1.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2728 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.0 MB.
+System memory in use after: 126.1 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 3154.
+Total: 8.981700 ms (FindLiveObjects: 0.536700 ms CreateObjectMapping: 0.328300 ms MarkObjects: 7.848500 ms  DeleteObjects: 0.264400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015472 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in 25.107 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2622 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.1 MB.
+System memory in use after: 119.3 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 3157.
+Total: 15.287100 ms (FindLiveObjects: 0.791100 ms CreateObjectMapping: 0.361700 ms MarkObjects: 13.816100 ms  DeleteObjects: 0.314600 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Dialouge/FS_Lore_Text.cs
+  artifactKey: Guid(2c448c37f116a6743b9eb17940773f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dialouge/FS_Lore_Text.cs using Guid(2c448c37f116a6743b9eb17940773f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '139a82dfa812aa9e82fd6e4dfdb9d022') in 0.187202 seconds
+  Import took 0.205491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2989.413991 seconds.
+  path: Assets/Scenes/FS_main.unity
+  artifactKey: Guid(79e5d0a5dc8e26240983d9ea957b6dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/FS_main.unity using Guid(79e5d0a5dc8e26240983d9ea957b6dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9148daecfc3d64267d7fc4392848633') in 0.185811 seconds
+  Import took 0.271443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 148.071670 seconds.
+  path: Assets/Scenes/FS_placeboss.unity
+  artifactKey: Guid(c58563583a90c4e44bc2047d7a4d8d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/FS_placeboss.unity using Guid(c58563583a90c4e44bc2047d7a4d8d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc8ba1657d0fbda2932668223c8dd324') in 0.032630 seconds
+  Import took 0.042283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 99.411228 seconds.
+  path: Assets/Scenes/FS_main.unity
+  artifactKey: Guid(79e5d0a5dc8e26240983d9ea957b6dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/FS_main.unity using Guid(79e5d0a5dc8e26240983d9ea957b6dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5170f9589609cfc4490fe415c96e1bff') in 0.021289 seconds
+  Import took 0.030104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.347483 seconds.
+  path: Assets/Scenes/FS_placeboss.unity
+  artifactKey: Guid(c58563583a90c4e44bc2047d7a4d8d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/FS_placeboss.unity using Guid(c58563583a90c4e44bc2047d7a4d8d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd526ceecdaedb2f0fb4c2e0601e76dde') in 0.025340 seconds
+  Import took 0.033461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.059683 seconds.
+  path: Assets/Scenes/FS_main.unity
+  artifactKey: Guid(79e5d0a5dc8e26240983d9ea957b6dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/FS_main.unity using Guid(79e5d0a5dc8e26240983d9ea957b6dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c66b6690e2945dd36e28096d13b181bc') in 0.010662 seconds
+  Import took 0.021213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 72.004293 seconds.
+  path: Assets/Scenes/New Scene.unity
+  artifactKey: Guid(c8da3560d5360324abe8879060bfd9cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/New Scene.unity using Guid(c8da3560d5360324abe8879060bfd9cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2da32156aefd8b57ccda749b5d7d171') in 0.042873 seconds
+  Import took 0.051356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 69.172984 seconds.
+  path: Assets/Scenes/FS_puzzle_austin.unity
+  artifactKey: Guid(e32a5c14323218b4680cc1de4807a469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/FS_puzzle_austin.unity using Guid(e32a5c14323218b4680cc1de4807a469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2f3c77803db60865e9c719f3015d094') in 0.037429 seconds
+  Import took 0.048751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.066804 seconds.
+  path: Assets/Scenes/FS_puzzle_pbluey.unity
+  artifactKey: Guid(ad6d99dc8797b6e4c9e2c2ecaeff5e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/FS_puzzle_pbluey.unity using Guid(ad6d99dc8797b6e4c9e2c2ecaeff5e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd2e40fd7fb532593c541a9622beefa4') in 0.035599 seconds
+  Import took 0.051913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.803958 seconds.
+  path: Assets/Scenes/FS_puzzle_bread.unity
+  artifactKey: Guid(4a3686e92e7e5e844a6967fe7084cef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/FS_puzzle_bread.unity using Guid(4a3686e92e7e5e844a6967fe7084cef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd94a782aae5fb52e7e5c07c4f7c31621') in 0.039704 seconds
+  Import took 0.051999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 99.116437 seconds.
+  path: Assets/Registry/NewSceneRecord.asset
+  artifactKey: Guid(1328f3adc804e8f4b8dbf5c1c10159a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Registry/NewSceneRecord.asset using Guid(1328f3adc804e8f4b8dbf5c1c10159a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbbace3627acb7e2c25f8741eb021ef2') in 0.106678 seconds
+  Import took 0.121174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 900.841640 seconds.
+  path: Assets/Scenes/FS_puzzle_relyea.unity
+  artifactKey: Guid(9b5a2f483b740a84b8ec1e9df817f614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/FS_puzzle_relyea.unity using Guid(9b5a2f483b740a84b8ec1e9df817f614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05a691f1b363a7491441314204288d28') in 0.039827 seconds
+  Import took 0.050566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000933 seconds.
+  path: Assets/Scenes/FS_puzzle_relyea.unity
+  artifactKey: Guid(9b5a2f483b740a84b8ec1e9df817f614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/FS_puzzle_relyea.unity using Guid(9b5a2f483b740a84b8ec1e9df817f614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05a691f1b363a7491441314204288d28') in 0.035880 seconds
+  Import took 0.045587 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.110648 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Refresh completed but there are assets queued up for importing. Check for code that modifies assets which gets called after OnPostProcessAllAssets. Additional details in Log file
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+WeaverCore.Editor.VerifyWeaverCoreEditorState:StartCheck (System.Action`1<WeaverCore.Editor.DependencyCheck/DependencyCheckResult>) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/Checks/VerifyWeaverCoreEditorState.cs:38)
+WeaverCore.Editor.DependencyChecker/<>c__DisplayClass13_0:<CheckDependencies>b__0 (WeaverCore.Editor.DependencyCheck/DependencyCheckResult) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs:199)
+WeaverCore.Editor.VerifyPhysics:StartCheck (System.Action`1<WeaverCore.Editor.DependencyCheck/DependencyCheckResult>) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/Checks/VerifyPhysics.cs:15)
+WeaverCore.Editor.DependencyChecker/<>c__DisplayClass13_0:<CheckDependencies>b__0 (WeaverCore.Editor.DependencyCheck/DependencyCheckResult) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs:199)
+WeaverCore.Editor.VerifyAPILevel:StartCheck (System.Action`1<WeaverCore.Editor.DependencyCheck/DependencyCheckResult>) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/Checks/VerifyAPILevel.cs:26)
+WeaverCore.Editor.DependencyChecker/<>c__DisplayClass13_0:<CheckDependencies>b__0 (WeaverCore.Editor.DependencyCheck/DependencyCheckResult) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs:199)
+WeaverCore.Editor.DependencyChecker:CheckDependencies (bool,System.Collections.Generic.List`1<WeaverCore.Editor.DependencyCheck>,int) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs:213)
+WeaverCore.Editor.DependencyChecker:CheckDependencies () (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs:126)
+WeaverCore.Editor.Compilation.BuildTools:Init () (at Assets/WeaverCore/WeaverCore.Editor/Compilation/BuildTools.cs:483)
+System.Reflection.MonoMethod:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+WeaverCore.Utilities.ReflectionUtilities:ExecuteMethodsWithAttribute<WeaverCore.Attributes.OnInitAttribute> (System.Func`3<System.Reflection.MethodInfo, WeaverCore.Attributes.OnInitAttribute, bool>,System.Reflection.BindingFlags,bool) (at Assets/WeaverCore/WeaverCore/Utilities/ReflectionUtilities.cs:530)
+WeaverCore.Initialization:Initialize () (at Assets/WeaverCore/WeaverCore/Initialization.cs:75)
+WeaverCore.Initialization:OnEditorInitialize () (at Assets/WeaverCore/WeaverCore/Initialization.cs:44)
+
+[Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/Checks/VerifyWeaverCoreEditorState.cs line 38]
+
+Assets queued for import after Refresh completed:
+	Assets/WeaverCore/WeaverCore.Editor/WeaverCore.Editor.asmdef
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Assertion failed on expression: 'm_Ptr'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+WeaverCore.Editor.VerifyWeaverCoreEditorState:StartCheck (System.Action`1<WeaverCore.Editor.DependencyCheck/DependencyCheckResult>) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/Checks/VerifyWeaverCoreEditorState.cs:38)
+WeaverCore.Editor.DependencyChecker/<>c__DisplayClass13_0:<CheckDependencies>b__0 (WeaverCore.Editor.DependencyCheck/DependencyCheckResult) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs:199)
+WeaverCore.Editor.VerifyPhysics:StartCheck (System.Action`1<WeaverCore.Editor.DependencyCheck/DependencyCheckResult>) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/Checks/VerifyPhysics.cs:15)
+WeaverCore.Editor.DependencyChecker/<>c__DisplayClass13_0:<CheckDependencies>b__0 (WeaverCore.Editor.DependencyCheck/DependencyCheckResult) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs:199)
+WeaverCore.Editor.VerifyAPILevel:StartCheck (System.Action`1<WeaverCore.Editor.DependencyCheck/DependencyCheckResult>) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/Checks/VerifyAPILevel.cs:26)
+WeaverCore.Editor.DependencyChecker/<>c__DisplayClass13_0:<CheckDependencies>b__0 (WeaverCore.Editor.DependencyCheck/DependencyCheckResult) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs:199)
+WeaverCore.Editor.DependencyChecker:CheckDependencies (bool,System.Collections.Generic.List`1<WeaverCore.Editor.DependencyCheck>,int) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs:213)
+WeaverCore.Editor.DependencyChecker:CheckDependencies () (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs:126)
+WeaverCore.Editor.Compilation.BuildTools:Init () (at Assets/WeaverCore/WeaverCore.Editor/Compilation/BuildTools.cs:483)
+System.Reflection.MonoMethod:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+WeaverCore.Utilities.ReflectionUtilities:ExecuteMethodsWithAttribute<WeaverCore.Attributes.OnInitAttribute> (System.Func`3<System.Reflection.MethodInfo, WeaverCore.Attributes.OnInitAttribute, bool>,System.Reflection.BindingFlags,bool) (at Assets/WeaverCore/WeaverCore/Utilities/ReflectionUtilities.cs:530)
+WeaverCore.Initialization:Initialize () (at Assets/WeaverCore/WeaverCore/Initialization.cs:75)
+WeaverCore.Initialization:OnEditorInitialize () (at Assets/WeaverCore/WeaverCore/Initialization.cs:44)
+
+[Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/Checks/VerifyWeaverCoreEditorState.cs line 38]
+
+Mono: successfully reloaded assembly
+- Completed reload, in 12.206 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2622 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.4 MB.
+System memory in use after: 120.6 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 3160.
+Total: 11.020800 ms (FindLiveObjects: 0.548800 ms CreateObjectMapping: 0.302000 ms MarkObjects: 9.954600 ms  DeleteObjects: 0.211400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012219 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+InvalidOperationException: Sequence contains no matching element
+  at System.Linq.Enumerable.First[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate) [0x00011] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at WeaverCore.Editor.Compilation.ScriptFinder.GetProjectScriptInfo () [0x0016a] in C:\Users\JLDeC\OneDrive\Documents\GitHub\Mods\FourSword-Tubers\Assets\WeaverCore\WeaverCore.Editor\Compilation\ScriptFinder.cs:111 
+  at WeaverCore.Editor.VerifyWeaverCoreEditorState.StartCheck (System.Action`1[T] finishCheck) [0x00000] in C:\Users\JLDeC\OneDrive\Documents\GitHub\Mods\FourSword-Tubers\Assets\WeaverCore\WeaverCore.Editor\Dependency Checks\Checks\VerifyWeaverCoreEditorState.cs:18 
+  at WeaverCore.Editor.DependencyChecker+<>c__DisplayClass13_0.<CheckDependencies>b__0 (WeaverCore.Editor.DependencyCheck+DependencyCheckResult result) [0x0011c] in C:\Users\JLDeC\OneDrive\Documents\GitHub\Mods\FourSword-Tubers\Assets\WeaverCore\WeaverCore.Editor\Dependency Checks\DependencyChecker.cs:199 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+WeaverCore.Editor.<>c__DisplayClass13_0:<CheckDependencies>b__0(DependencyCheckResult) (at Assets\WeaverCore\WeaverCore.Editor\Dependency Checks\DependencyChecker.cs:203)
+WeaverCore.Editor.VerifyPhysics:StartCheck(Action`1) (at Assets\WeaverCore\WeaverCore.Editor\Dependency Checks\Checks\VerifyPhysics.cs:15)
+WeaverCore.Editor.<>c__DisplayClass13_0:<CheckDependencies>b__0(DependencyCheckResult) (at Assets\WeaverCore\WeaverCore.Editor\Dependency Checks\DependencyChecker.cs:199)
+WeaverCore.Editor.VerifyAPILevel:StartCheck(Action`1) (at Assets\WeaverCore\WeaverCore.Editor\Dependency Checks\Checks\VerifyAPILevel.cs:26)
+WeaverCore.Editor.<>c__DisplayClass13_0:<CheckDependencies>b__0(DependencyCheckResult) (at Assets\WeaverCore\WeaverCore.Editor\Dependency Checks\DependencyChecker.cs:199)
+WeaverCore.Editor.DependencyChecker:CheckDependencies(Boolean, List`1, Int32) (at Assets\WeaverCore\WeaverCore.Editor\Dependency Checks\DependencyChecker.cs:213)
+WeaverCore.Editor.DependencyChecker:CheckDependencies() (at Assets\WeaverCore\WeaverCore.Editor\Dependency Checks\DependencyChecker.cs:126)
+WeaverCore.Editor.Compilation.BuildTools:Init() (at Assets\WeaverCore\WeaverCore.Editor\Compilation\BuildTools.cs:483)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.MethodBase:Invoke(Object, Object[])
+WeaverCore.Utilities.ReflectionUtilities:ExecuteMethodsWithAttribute(Func`3, BindingFlags, Boolean) (at Assets\WeaverCore\WeaverCore\Utilities\ReflectionUtilities.cs:530)
+WeaverCore.Initialization:Initialize() (at Assets\WeaverCore\WeaverCore\Initialization.cs:75)
+WeaverCore.Initialization:OnEditorInitialize() (at Assets\WeaverCore\WeaverCore\Initialization.cs:44)
+
+An Error occured when doing a dependency check for : Verify Weaver Core Editor State. See console for more info
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WeaverCore.Editor.DependencyChecker/<>c__DisplayClass13_0:<CheckDependencies>b__0 (WeaverCore.Editor.DependencyCheck/DependencyCheckResult) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs:156)
+WeaverCore.Editor.DependencyChecker/<>c__DisplayClass13_0:<CheckDependencies>b__0 (WeaverCore.Editor.DependencyCheck/DependencyCheckResult) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs:204)
+WeaverCore.Editor.VerifyPhysics:StartCheck (System.Action`1<WeaverCore.Editor.DependencyCheck/DependencyCheckResult>) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/Checks/VerifyPhysics.cs:15)
+WeaverCore.Editor.DependencyChecker/<>c__DisplayClass13_0:<CheckDependencies>b__0 (WeaverCore.Editor.DependencyCheck/DependencyCheckResult) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs:199)
+WeaverCore.Editor.VerifyAPILevel:StartCheck (System.Action`1<WeaverCore.Editor.DependencyCheck/DependencyCheckResult>) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/Checks/VerifyAPILevel.cs:26)
+WeaverCore.Editor.DependencyChecker/<>c__DisplayClass13_0:<CheckDependencies>b__0 (WeaverCore.Editor.DependencyCheck/DependencyCheckResult) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs:199)
+WeaverCore.Editor.DependencyChecker:CheckDependencies (bool,System.Collections.Generic.List`1<WeaverCore.Editor.DependencyCheck>,int) (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs:213)
+WeaverCore.Editor.DependencyChecker:CheckDependencies () (at Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs:126)
+WeaverCore.Editor.Compilation.BuildTools:Init () (at Assets/WeaverCore/WeaverCore.Editor/Compilation/BuildTools.cs:483)
+System.Reflection.MonoMethod:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+WeaverCore.Utilities.ReflectionUtilities:ExecuteMethodsWithAttribute<WeaverCore.Attributes.OnInitAttribute> (System.Func`3<System.Reflection.MethodInfo, WeaverCore.Attributes.OnInitAttribute, bool>,System.Reflection.BindingFlags,bool) (at Assets/WeaverCore/WeaverCore/Utilities/ReflectionUtilities.cs:530)
+WeaverCore.Initialization:Initialize () (at Assets/WeaverCore/WeaverCore/Initialization.cs:75)
+WeaverCore.Initialization:OnEditorInitialize () (at Assets/WeaverCore/WeaverCore/Initialization.cs:44)
+
+(Filename: Assets/WeaverCore/WeaverCore.Editor/Dependency Checks/DependencyChecker.cs Line: 156)
+
+Mono: successfully reloaded assembly
+- Completed reload, in 34.600 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2621 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.5 MB.
+System memory in use after: 120.6 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 3163.
+Total: 15.494300 ms (FindLiveObjects: 0.746600 ms CreateObjectMapping: 0.416000 ms MarkObjects: 14.035400 ms  DeleteObjects: 0.292000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1297.616689 seconds.
+  path: Assets/WeaverCore/README.md
+  artifactKey: Guid(694b797bb67bfab4eb86df4c6517443f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaverCore/README.md using Guid(694b797bb67bfab4eb86df4c6517443f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e302e3d4a9635fd1c0a29118c629df44') in 0.159858 seconds
+  Import took 0.176368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 100.873375 seconds.
+  path: Assets/Registry/NewSceneRecord.asset
+  artifactKey: Guid(1328f3adc804e8f4b8dbf5c1c10159a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Registry/NewSceneRecord.asset using Guid(1328f3adc804e8f4b8dbf5c1c10159a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c72555400e8e09b507d7c3c348dec772') in 0.026716 seconds
+  Import took 0.038135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.810815 seconds.
+  path: Assets/Registry/NewSceneRecord.asset
+  artifactKey: Guid(1328f3adc804e8f4b8dbf5c1c10159a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Registry/NewSceneRecord.asset using Guid(1328f3adc804e8f4b8dbf5c1c10159a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9454c3d13a669ffa0f1b829087f4a92') in 0.039710 seconds
+  Import took 0.060385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 265.515534 seconds.
+  path: Assets/Registry/NewSceneRecord.asset
+  artifactKey: Guid(1328f3adc804e8f4b8dbf5c1c10159a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Registry/NewSceneRecord.asset using Guid(1328f3adc804e8f4b8dbf5c1c10159a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8fe31051695331fe012d69bf3856036') in 0.040957 seconds
+  Import took 0.051324 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

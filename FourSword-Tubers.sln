@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeaverCore", "WeaverCore.csproj", "{0FAFA637-B262-0CD6-DC84-2E11A5A7F7EF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HollowKnight", "HollowKnight.csproj", "{1292E933-D6F6-7052-7776-CE56DED13FE1}"

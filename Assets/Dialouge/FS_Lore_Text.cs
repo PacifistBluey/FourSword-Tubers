@@ -17,7 +17,7 @@ public class FS_Lore_Text : Conversation
         if (DialogBoxResult == YesNoResult.Yes)
         {
             yield return Speak("In the Regional Slugma lake within the opposite-colored path","Next to the scream coming from the abyss",
-                "Hatch from the egg of infection","Near the Tyrant of [[Heart-Shaped Object]]");
+                "Grubhome","Near the Tyrant of [[Heart-Shaped Object]]");
         }
         //Was the result of the question a no?
         else if (DialogBoxResult == YesNoResult.No)
