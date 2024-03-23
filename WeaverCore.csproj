@@ -2,8 +2,6 @@
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <LangVersion>latest</LangVersion>
-    <CscToolPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Tools\RoslynScripts</CscToolPath>
-    <CscToolExe>unity_csc.bat</CscToolExe>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -46,352 +44,365 @@
     <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
+  <PropertyGroup>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <UnityProjectGenerator>Package</UnityProjectGenerator>
+    <UnityProjectGeneratorVersion>2.0.5</UnityProjectGeneratorVersion>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
+    <UnityVersion>2020.2.2f1</UnityVersion>
+  </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\WeaverCore\WeaverCore\Settings\Elements\BoolElement.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Attributes\OnHarmonyPatchAttribute.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Components\RescaleToParent.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Utilities\TextureUtilities.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Features\Boss.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\Components\Config Screen\FitToText.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\Components\WeaverArrowPrompt.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Flings.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Utilities\AnimationUtilities.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Utilities\PlayMakerUtilities.cs" />
-     <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Helpers\VariableSet.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Interop.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Implementations\Enemy_I.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Components\DroppedCharmItem.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Atmos.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Features\BossReplacement.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Components\DeathEffects\InfectedDeathEffects.cs" />
-     <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Fields\NumberField.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\TogglableWeaverMod.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Enums\RumbleType.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Utilities\WeaverAssets.cs" />
-     <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Fields\NumberRangeField.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\Components\MantisShot.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Settings\Elements\HeaderElement.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Utilities\UnityUtilities.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Features\LanguageTable.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Implementations\WeaverAudio_I.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Settings\GlobalSettings.cs" />
-     <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Attributes\RuntimeInspectorButtonAttribute.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Implementations\EventManager_I.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Implementations\SpriteFlasher_I.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Patches\ObjectBounce_Patches.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Implementations\HunterJournal_I.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Enums\RotationType.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\Components\Area Title\WeaverBossTitle.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\Components\StunEffect.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Settings\Attributes\SettingDescriptionAttribute.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\Components\EnemyExtraDamager.cs" />
-     <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Skin\UISkin.cs" />
-     <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Helpers\BoundSlider.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Settings\Elements\NumberElement.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\PoolableObject.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Utilities\TransformUtilities.cs" />
-     <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeHierarchy\HierarchyDataRoot.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Interfaces\IDeathEffects.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Components\DeathEffects\UninfectedDeathEffects.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\Components\Debug Tools\ToolsArea.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Interfaces\IOnPool.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Utilities\VectorUtilities.cs" />
-     <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Fields\Vector4Field.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Attributes\OnRegistryLoadAttribute.cs" />
-     <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Helpers\ObjectReferencePicker\ObjectReferencePickerItem.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Enums\OnDoneBehaviour.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\WeaverDebugCanvas.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Implementations\HealthManager_I.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Components\EnemyProjectile.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Components\DreamWarper.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Warp.cs" />
-     <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Helpers\RecycledListView\IListViewAdapter.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Components\GGStatue\GGReturnFromBossVisualization.cs" />
-     <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Helpers\Tooltip.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Enums\CardinalDirection.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Components\WeaverBossStatue.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Implementations\Boss_I.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Internal\EnemyHPBars_Interop.cs" />
-     <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Helpers\RuntimeInspectorUtils.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\Components\AutoDestroy.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\Components\Camera\ForceAspectRatio.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Implementations\RegistryLoader_I.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\Components\Map\MapUpdateMessage.cs" />
-     <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Fields\ColorField.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Enums\RunningState.cs" />
-     <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Helpers\DraggedReferenceItem.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\HarmonyPatcher.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\WeaverBossScene.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Components\SpriteFader.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Components\WeaverAreaTitleController.cs" />
-     <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Helpers\ColorPicker\ColorPickerAlphaSlider.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Utilities\WeaverAnimationData.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\WeaverBossSceneTransition.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Settings\EnabledType.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Settings\Accessors\CustomPropertyAccessor_Base.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\DarknessRegion.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Settings\ConfigButton.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Utilities\Teleporter.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Attributes\ShowFeatureAttribute.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Implementations\HitTaker_I.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Enums\AreaTitlePosition.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\ShadeSounds.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\WeaverLanguage.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Components\LaserEmitter.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\Components\WeaverSceneBorder.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Components\GGDreamEntryFader.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Implementations\WeaverAssets_I.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\Components\VomitGlob.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\TMPro\TextMeshPro.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Attributes\OnPlayerUninit.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\RegistryLoader.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Attributes\OnFeatureUnloadAttribute.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Registry.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Attributes\OnInitAttribute.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Settings\Attributes\SettingRangeAttribute.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\HunterJournal.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Components\DreamReturnDoor.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\Components\PlayerWeaponizer.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Components\TotalSceneDarkness.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\Components\UninfectedHitParticles.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Components\DreamEntryFader.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Components\CollisionCounter.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Enums\MusicSyncType.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Implementations\WeaverSettings_I.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Components\PlayerDamager.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Components\ForcePlayerDamager.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Settings\Accessors\MethodAccessor.cs" />
-     <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeHierarchy\HierarchyDataTransform.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Utilities\HashUtilities.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Implementations\UnboundCoroutine_I.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\Components\Spatter.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Cache.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\ImplFinder.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Components\HitEffects\HitEffectsNormal.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Player.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Utilities\CoroutineUtilities.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\ActorSounds.cs" />
-     <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Fields\ObjectField.cs" />
-     <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeHierarchy.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAudio.cs" />
-     <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeHierarchy\HierarchyDataRootSearch.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\Components\Map\GetCharmMessage.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\Components\RandomRotation.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\OptionalAssembly.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Components\WeaverCompassUpdater.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Randomizer.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Enums\AudioChannel.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Attributes\Base\PriorityAttribute.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Components\DreamNailable.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\Components\DeathWave.cs" />
-     <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeHierarchy\Helpers\HierarchyDragDropListener.cs" />
-     <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Helpers\PopupBase.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Attributes\AfterModLoadAttribute.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Utilities\TypeUtilities.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\HitInfo.cs" />
-     <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeHierarchy\HierarchyDataRootPseudoScene.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Settings\Attributes\SettingOrderAttribute.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Internal\GG_Internal.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Components\LaserOLD.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Attributes\AfterCameraLoadAttribute.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\Components\BossDeathExplosion.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\AtmosPack.cs" />
-     <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Helpers\ExposedVariablesEnumerator.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Components\InspectRegion.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Components\HitEffects\HitEffectsGhost.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\GG_CrowdAnimationControl.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\Components\EnemyDamager.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Utilities\CharmUtilities.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\HealthModifiers\InvincibleHealthModifier.cs" />
-     <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeHierarchy\HierarchyDataRootScene.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Attributes\OnRegistryUnloadAttribute.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Settings\Attributes\SettingFieldAttribute.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Interfaces\IImplementation.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\TMPro\TextMeshProUGUI.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\EventListener.cs" />
-     <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeHierarchy\HierarchyData.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Components\GGStatue\GGStatueInspect.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Implementations\PlayerInput_I.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Attributes\OnPlayerInit.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\DataTypes\Internal\ComponentPath.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\WeaverGameManager.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Implementations\SaveSpecificSettings_I.cs" />
-     <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Fields\GameObjectField.cs" />
-     <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Helpers\NumberHandlers.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Settings\Elements\SpaceElement.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Patches\HeroBox_Patches.cs" />
-     <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Fields\TransformField.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Components\PoolOnParticlesDone.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Pooling.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\Components\Camera\SetCameraRect.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Settings\Tab.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\BossSceneMusicController.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Settings\SaveSpecificSettings_Extensions.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\TMPro\TMP_FontAsset.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Features\Enemy.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\Components\NPCS\Conversation.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Implementations\WeaverLanguage_I.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Components\GodSeekerSeatedControl.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\WeaverMod.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Settings\Elements\UIElement.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Utilities\DirectionUtilities.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\WeaverBossSceneController.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\AudioAssets.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Enums\ShakeType.cs" />
-     <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Fields\TextureReferenceField.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\Components\DoorControl.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Attributes\OnRuntimeInitAttribute.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Implementations\Shaker_I.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Settings\Elements\StringElement.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Settings\Accessors\CustomFunctionAccessor.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Settings\Attributes\SettingSpaceAttribute.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Settings\Accessors\CustomPropertyAccessor.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Components\WeaverCameraLock.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Utilities\LerpUtilities.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Components\DroppedCustomCharmItem.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\Components\Bench\WeaverBench.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Enums\AttackType.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\EventManager.cs" />
-     <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Helpers\ExposedMethod.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Settings\Elements\EnumElement.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\EntityReplacements.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\EffectAssets.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Features\WeaverCharm.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\Components\NPCS\WeaverNPC.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Features\CanvasExtension.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Interfaces\IHealthModifier.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Settings\Accessors\FieldAccessor.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\Components\Area Title\AreaTitleTextFitter.cs" />
-     <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Fields\BoundsField.cs" />
-     <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Fields\EnumField.cs" />
-     <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Fields\ObjectReferenceField.cs" />
-     <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Fields\ArrayField.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Interfaces\IEnemyMove.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\Components\Debug Tools\HideArrow.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Components\DroppedItem.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\Components\Map\MapUpdateDisplay.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\Components\Bench\LightPulse.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\AudioPlayer.cs" />
-     <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Helpers\WindowDragHandler.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Interfaces\IHitEffects.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Settings\Attributes\SettingHeaderAttribute.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Components\DeathEffects\BasicDeathEffects.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\MusicPack.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\Components\WhiteFlash.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Utilities\ListUtilities.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\Components\Debug Tools\WeaverCoreDebugTools.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Utilities\ReflectionUtilities.cs" />
-     <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Fields\InspectorField.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Interfaces\IBossMove.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Attributes\AfterBuildAttribute.cs" />
-     <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeHierarchy\HierarchyField.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Features\CameraExtension.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Utilities\StreamUtilities.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Components\EntityHealth.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Settings\Interfaces\IAccessor.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\MaterialAssets.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Components\NailTink.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Utilities\FlingUtilities.cs" />
-     <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Components\Recoiler.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Utilities\PathUtilities.cs" />
-     <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Fields\StringField.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Components\OscillateScale.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Components\DreamFallCatcher.cs" />
-     <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Helpers\RecycledListView\RecycledListItem.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Utilities\UnboundCoroutine.cs" />
-     <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Helpers\NonDrawingMaskableGraphic.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Blood.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Utilities\ResourceUtilities.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Settings\SettingsScreen.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Settings\SaveSpecificSettings.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Implementations\GeoCounter.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Utilities\MathUtilities.cs" />
-     <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Fields\RectField.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Features\DebugCanvasExtension.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Internal\WeaverCoreGlobalSettings.cs" />
-     <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeHierarchy\Helpers\PseudoSceneSourceTransform.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\EnviroEffects.cs" />
-     <Compile Include="Assets\WeaverCore\RuntimeInspector\ExternalResources\ColorWheel\ColorWheelControl.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Components\WeaverTransitionPoint.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\HitTaker.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\CustomCharm.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\Components\UninfectedDeathParticles.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Attributes\BeforeBuildAttribute.cs" />
-     <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Fields\Vector2Field.cs" />
-     <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Helpers\NonDrawingGraphic.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\WeaverCanvas.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Features\EnemyReplacement.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Components\WeaverAnimationPlayer.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\HealthModifiers\InfiniteHealthModifier.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Components\BossStatueLanguageProvider.cs" />
-     <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Helpers\TooltipArea.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Interfaces\IHittable.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Implementations\AudioMixer_I.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\Components\RoarEmitter.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Internal\WeaverCore_ModClass.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Utilities\StringUtilities.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Interfaces\IObjectReplacement.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Interfaces\IObjectReplacementConditional.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\Components\EssenceEffects.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Interfaces\IWeaverCharm.cs" />
-     <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Helpers\DraggedReferenceSourceUI.cs" />
-     <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Helpers\PointerEventListener.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\PlayerInput.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Settings\Elements\FunctionElement.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Components\WeaverSceneManager.cs" />
-     <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Fields\BoolField.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Components\DialogueInspectRegion.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Components\GroundDetector.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\SceneRecord.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Settings\Accessors\PropertyAccessor.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Components\NailDeflect.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\FontAssetContainer.cs" />
-     <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Helpers\DraggedReferenceSourceCamera.cs" />
-     <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Helpers\RuntimeInspectorSettings.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Enums\BossDifficulty.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Attributes\ExcludeFieldFromPoolAttribute.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\CameraShaker.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Attributes\AfterModUnloadAttribute.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\Components\Audio Tester\AudioTester.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Components\HitEffects\HitEffectsInfected.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Components\ItemInspectRegion.cs" />
-     <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Helpers\BoundInputField.cs" />
-     <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Skin\SkinnedWindow.cs" />
-     <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Fields\Vector3Field.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Components\Laser.cs" />
-     <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Helpers\ObjectReferencePicker\ObjectReferencePicker.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Utilities\EnumUtilities.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Utilities\FieldCopierBuilder.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Initialization.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\ObjectPool.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Components\PerSaveTrigger.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Components\SpriteFlasher.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Implementations\PlayMaker_I.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\WeaverCamera.cs" />
-     <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Skin\SkinUtils.cs" />
-     <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Attributes\RuntimeInspectorCustomEditorAttribute.cs" />
-     <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Helpers\ColorPicker\ColorPicker.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Implementations\Player_I.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\Components\SharpShadowImpact.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Music.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\Components\Bench\DetectHero.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Components\InfectedExplosion.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\WeaverLog.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Attributes\OnFeatureLoadAttribute.cs" />
-     <Compile Include="Assets\WeaverCore\WeaverCore\Utilities\HeroUtilities.cs" />
-     <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Helpers\RecycledListView\RecycledListView.cs" />
-     <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Fields\ExposedMethodField.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Settings\Elements\BoolElement.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Attributes\OnHarmonyPatchAttribute.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Components\RescaleToParent.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Utilities\TextureUtilities.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Features\Boss.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\Components\Config Screen\FitToText.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\Components\WeaverArrowPrompt.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Flings.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Utilities\AnimationUtilities.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Utilities\PlayMakerUtilities.cs" />
+    <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Helpers\VariableSet.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Interop.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Implementations\Enemy_I.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Components\DroppedCharmItem.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Atmos.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Features\BossReplacement.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Components\DeathEffects\InfectedDeathEffects.cs" />
+    <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Fields\NumberField.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\TogglableWeaverMod.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Enums\RumbleType.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Utilities\WeaverAssets.cs" />
+    <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Fields\NumberRangeField.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\Components\MantisShot.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Settings\Elements\HeaderElement.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Utilities\UnityUtilities.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Features\LanguageTable.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Implementations\WeaverAudio_I.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Settings\GlobalSettings.cs" />
+    <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Attributes\RuntimeInspectorButtonAttribute.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Implementations\EventManager_I.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Implementations\SpriteFlasher_I.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Patches\ObjectBounce_Patches.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Implementations\HunterJournal_I.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Enums\RotationType.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\Components\Area Title\WeaverBossTitle.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\Components\StunEffect.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Settings\Attributes\SettingDescriptionAttribute.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\Components\EnemyExtraDamager.cs" />
+    <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Skin\UISkin.cs" />
+    <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Helpers\BoundSlider.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Settings\Elements\NumberElement.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\PoolableObject.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Utilities\TransformUtilities.cs" />
+    <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeHierarchy\HierarchyDataRoot.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Interfaces\IDeathEffects.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Components\DeathEffects\UninfectedDeathEffects.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\Components\Debug Tools\ToolsArea.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Interfaces\IOnPool.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Utilities\VectorUtilities.cs" />
+    <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Fields\Vector4Field.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Attributes\OnRegistryLoadAttribute.cs" />
+    <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Helpers\ObjectReferencePicker\ObjectReferencePickerItem.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Enums\OnDoneBehaviour.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\WeaverDebugCanvas.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Implementations\HealthManager_I.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Components\EnemyProjectile.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Components\DreamWarper.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Warp.cs" />
+    <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Helpers\RecycledListView\IListViewAdapter.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Components\GGStatue\GGReturnFromBossVisualization.cs" />
+    <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Helpers\Tooltip.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Enums\CardinalDirection.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Components\WeaverBossStatue.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Implementations\Boss_I.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Internal\EnemyHPBars_Interop.cs" />
+    <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Helpers\RuntimeInspectorUtils.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\Components\AutoDestroy.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\Components\Camera\ForceAspectRatio.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Implementations\RegistryLoader_I.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\Components\Map\MapUpdateMessage.cs" />
+    <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Fields\ColorField.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Enums\RunningState.cs" />
+    <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Helpers\DraggedReferenceItem.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\HarmonyPatcher.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\WeaverBossScene.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Components\SpriteFader.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Components\WeaverAreaTitleController.cs" />
+    <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Helpers\ColorPicker\ColorPickerAlphaSlider.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Utilities\WeaverAnimationData.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\WeaverBossSceneTransition.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Settings\EnabledType.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Settings\Accessors\CustomPropertyAccessor_Base.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\DarknessRegion.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Settings\ConfigButton.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Utilities\Teleporter.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Attributes\ShowFeatureAttribute.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Implementations\HitTaker_I.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Enums\AreaTitlePosition.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\ShadeSounds.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\WeaverLanguage.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Components\LaserEmitter.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\Components\WeaverSceneBorder.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Components\GGDreamEntryFader.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Implementations\WeaverAssets_I.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\Components\VomitGlob.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\TMPro\TextMeshPro.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Attributes\OnPlayerUninit.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\RegistryLoader.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Attributes\OnFeatureUnloadAttribute.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Registry.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Attributes\OnInitAttribute.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Settings\Attributes\SettingRangeAttribute.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\HunterJournal.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Components\DreamReturnDoor.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\Components\PlayerWeaponizer.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Components\TotalSceneDarkness.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\Components\UninfectedHitParticles.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Components\DreamEntryFader.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Components\CollisionCounter.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Enums\MusicSyncType.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Implementations\WeaverSettings_I.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Components\PlayerDamager.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Components\ForcePlayerDamager.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Settings\Accessors\MethodAccessor.cs" />
+    <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeHierarchy\HierarchyDataTransform.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Utilities\HashUtilities.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Implementations\UnboundCoroutine_I.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\Components\Spatter.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Cache.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\ImplFinder.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Components\HitEffects\HitEffectsNormal.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Player.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Utilities\CoroutineUtilities.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\ActorSounds.cs" />
+    <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Fields\ObjectField.cs" />
+    <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeHierarchy.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAudio.cs" />
+    <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeHierarchy\HierarchyDataRootSearch.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\Components\Map\GetCharmMessage.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\Components\RandomRotation.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\OptionalAssembly.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Components\WeaverCompassUpdater.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Randomizer.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Enums\AudioChannel.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Attributes\Base\PriorityAttribute.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Components\DreamNailable.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\Components\DeathWave.cs" />
+    <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeHierarchy\Helpers\HierarchyDragDropListener.cs" />
+    <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Helpers\PopupBase.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Attributes\AfterModLoadAttribute.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Utilities\TypeUtilities.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\HitInfo.cs" />
+    <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeHierarchy\HierarchyDataRootPseudoScene.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Settings\Attributes\SettingOrderAttribute.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Internal\GG_Internal.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Components\LaserOLD.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Attributes\AfterCameraLoadAttribute.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\Components\BossDeathExplosion.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\AtmosPack.cs" />
+    <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Helpers\ExposedVariablesEnumerator.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Components\InspectRegion.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Components\HitEffects\HitEffectsGhost.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\GG_CrowdAnimationControl.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\Components\EnemyDamager.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Utilities\CharmUtilities.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\HealthModifiers\InvincibleHealthModifier.cs" />
+    <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeHierarchy\HierarchyDataRootScene.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Attributes\OnRegistryUnloadAttribute.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Settings\Attributes\SettingFieldAttribute.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Interfaces\IImplementation.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\TMPro\TextMeshProUGUI.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\EventListener.cs" />
+    <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeHierarchy\HierarchyData.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Components\GGStatue\GGStatueInspect.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Implementations\PlayerInput_I.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Attributes\OnPlayerInit.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\DataTypes\Internal\ComponentPath.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\WeaverGameManager.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Implementations\SaveSpecificSettings_I.cs" />
+    <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Fields\GameObjectField.cs" />
+    <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Helpers\NumberHandlers.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Settings\Elements\SpaceElement.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Patches\HeroBox_Patches.cs" />
+    <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Fields\TransformField.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Components\PoolOnParticlesDone.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Pooling.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\Components\Camera\SetCameraRect.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Settings\Tab.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\BossSceneMusicController.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Settings\SaveSpecificSettings_Extensions.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\TMPro\TMP_FontAsset.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Features\Enemy.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\Components\NPCS\Conversation.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Implementations\WeaverLanguage_I.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Components\GodSeekerSeatedControl.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\WeaverMod.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Settings\Elements\UIElement.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Utilities\DirectionUtilities.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\WeaverBossSceneController.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\AudioAssets.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Enums\ShakeType.cs" />
+    <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Fields\TextureReferenceField.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\Components\DoorControl.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Attributes\OnRuntimeInitAttribute.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Implementations\Shaker_I.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Settings\Elements\StringElement.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Settings\Accessors\CustomFunctionAccessor.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Settings\Attributes\SettingSpaceAttribute.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Settings\Accessors\CustomPropertyAccessor.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Components\WeaverCameraLock.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Utilities\LerpUtilities.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Components\DroppedCustomCharmItem.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\Components\Bench\WeaverBench.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Enums\AttackType.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\EventManager.cs" />
+    <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Helpers\ExposedMethod.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Settings\Elements\EnumElement.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\EntityReplacements.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\EffectAssets.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Features\WeaverCharm.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\Components\NPCS\WeaverNPC.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Features\CanvasExtension.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Interfaces\IHealthModifier.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Settings\Accessors\FieldAccessor.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\Components\Area Title\AreaTitleTextFitter.cs" />
+    <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Fields\BoundsField.cs" />
+    <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Fields\EnumField.cs" />
+    <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Fields\ObjectReferenceField.cs" />
+    <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Fields\ArrayField.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Interfaces\IEnemyMove.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\Components\Debug Tools\HideArrow.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Components\DroppedItem.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\Components\Map\MapUpdateDisplay.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\Components\Bench\LightPulse.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\AudioPlayer.cs" />
+    <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Helpers\WindowDragHandler.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Interfaces\IHitEffects.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Settings\Attributes\SettingHeaderAttribute.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Components\DeathEffects\BasicDeathEffects.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\MusicPack.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\Components\WhiteFlash.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Utilities\ListUtilities.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\Components\Debug Tools\WeaverCoreDebugTools.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Utilities\ReflectionUtilities.cs" />
+    <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Fields\InspectorField.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Interfaces\IBossMove.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Attributes\AfterBuildAttribute.cs" />
+    <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeHierarchy\HierarchyField.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Features\CameraExtension.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Utilities\StreamUtilities.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Components\EntityHealth.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Settings\Interfaces\IAccessor.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\MaterialAssets.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Components\NailTink.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Utilities\FlingUtilities.cs" />
+    <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Components\Recoiler.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Utilities\PathUtilities.cs" />
+    <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Fields\StringField.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Components\OscillateScale.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Components\DreamFallCatcher.cs" />
+    <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Helpers\RecycledListView\RecycledListItem.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Utilities\UnboundCoroutine.cs" />
+    <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Helpers\NonDrawingMaskableGraphic.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Blood.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Utilities\ResourceUtilities.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Settings\SettingsScreen.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Settings\SaveSpecificSettings.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Implementations\GeoCounter.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Utilities\MathUtilities.cs" />
+    <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Fields\RectField.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Features\DebugCanvasExtension.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Internal\WeaverCoreGlobalSettings.cs" />
+    <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeHierarchy\Helpers\PseudoSceneSourceTransform.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\EnviroEffects.cs" />
+    <Compile Include="Assets\WeaverCore\RuntimeInspector\ExternalResources\ColorWheel\ColorWheelControl.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Components\WeaverTransitionPoint.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\HitTaker.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\CustomCharm.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\Components\UninfectedDeathParticles.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Attributes\BeforeBuildAttribute.cs" />
+    <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Fields\Vector2Field.cs" />
+    <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Helpers\NonDrawingGraphic.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\WeaverCanvas.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Features\EnemyReplacement.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Components\WeaverAnimationPlayer.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\HealthModifiers\InfiniteHealthModifier.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Components\BossStatueLanguageProvider.cs" />
+    <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Helpers\TooltipArea.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Interfaces\IHittable.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Implementations\AudioMixer_I.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\Components\RoarEmitter.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Internal\WeaverCore_ModClass.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Utilities\StringUtilities.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Interfaces\IObjectReplacement.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Interfaces\IObjectReplacementConditional.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\Components\EssenceEffects.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Interfaces\IWeaverCharm.cs" />
+    <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Helpers\DraggedReferenceSourceUI.cs" />
+    <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Helpers\PointerEventListener.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\PlayerInput.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Settings\Elements\FunctionElement.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Components\WeaverSceneManager.cs" />
+    <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Fields\BoolField.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Components\DialogueInspectRegion.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Components\GroundDetector.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\SceneRecord.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Settings\Accessors\PropertyAccessor.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Components\NailDeflect.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\FontAssetContainer.cs" />
+    <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Helpers\DraggedReferenceSourceCamera.cs" />
+    <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Helpers\RuntimeInspectorSettings.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Enums\BossDifficulty.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Attributes\ExcludeFieldFromPoolAttribute.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\CameraShaker.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Attributes\AfterModUnloadAttribute.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\Components\Audio Tester\AudioTester.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Components\HitEffects\HitEffectsInfected.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Components\ItemInspectRegion.cs" />
+    <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Helpers\BoundInputField.cs" />
+    <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Skin\SkinnedWindow.cs" />
+    <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Fields\Vector3Field.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Components\Laser.cs" />
+    <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Helpers\ObjectReferencePicker\ObjectReferencePicker.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Utilities\EnumUtilities.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Utilities\FieldCopierBuilder.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Initialization.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\ObjectPool.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Components\PerSaveTrigger.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Components\SpriteFlasher.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Implementations\PlayMaker_I.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\WeaverCamera.cs" />
+    <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Skin\SkinUtils.cs" />
+    <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Attributes\RuntimeInspectorCustomEditorAttribute.cs" />
+    <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Helpers\ColorPicker\ColorPicker.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Implementations\Player_I.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\Components\SharpShadowImpact.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Music.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\WeaverAssets\Components\Bench\DetectHero.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Components\InfectedExplosion.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\WeaverLog.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Attributes\OnFeatureLoadAttribute.cs" />
+    <Compile Include="Assets\WeaverCore\WeaverCore\Utilities\HeroUtilities.cs" />
+    <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Helpers\RecycledListView\RecycledListView.cs" />
+    <Compile Include="Assets\WeaverCore\RuntimeInspector\Scripts\RuntimeInspector\Fields\ExposedMethodField.cs" />
+  </ItemGroup>
+  <ItemGroup>
      <None Include="Assets\WeaverCore\Assets\UI Extensions\Shaders\UIAdditive.shader" />
      <None Include="Assets\WeaverCore\RuntimeInspector\Shaders\ColorPickerAlphaShader.shader" />
      <None Include="Assets\WeaverCore\Libraries\Newtonsoft.Json.xml" />
      <None Include="Assets\WeaverCore\Assets\Shaders\Blur Plane - UI Blur.shader" />
+     <None Include="Assets\WeaverCore\Libraries\Newtonsoft.Json.dll" />
      <None Include="Assets\WeaverCore\Assets\UI Extensions\Shaders\UI Particle Add.shader" />
      <None Include="Assets\WeaverCore\Libraries\0Harmony.xml" />
      <None Include="Assets\WeaverCore\Assets\UI Extensions\Shaders\UIScreen.shader" />
      <None Include="Assets\WeaverCore\Assets\UI Extensions\Shaders\UI Particle Multiply.shader" />
      <None Include="Assets\WeaverCore\Libraries\classdatabase_license.txt" />
      <None Include="Assets\WeaverCore\Assets\UI Extensions\Shaders\UIMultiply.shader" />
+     <None Include="Assets\WeaverCore\Libraries\AssetsTools.NET.dll" />
+     <None Include="Assets\WeaverCore\Libraries\MonoMod.Utils.dll" />
      <None Include="Assets\WeaverCore\Assets\Shaders\SpritesLit.shader" />
      <None Include="Assets\WeaverCore\Assets\UI Extensions\Shaders\UILinearDodge.shader" />
      <None Include="Assets\WeaverCore\Assets\UI Extensions\Shaders\UI Particle Alpha Blend.shader" />
@@ -401,11 +412,14 @@
      <None Include="Assets\WeaverCore\RuntimeInspector\ThirdPartyNotices.txt" />
      <None Include="Assets\WeaverCore\Assets\UI Extensions\Shaders\UI Particle MultiplyDouble.shader" />
      <None Include="Assets\WeaverCore\Assets\Shaders\Particle Add.shader" />
+     <None Include="Assets\WeaverCore\Libraries\MonoMod.RuntimeDetour.dll" />
      <None Include="Assets\WeaverCore\Assets\UI Extensions\Shaders\UI Particle AddMultiply.shader" />
      <None Include="Assets\WeaverCore\RuntimeInspector\README.txt" />
      <None Include="Assets\WeaverCore\Assets\UI Extensions\Shaders\UI Particle Blend.shader" />
+     <None Include="Assets\WeaverCore\Libraries\Mono.Security.dll" />
      <None Include="Assets\WeaverCore\Assets\Shaders\Conveyor Belt Shader.shader" />
      <None Include="Assets\WeaverCore\RuntimeInspector\ExternalResources\ColorWheel\Visuals\ColorWheelShader.shader" />
+     <None Include="Assets\WeaverCore\Libraries\0Harmony.dll" />
      <None Include="Assets\WeaverCore\Assets\UI Extensions\Shaders\UISoftAdditive.shader" />
      <None Include="Assets\WeaverCore\Assets\UI Extensions\Shaders\UI Particle AddSmooth.shader" />
      <None Include="Assets\WeaverCore\Assets\UI Extensions\Shaders\UIImageCrop.shader" />
@@ -414,621 +428,621 @@
      <None Include="Assets\WeaverCore\RuntimeInspector\ExternalResources\ColorWheel\ColorWheelLICENSE.txt" />
      <None Include="Assets\WeaverCore\Assets\Shaders\SpriteFlash.shader" />
      <None Include="Assets\WeaverCore\WeaverCore.asmdef" />
+     <None Include="Assets\WeaverCore\Libraries\Mono.Cecil.dll" />
      <None Include="Assets\WeaverCore\Assets\UI Extensions\Shaders\UIParticleHidden.shader" />
- <Reference Include="UnityEngine">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.AIModule">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.ARModule">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.AccessibilityModule">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.AndroidJNIModule">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.AnimationModule">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.AssetBundleModule">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.AudioModule">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.ClothModule">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.ClusterInputModule">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.ClusterRendererModule">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.CoreModule">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.CrashReportingModule">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.DSPGraphModule">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.DirectorModule">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.GIModule">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.GIModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.GameCenterModule">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.GridModule">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.HotReloadModule">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.IMGUIModule">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.ImageConversionModule">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.InputModule">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.InputLegacyModule">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.JSONSerializeModule">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.LocalizationModule">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.ParticleSystemModule">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.PerformanceReportingModule">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.PhysicsModule">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Physics2DModule">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.ProfilerModule">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.ScreenCaptureModule">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.SharedInternalsModule">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.SpriteMaskModule">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.SpriteShapeModule">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.StreamingModule">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.SubstanceModule">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.SubsystemsModule">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.TLSModule">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.TerrainModule">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.TerrainPhysicsModule">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.TextCoreModule">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.TextRenderingModule">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.TilemapModule">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.UIModule">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.UIElementsModule">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.UIElementsNativeModule">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsNativeModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.UNETModule">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.UmbraModule">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.UnityAnalyticsModule">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.UnityConnectModule">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.UnityCurlModule">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityCurlModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.UnityTestProtocolModule">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.UnityWebRequestModule">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.UnityWebRequestAudioModule">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.UnityWebRequestTextureModule">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.UnityWebRequestWWWModule">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.VFXModule">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.VRModule">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.VehiclesModule">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.VideoModule">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.VirtualTexturingModule">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.VirtualTexturingModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.WindModule">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.XRModule">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed/UnityEngine/UnityEditor.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.CoreModule">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.GraphViewModule">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed/UnityEngine/UnityEditor.GraphViewModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.PackageManagerUIModule">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed/UnityEngine/UnityEditor.PackageManagerUIModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.SceneTemplateModule">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed/UnityEngine/UnityEditor.SceneTemplateModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.UIElementsModule">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.UIElementsSamplesModule">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsSamplesModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.UIServiceModule">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIServiceModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.UnityConnectModule">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.Graphs">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.WindowsStandalone.Extensions">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
- </Reference>
- <Reference Include="AssetsTools.NET">
- <HintPath>C:/Users/JLDeC/OneDrive/Documents/GitHub/Mods/FourSword-Tubers/Assets/WeaverCore/Libraries/AssetsTools.NET.dll</HintPath>
- </Reference>
- <Reference Include="MonoMod.Utils">
- <HintPath>C:/Users/JLDeC/OneDrive/Documents/GitHub/Mods/FourSword-Tubers/Assets/WeaverCore/Libraries/MonoMod.Utils.dll</HintPath>
- </Reference>
- <Reference Include="0Harmony">
- <HintPath>C:/Users/JLDeC/OneDrive/Documents/GitHub/Mods/FourSword-Tubers/Assets/WeaverCore/Libraries/0Harmony.dll</HintPath>
- </Reference>
- <Reference Include="Newtonsoft.Json">
- <HintPath>C:/Users/JLDeC/OneDrive/Documents/GitHub/Mods/FourSword-Tubers/Assets/WeaverCore/Libraries/Newtonsoft.Json.dll</HintPath>
- </Reference>
- <Reference Include="Mono.Cecil">
- <HintPath>C:/Users/JLDeC/OneDrive/Documents/GitHub/Mods/FourSword-Tubers/Assets/WeaverCore/Libraries/Mono.Cecil.dll</HintPath>
- </Reference>
- <Reference Include="Mono.Security">
- <HintPath>C:/Users/JLDeC/OneDrive/Documents/GitHub/Mods/FourSword-Tubers/Assets/WeaverCore/Libraries/Mono.Security.dll</HintPath>
- </Reference>
- <Reference Include="MonoMod.RuntimeDetour">
- <HintPath>C:/Users/JLDeC/OneDrive/Documents/GitHub/Mods/FourSword-Tubers/Assets/WeaverCore/Libraries/MonoMod.RuntimeDetour.dll</HintPath>
- </Reference>
- <Reference Include="mscorlib">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
- </Reference>
- <Reference Include="System">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.dll</HintPath>
- </Reference>
- <Reference Include="System.Core">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Core.dll</HintPath>
- </Reference>
- <Reference Include="System.Runtime.Serialization">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Runtime.Serialization.dll</HintPath>
- </Reference>
- <Reference Include="System.Xml">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.dll</HintPath>
- </Reference>
- <Reference Include="System.Xml.Linq">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.Linq.dll</HintPath>
- </Reference>
- <Reference Include="System.Numerics">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.dll</HintPath>
- </Reference>
- <Reference Include="System.Numerics.Vectors">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.Vectors.dll</HintPath>
- </Reference>
- <Reference Include="System.Net.Http">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Net.Http.dll</HintPath>
- </Reference>
- <Reference Include="Microsoft.CSharp">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Microsoft.CSharp.dll</HintPath>
- </Reference>
- <Reference Include="System.Data">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Data.dll</HintPath>
- </Reference>
- <Reference Include="Microsoft.Win32.Primitives">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/Microsoft.Win32.Primitives.dll</HintPath>
- </Reference>
- <Reference Include="netstandard">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/netstandard.dll</HintPath>
- </Reference>
- <Reference Include="System.AppContext">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.AppContext.dll</HintPath>
- </Reference>
- <Reference Include="System.Collections.Concurrent">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Concurrent.dll</HintPath>
- </Reference>
- <Reference Include="System.Collections">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.dll</HintPath>
- </Reference>
- <Reference Include="System.Collections.NonGeneric">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.NonGeneric.dll</HintPath>
- </Reference>
- <Reference Include="System.Collections.Specialized">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Specialized.dll</HintPath>
- </Reference>
- <Reference Include="System.ComponentModel.Annotations">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Annotations.dll</HintPath>
- </Reference>
- <Reference Include="System.ComponentModel">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.dll</HintPath>
- </Reference>
- <Reference Include="System.ComponentModel.EventBasedAsync">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.EventBasedAsync.dll</HintPath>
- </Reference>
- <Reference Include="System.ComponentModel.Primitives">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Primitives.dll</HintPath>
- </Reference>
- <Reference Include="System.ComponentModel.TypeConverter">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.TypeConverter.dll</HintPath>
- </Reference>
- <Reference Include="System.Console">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Console.dll</HintPath>
- </Reference>
- <Reference Include="System.Data.Common">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Data.Common.dll</HintPath>
- </Reference>
- <Reference Include="System.Diagnostics.Contracts">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Contracts.dll</HintPath>
- </Reference>
- <Reference Include="System.Diagnostics.Debug">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Debug.dll</HintPath>
- </Reference>
- <Reference Include="System.Diagnostics.FileVersionInfo">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.FileVersionInfo.dll</HintPath>
- </Reference>
- <Reference Include="System.Diagnostics.Process">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Process.dll</HintPath>
- </Reference>
- <Reference Include="System.Diagnostics.StackTrace">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.StackTrace.dll</HintPath>
- </Reference>
- <Reference Include="System.Diagnostics.TextWriterTraceListener">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TextWriterTraceListener.dll</HintPath>
- </Reference>
- <Reference Include="System.Diagnostics.Tools">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Tools.dll</HintPath>
- </Reference>
- <Reference Include="System.Diagnostics.TraceSource">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TraceSource.dll</HintPath>
- </Reference>
- <Reference Include="System.Drawing.Primitives">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Drawing.Primitives.dll</HintPath>
- </Reference>
- <Reference Include="System.Dynamic.Runtime">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Dynamic.Runtime.dll</HintPath>
- </Reference>
- <Reference Include="System.Globalization.Calendars">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Calendars.dll</HintPath>
- </Reference>
- <Reference Include="System.Globalization">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.dll</HintPath>
- </Reference>
- <Reference Include="System.Globalization.Extensions">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Extensions.dll</HintPath>
- </Reference>
- <Reference Include="System.IO.Compression.ZipFile">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Compression.ZipFile.dll</HintPath>
- </Reference>
- <Reference Include="System.IO">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.dll</HintPath>
- </Reference>
- <Reference Include="System.IO.FileSystem">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.dll</HintPath>
- </Reference>
- <Reference Include="System.IO.FileSystem.DriveInfo">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.DriveInfo.dll</HintPath>
- </Reference>
- <Reference Include="System.IO.FileSystem.Primitives">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Primitives.dll</HintPath>
- </Reference>
- <Reference Include="System.IO.FileSystem.Watcher">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Watcher.dll</HintPath>
- </Reference>
- <Reference Include="System.IO.IsolatedStorage">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.IsolatedStorage.dll</HintPath>
- </Reference>
- <Reference Include="System.IO.MemoryMappedFiles">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.MemoryMappedFiles.dll</HintPath>
- </Reference>
- <Reference Include="System.IO.Pipes">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Pipes.dll</HintPath>
- </Reference>
- <Reference Include="System.IO.UnmanagedMemoryStream">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.UnmanagedMemoryStream.dll</HintPath>
- </Reference>
- <Reference Include="System.Linq">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.dll</HintPath>
- </Reference>
- <Reference Include="System.Linq.Expressions">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Expressions.dll</HintPath>
- </Reference>
- <Reference Include="System.Linq.Parallel">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Parallel.dll</HintPath>
- </Reference>
- <Reference Include="System.Linq.Queryable">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Queryable.dll</HintPath>
- </Reference>
- <Reference Include="System.Net.Http.Rtc">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Http.Rtc.dll</HintPath>
- </Reference>
- <Reference Include="System.Net.NameResolution">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NameResolution.dll</HintPath>
- </Reference>
- <Reference Include="System.Net.NetworkInformation">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NetworkInformation.dll</HintPath>
- </Reference>
- <Reference Include="System.Net.Ping">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Ping.dll</HintPath>
- </Reference>
- <Reference Include="System.Net.Primitives">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Primitives.dll</HintPath>
- </Reference>
- <Reference Include="System.Net.Requests">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Requests.dll</HintPath>
- </Reference>
- <Reference Include="System.Net.Security">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Security.dll</HintPath>
- </Reference>
- <Reference Include="System.Net.Sockets">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Sockets.dll</HintPath>
- </Reference>
- <Reference Include="System.Net.WebHeaderCollection">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebHeaderCollection.dll</HintPath>
- </Reference>
- <Reference Include="System.Net.WebSockets.Client">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.Client.dll</HintPath>
- </Reference>
- <Reference Include="System.Net.WebSockets">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.dll</HintPath>
- </Reference>
- <Reference Include="System.ObjectModel">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ObjectModel.dll</HintPath>
- </Reference>
- <Reference Include="System.Reflection">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.dll</HintPath>
- </Reference>
- <Reference Include="System.Reflection.Emit">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.dll</HintPath>
- </Reference>
- <Reference Include="System.Reflection.Emit.ILGeneration">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.ILGeneration.dll</HintPath>
- </Reference>
- <Reference Include="System.Reflection.Emit.Lightweight">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.Lightweight.dll</HintPath>
- </Reference>
- <Reference Include="System.Reflection.Extensions">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Extensions.dll</HintPath>
- </Reference>
- <Reference Include="System.Reflection.Primitives">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Primitives.dll</HintPath>
- </Reference>
- <Reference Include="System.Resources.Reader">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Reader.dll</HintPath>
- </Reference>
- <Reference Include="System.Resources.ResourceManager">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.ResourceManager.dll</HintPath>
- </Reference>
- <Reference Include="System.Resources.Writer">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Writer.dll</HintPath>
- </Reference>
- <Reference Include="System.Runtime.CompilerServices.VisualC">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.CompilerServices.VisualC.dll</HintPath>
- </Reference>
- <Reference Include="System.Runtime">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.dll</HintPath>
- </Reference>
- <Reference Include="System.Runtime.Extensions">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Extensions.dll</HintPath>
- </Reference>
- <Reference Include="System.Runtime.Handles">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Handles.dll</HintPath>
- </Reference>
- <Reference Include="System.Runtime.InteropServices">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.dll</HintPath>
- </Reference>
- <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
- </Reference>
- <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
- </Reference>
- <Reference Include="System.Runtime.Numerics">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Numerics.dll</HintPath>
- </Reference>
- <Reference Include="System.Runtime.Serialization.Formatters">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Formatters.dll</HintPath>
- </Reference>
- <Reference Include="System.Runtime.Serialization.Json">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Json.dll</HintPath>
- </Reference>
- <Reference Include="System.Runtime.Serialization.Primitives">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Primitives.dll</HintPath>
- </Reference>
- <Reference Include="System.Runtime.Serialization.Xml">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Xml.dll</HintPath>
- </Reference>
- <Reference Include="System.Security.Claims">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Claims.dll</HintPath>
- </Reference>
- <Reference Include="System.Security.Cryptography.Algorithms">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Algorithms.dll</HintPath>
- </Reference>
- <Reference Include="System.Security.Cryptography.Csp">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Csp.dll</HintPath>
- </Reference>
- <Reference Include="System.Security.Cryptography.Encoding">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Encoding.dll</HintPath>
- </Reference>
- <Reference Include="System.Security.Cryptography.Primitives">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Primitives.dll</HintPath>
- </Reference>
- <Reference Include="System.Security.Cryptography.X509Certificates">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.X509Certificates.dll</HintPath>
- </Reference>
- <Reference Include="System.Security.Principal">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Principal.dll</HintPath>
- </Reference>
- <Reference Include="System.Security.SecureString">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.SecureString.dll</HintPath>
- </Reference>
- <Reference Include="System.ServiceModel.Duplex">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Duplex.dll</HintPath>
- </Reference>
- <Reference Include="System.ServiceModel.Http">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Http.dll</HintPath>
- </Reference>
- <Reference Include="System.ServiceModel.NetTcp">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.NetTcp.dll</HintPath>
- </Reference>
- <Reference Include="System.ServiceModel.Primitives">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Primitives.dll</HintPath>
- </Reference>
- <Reference Include="System.ServiceModel.Security">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Security.dll</HintPath>
- </Reference>
- <Reference Include="System.Text.Encoding">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.dll</HintPath>
- </Reference>
- <Reference Include="System.Text.Encoding.Extensions">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.Extensions.dll</HintPath>
- </Reference>
- <Reference Include="System.Text.RegularExpressions">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.RegularExpressions.dll</HintPath>
- </Reference>
- <Reference Include="System.Threading">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.dll</HintPath>
- </Reference>
- <Reference Include="System.Threading.Overlapped">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Overlapped.dll</HintPath>
- </Reference>
- <Reference Include="System.Threading.Tasks">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.dll</HintPath>
- </Reference>
- <Reference Include="System.Threading.Tasks.Parallel">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.Parallel.dll</HintPath>
- </Reference>
- <Reference Include="System.Threading.Thread">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Thread.dll</HintPath>
- </Reference>
- <Reference Include="System.Threading.ThreadPool">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.ThreadPool.dll</HintPath>
- </Reference>
- <Reference Include="System.Threading.Timer">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Timer.dll</HintPath>
- </Reference>
- <Reference Include="System.ValueTuple">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ValueTuple.dll</HintPath>
- </Reference>
- <Reference Include="System.Xml.ReaderWriter">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.ReaderWriter.dll</HintPath>
- </Reference>
- <Reference Include="System.Xml.XDocument">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XDocument.dll</HintPath>
- </Reference>
- <Reference Include="System.Xml.XmlDocument">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlDocument.dll</HintPath>
- </Reference>
- <Reference Include="System.Xml.XmlSerializer">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlSerializer.dll</HintPath>
- </Reference>
- <Reference Include="System.Xml.XPath">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.dll</HintPath>
- </Reference>
- <Reference Include="System.Xml.XPath.XDocument">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.XDocument.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.UI">
- <HintPath>C:/Users/JLDeC/OneDrive/Documents/GitHub/Mods/FourSword-Tubers/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.UI">
- <HintPath>C:/Users/JLDeC/OneDrive/Documents/GitHub/Mods/FourSword-Tubers/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
- </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Managed\UnityEngine\UnityEngine.AIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Managed\UnityEngine\UnityEngine.ARModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Managed\UnityEngine\UnityEngine.AccessibilityModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AndroidJNIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Managed\UnityEngine\UnityEngine.AndroidJNIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Managed\UnityEngine\UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Managed\UnityEngine\UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Managed\UnityEngine\UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClothModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterInputModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterInputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterRendererModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterRendererModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Managed\UnityEngine\UnityEngine.CrashReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DSPGraphModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Managed\UnityEngine\UnityEngine.DSPGraphModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Managed\UnityEngine\UnityEngine.DirectorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Managed\UnityEngine\UnityEngine.GIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Managed\UnityEngine\UnityEngine.GameCenterModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Managed\UnityEngine\UnityEngine.GridModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HotReloadModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Managed\UnityEngine\UnityEngine.HotReloadModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Managed\UnityEngine\UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Managed\UnityEngine\UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Managed\UnityEngine\UnityEngine.InputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Managed\UnityEngine\UnityEngine.InputLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Managed\UnityEngine\UnityEngine.JSONSerializeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.LocalizationModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Managed\UnityEngine\UnityEngine.LocalizationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Managed\UnityEngine\UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Managed\UnityEngine\UnityEngine.PerformanceReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Managed\UnityEngine\UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Managed\UnityEngine\UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ProfilerModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Managed\UnityEngine\UnityEngine.ProfilerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Managed\UnityEngine\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Managed\UnityEngine\UnityEngine.ScreenCaptureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Managed\UnityEngine\UnityEngine.SharedInternalsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteMaskModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteShapeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StreamingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Managed\UnityEngine\UnityEngine.StreamingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubstanceModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Managed\UnityEngine\UnityEngine.SubstanceModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubsystemsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Managed\UnityEngine\UnityEngine.SubsystemsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TLSModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Managed\UnityEngine\UnityEngine.TLSModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainPhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextCoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Managed\UnityEngine\UnityEngine.TilemapModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsNativeModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIElementsNativeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UNETModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Managed\UnityEngine\UnityEngine.UNETModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UmbraModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Managed\UnityEngine\UnityEngine.UmbraModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityAnalyticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityCurlModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityCurlModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityTestProtocolModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityTestProtocolModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VFXModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Managed\UnityEngine\UnityEngine.VFXModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Managed\UnityEngine\UnityEngine.VRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Managed\UnityEngine\UnityEngine.VehiclesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Managed\UnityEngine\UnityEngine.VideoModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VirtualTexturingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Managed\UnityEngine\UnityEngine.VirtualTexturingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Managed\UnityEngine\UnityEngine.WindModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XRModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Managed\UnityEngine\UnityEngine.XRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Managed\UnityEngine\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.CoreModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Managed\UnityEngine\UnityEditor.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.GraphViewModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Managed\UnityEngine\UnityEditor.GraphViewModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.PackageManagerUIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Managed\UnityEngine\UnityEditor.PackageManagerUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.SceneTemplateModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Managed\UnityEngine\UnityEditor.SceneTemplateModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UIElementsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UIElementsSamplesModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsSamplesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UIServiceModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIServiceModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UnityConnectModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Graphs">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Managed\UnityEditor.Graphs.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="AssetsTools.NET">
+      <HintPath>Assets\WeaverCore\Libraries\AssetsTools.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoMod.Utils">
+      <HintPath>Assets\WeaverCore\Libraries\MonoMod.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="0Harmony">
+      <HintPath>Assets\WeaverCore\Libraries\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Assets\WeaverCore\Libraries\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil">
+      <HintPath>Assets\WeaverCore\Libraries\Mono.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Security">
+      <HintPath>Assets\WeaverCore\Libraries\Mono.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoMod.RuntimeDetour">
+      <HintPath>Assets\WeaverCore\Libraries\MonoMod.RuntimeDetour.dll</HintPath>
+    </Reference>
+    <Reference Include="mscorlib">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\mscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Runtime.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Xml.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Microsoft.CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\Microsoft.Win32.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="netstandard">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\netstandard.dll</HintPath>
+    </Reference>
+    <Reference Include="System.AppContext">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.AppContext.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Concurrent">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Collections.Concurrent.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.NonGeneric">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Collections.NonGeneric.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Specialized">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Collections.Specialized.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Annotations">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.Annotations.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.EventBasedAsync">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.EventBasedAsync.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.TypeConverter">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.TypeConverter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Console">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Console.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.Common">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Data.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Contracts">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Debug">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.Debug.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.FileVersionInfo">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.FileVersionInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Process">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.Process.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.StackTrace">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.StackTrace.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TextWriterTraceListener">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tools">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.Tools.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TraceSource">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.TraceSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Drawing.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Dynamic.Runtime">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Dynamic.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Calendars">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Globalization.Calendars.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Globalization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Globalization.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.ZipFile">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.Compression.ZipFile.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.DriveInfo">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.FileSystem.DriveInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.FileSystem.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Watcher">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.FileSystem.Watcher.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.IsolatedStorage">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.IsolatedStorage.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.MemoryMappedFiles">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.MemoryMappedFiles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Pipes">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.Pipes.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.UnmanagedMemoryStream">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.UnmanagedMemoryStream.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Expressions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Linq.Expressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Parallel">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Linq.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Queryable">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Linq.Queryable.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Rtc">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Http.Rtc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NameResolution">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.NameResolution.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NetworkInformation">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.NetworkInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Ping">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Ping.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Requests">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Requests.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Security">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Sockets">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Sockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebHeaderCollection">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.WebHeaderCollection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets.Client">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.WebSockets.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.WebSockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ObjectModel">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Emit.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.ILGeneration">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Emit.ILGeneration.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.Lightweight">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Emit.Lightweight.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Reader">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Resources.Reader.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.ResourceManager">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Resources.ResourceManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Writer">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Resources.Writer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.VisualC">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.CompilerServices.VisualC.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Handles">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Handles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.InteropServices.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Numerics">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Serialization.Formatters.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Json">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Serialization.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Serialization.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Xml">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Serialization.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Claims">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Claims.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.Algorithms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Csp">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.Csp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.X509Certificates.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Principal">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Principal.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.SecureString">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.SecureString.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Duplex">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.Duplex.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Http">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.NetTcp">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.NetTcp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Security">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Text.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Text.Encoding.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Text.RegularExpressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Overlapped">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Overlapped.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Tasks.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Parallel">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Tasks.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Thread">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Thread.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.ThreadPool">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.ThreadPool.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Timer">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Timer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.ReaderWriter">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.ReaderWriter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XDocument">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlDocument">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XmlDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlSerializer">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XmlSerializer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XPath.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath.XDocument">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XPath.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="HollowKnight.csproj">
       <Project>{1292E933-D6F6-7052-7776-CE56DED13FE1}</Project>
       <Name>HollowKnight</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="HollowKnight.FirstPass.csproj">
       <Project>{C9B69A2E-5A89-5801-C25C-F9C4B47FCE04}</Project>
       <Name>HollowKnight.FirstPass</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

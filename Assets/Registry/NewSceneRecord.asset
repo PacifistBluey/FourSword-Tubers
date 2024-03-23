@@ -23,10 +23,6 @@ MonoBehaviour:
   sceneReplacements: []
   sceneUnions: []
   transitionRedirects:
-  - GateScene: RestingGrounds_05
-    GateToChange: left3
-    NewScene: FS_bench
-    NewGate: right1
   - GateScene: RestingGrounds_17
     GateToChange: right1
     NewScene: FS_bench
@@ -35,15 +31,15 @@ MonoBehaviour:
     GateToChange: right1
     NewScene: FS_puzzle_austin
     NewGate: door1
-  - GateScene: Fungus1_Slug
+  - GateScene: Ruins1_30
     GateToChange: right1
     NewScene: FS_puzzle_bread
     NewGate: door1
-  - GateScene: Fungus1_Slug
+  - GateScene: Abyss_12
     GateToChange: right1
     NewScene: FS_puzzle_relyea
     NewGate: door1
-  - GateScene: Fungus1_Slug
+  - GateScene: Crossroads_38
     GateToChange: right1
     NewScene: FS_puzzle_pbluey
     NewGate: door1
@@ -60,14 +56,12 @@ MonoBehaviour:
   sceneToUnionizePaths: []
   sceneUnionPaths: []
   transitionRedirects_containingScenes:
-  - RestingGrounds_05
   - RestingGrounds_17
   - Fungus1_Slug
-  - Fungus1_Slug
-  - Fungus1_Slug
-  - Fungus1_Slug
+  - Ruins1_30
+  - Abyss_12
+  - Crossroads_38
   transitionRedirects_gatesToRedirect:
-  - left3
   - right1
   - right1
   - right1
@@ -75,13 +69,11 @@ MonoBehaviour:
   - right1
   transitionRedirects_newDestinationScenes:
   - FS_bench
-  - FS_bench
   - FS_puzzle_austin
   - FS_puzzle_bread
   - FS_puzzle_relyea
   - FS_puzzle_pbluey
   transitionRedirects_newDestinationGateNames:
-  - right1
   - left1
   - door1
   - door1
